@@ -1,73 +1,73 @@
-# Retrieval-Augmented Generation (RAG)
+# 검색 증강 생성 (RAG, Retrieval-Augmented Generation)
 
-[← Back to Table of Contents](../README.md)
+[← 목차로 돌아가기](../README.md)
 
-- What is Retrieval-Augmented Generation (RAG), and why is it important?
-  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
-- Explain the architecture of a basic RAG system.
-  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
-- What are the key components of a RAG pipeline?
-  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
-- What are chunking strategies, and how do you choose the right chunk size?
-  - Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)
-- Compare fixed-size chunking, semantic chunking, and recursive chunking.
-  - Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)
-- What is Contextual Retrieval, and how does it improve RAG?
-  - Answer: [How does Contextual Retrieval work?](https://outcomeschool.com/blog/how-does-contextual-retrieval-work)
-- What are embedding models, and how do they convert text to vectors?
-  - Answer: [What are Embeddings?](https://outcomeschool.com/blog/what-are-embeddings)
-- How do you choose an embedding model for your RAG system?
-- Explain Agentic RAG.
-  - Answer: [Agentic RAG](https://outcomeschool.com/blog/agentic-rag)
-- What is hybrid search, and why is it better than pure vector search?
-  - Answer: [How does Hybrid Search work?](https://outcomeschool.com/blog/how-does-hybrid-search-work)
-- What is re-ranking, and how does it improve RAG retrieval quality?
-  - Answer: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work)
-- What is ColBERT, and how does late interaction retrieval work?
-  - Answer: [ColBERT - Late Interaction Retrieval Explained](https://outcomeschool.com/blog/decoding-colbert)
-- Compare reranker architectures: cross-encoder, ColBERT, and LLM-based rerankers.
-  - Answer: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work) and [ColBERT - Late Interaction Retrieval Explained](https://outcomeschool.com/blog/decoding-colbert)
-- How do you handle multi-document and multi-hop questions in RAG?
-  - Answer: [Agentic RAG](https://outcomeschool.com/blog/agentic-rag) and [GraphRAG](https://outcomeschool.com/blog/graphrag)
-- What is the "lost in the middle" problem in RAG systems?
-  - Answer: [The Lost in the Middle Problem in LLMs](https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms)
-- How do you evaluate a RAG system? Explain faithfulness, relevance, and context precision/recall.
-  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
-- Explain Self-RAG. How does the model decide when to retrieve?
-  - Answer: [Agentic RAG](https://outcomeschool.com/blog/agentic-rag)
-- What is GraphRAG, and when would you use it over traditional RAG?
-  - Answer: [GraphRAG](https://outcomeschool.com/blog/graphrag)
-- Vectorless RAG
-  - Answer: [Vectorless RAG](https://outcomeschool.com/blog/vectorless-rag)
-- How do you handle structured data (tables, SQL databases) in a RAG pipeline?
-- What are the common failure modes of RAG systems, and how do you debug them?
-- How do you handle document updates and maintain freshness in a RAG system?
-- How do you optimize RAG for latency in production?
-- What is the role of metadata filtering in RAG systems?
-  - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
-- Compare RAG vs fine-tuning. When would you use each?
-  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
-- Long context windows keep getting cheaper. When should you use retrieval (RAG) vs putting everything in the context window?
-  - Answer: [The Lost in the Middle Problem in LLMs](https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms)
-- What is query transformation in RAG (HyDE, query decomposition, step-back prompting)?
-  - Answer: [How does HyDE work in RAG?](https://outcomeschool.com/blog/how-does-hyde-work) and [How do Query Rewriting and Multi-Query Retrieval work?](https://outcomeschool.com/blog/how-do-query-rewriting-and-multi-query-retrieval-work)
-- How do you implement citation and source attribution in RAG?
-- How do you scale a RAG system to millions of documents?
-  - Answer: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
-- What is parent-child chunking, and how does it improve retrieval?
-  - Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)
-- Your RAG system is hallucinating despite having the right context. How do you fix it?
-- Your RAG chunk overlap causes redundant results. How do you reduce redundancy?
-- Your RAG retrieval is too slow with a large knowledge base. How do you speed it up?
-  - Answer: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
-- Your RAG system returns duplicate results. How do you deduplicate?
-- Your RAG system needs per-user access control on internal documents. How do you implement it?
-- Your RAG system fails on domain-specific jargon. How do you fix it?
-  - Answer: [How does Hybrid Search work?](https://outcomeschool.com/blog/how-does-hybrid-search-work)
-- Your text-only RAG system now needs to handle images and tables. How do you extend it?
-- Your RAG knowledge base gets updated frequently and needs versioning. How do you manage it?
-- Your RAG system fails on multi-hop questions that require combining multiple facts. How do you fix it?
-  - Answer: [Agentic RAG](https://outcomeschool.com/blog/agentic-rag) and [GraphRAG](https://outcomeschool.com/blog/graphrag)
-- Your enterprise RAG system returns contradictory answers from different source documents. How do you resolve conflicts?
-- Your RAG system returns outdated answers from an evolving knowledge base. How do you keep it current?
-- Your RAG system struggles with PDF documents containing tables and layouts. How do you fix PDF parsing?
+- 검색 증강 생성(RAG)이란 무엇이며, 왜 중요한가요?
+  - 답변: 이 영상에서 설명합니다: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+- 기본적인 RAG 시스템의 아키텍처를 설명하세요.
+  - 답변: 이 영상에서 설명합니다: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+- RAG 파이프라인의 핵심 구성 요소는 무엇인가요?
+  - 답변: 이 영상에서 설명합니다: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+- 청킹(chunking) 전략이란 무엇이며, 적절한 청크 크기는 어떻게 정하나요?
+  - 답변: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)
+- 고정 크기 청킹, 의미 기반(semantic) 청킹, 재귀(recursive) 청킹을 비교하세요.
+  - 답변: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)
+- 컨텍스트 기반 검색(Contextual Retrieval)이란 무엇이며, RAG를 어떻게 개선하나요?
+  - 답변: [How does Contextual Retrieval work?](https://outcomeschool.com/blog/how-does-contextual-retrieval-work)
+- 임베딩 모델이란 무엇이며, 텍스트를 어떻게 벡터로 변환하나요?
+  - 답변: [What are Embeddings?](https://outcomeschool.com/blog/what-are-embeddings)
+- RAG 시스템에 쓸 임베딩 모델은 어떻게 고르나요?
+- 에이전틱 RAG(Agentic RAG)를 설명하세요.
+  - 답변: [Agentic RAG](https://outcomeschool.com/blog/agentic-rag)
+- 하이브리드 검색(hybrid search)이란 무엇이며, 순수 벡터 검색보다 왜 나은가요?
+  - 답변: [How does Hybrid Search work?](https://outcomeschool.com/blog/how-does-hybrid-search-work)
+- 리랭킹(re-ranking)이란 무엇이며, RAG의 검색 품질을 어떻게 높이나요?
+  - 답변: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work)
+- ColBERT란 무엇이며, 후기 상호작용(late interaction) 검색은 어떻게 동작하나요?
+  - 답변: [ColBERT - Late Interaction Retrieval Explained](https://outcomeschool.com/blog/decoding-colbert)
+- 리랭커 아키텍처(크로스 인코더, ColBERT, LLM 기반 리랭커)를 비교하세요.
+  - 답변: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work) 및 [ColBERT - Late Interaction Retrieval Explained](https://outcomeschool.com/blog/decoding-colbert)
+- RAG에서 여러 문서에 걸친 질문과 멀티홉(multi-hop) 질문을 어떻게 처리하나요?
+  - 답변: [Agentic RAG](https://outcomeschool.com/blog/agentic-rag) 및 [GraphRAG](https://outcomeschool.com/blog/graphrag)
+- RAG 시스템에서 "중간에서 길을 잃는(lost in the middle)" 문제란 무엇인가요?
+  - 답변: [The Lost in the Middle Problem in LLMs](https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms)
+- RAG 시스템은 어떻게 평가하나요? 충실도(faithfulness), 관련성(relevance), 컨텍스트 정밀도/재현율(context precision/recall)을 설명하세요.
+  - 답변: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
+- Self-RAG를 설명하세요. 모델은 언제 검색할지를 어떻게 결정하나요?
+  - 답변: [Agentic RAG](https://outcomeschool.com/blog/agentic-rag)
+- GraphRAG란 무엇이며, 기존 RAG 대신 언제 사용하나요?
+  - 답변: [GraphRAG](https://outcomeschool.com/blog/graphrag)
+- 벡터 없는 RAG(Vectorless RAG)
+  - 답변: [Vectorless RAG](https://outcomeschool.com/blog/vectorless-rag)
+- RAG 파이프라인에서 구조화된 데이터(테이블, SQL 데이터베이스)는 어떻게 처리하나요?
+- RAG 시스템에서 흔히 발생하는 실패 유형은 무엇이며, 어떻게 디버깅하나요?
+- RAG 시스템에서 문서 업데이트를 어떻게 처리하고 최신성을 유지하나요?
+- 프로덕션에서 RAG의 지연 시간을 어떻게 최적화하나요?
+- RAG 시스템에서 메타데이터 필터링은 어떤 역할을 하나요?
+  - 답변: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
+- RAG와 파인튜닝을 비교하세요. 각각은 언제 사용하나요?
+  - 답변: 이 영상에서 설명합니다: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+- 긴 컨텍스트 윈도우가 점점 저렴해지고 있습니다. 언제 검색(RAG)을 쓰고, 언제 모든 내용을 컨텍스트 윈도우에 넣어야 하나요?
+  - 답변: [The Lost in the Middle Problem in LLMs](https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms)
+- RAG의 쿼리 변환(HyDE, 쿼리 분해, step-back 프롬프팅)이란 무엇인가요?
+  - 답변: [How does HyDE work in RAG?](https://outcomeschool.com/blog/how-does-hyde-work) 및 [How do Query Rewriting and Multi-Query Retrieval work?](https://outcomeschool.com/blog/how-do-query-rewriting-and-multi-query-retrieval-work)
+- RAG에서 인용(citation)과 출처 표시를 어떻게 구현하나요?
+- RAG 시스템을 수백만 건의 문서로 확장하려면 어떻게 하나요?
+  - 답변: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
+- 부모-자식(parent-child) 청킹이란 무엇이며, 검색을 어떻게 개선하나요?
+  - 답변: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)
+- RAG 시스템이 올바른 컨텍스트가 있는데도 환각을 일으킵니다. 어떻게 고치나요?
+- RAG 청크의 중첩(overlap) 때문에 결과가 중복됩니다. 중복을 어떻게 줄이나요?
+- 지식 베이스가 커서 RAG 검색이 너무 느립니다. 어떻게 빠르게 만드나요?
+  - 답변: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
+- RAG 시스템이 중복된 결과를 반환합니다. 중복을 어떻게 제거하나요?
+- RAG 시스템에서 내부 문서에 사용자별 접근 제어가 필요합니다. 어떻게 구현하나요?
+- RAG 시스템이 도메인 특화 전문 용어에서 실패합니다. 어떻게 고치나요?
+  - 답변: [How does Hybrid Search work?](https://outcomeschool.com/blog/how-does-hybrid-search-work)
+- 텍스트 전용 RAG 시스템이 이제 이미지와 표도 처리해야 합니다. 어떻게 확장하나요?
+- RAG 지식 베이스가 자주 업데이트되어 버전 관리가 필요합니다. 어떻게 관리하나요?
+- RAG 시스템이 여러 사실을 결합해야 하는 멀티홉 질문에서 실패합니다. 어떻게 고치나요?
+  - 답변: [Agentic RAG](https://outcomeschool.com/blog/agentic-rag) 및 [GraphRAG](https://outcomeschool.com/blog/graphrag)
+- 기업용 RAG 시스템이 서로 다른 출처 문서에서 모순된 답을 반환합니다. 충돌을 어떻게 해결하나요?
+- 계속 변하는 지식 베이스에서 RAG 시스템이 오래된 답을 반환합니다. 어떻게 최신 상태로 유지하나요?
+- RAG 시스템이 표와 레이아웃이 포함된 PDF 문서를 제대로 다루지 못합니다. PDF 파싱을 어떻게 고치나요?
