@@ -1,43 +1,43 @@
-# Prompt Engineering
+# 프롬프트 엔지니어링 (Prompt Engineering)
 
-[← Back to Table of Contents](../README.md)
+[← 목차로 돌아가기](../README.md)
 
-- What is prompt engineering, and why is it critical for AI applications?
-- Explain zero-shot, one-shot, and few-shot prompting with examples.
-  - Answer: [Explain zero-shot, one-shot, and few-shot prompting with examples](https://www.linkedin.com/posts/pallavi-shekhar_llm-prompting-ai-activity-7441801012472078336-JsHr)
-- What is chain-of-thought (CoT) prompting, and when should you use it?
-  - Answer: [How does Chain-of-Thought (CoT) Prompting work?](https://outcomeschool.com/blog/how-does-chain-of-thought-prompting-work)
-- Explain self-consistency prompting and how it improves reasoning.
-- What is tree-of-thought prompting?
-  - Answer: [How does Tree of Thoughts work?](https://outcomeschool.com/blog/how-does-tree-of-thoughts-work)
-- What is ReAct (Reasoning + Acting) prompting, and how does it work?
-  - Answer: [ReAct Agent](https://outcomeschool.com/blog/react-agent)
-- What is a system prompt, and how does it influence model behavior?
-- How do you structure prompts for consistent structured output (JSON, XML)?
-- What is prompt injection, and how do you defend against it?
-  - Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
-- What is jailbreaking in LLMs, and what are common jailbreak techniques?
-  - Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms) and [What is jailbreaking in LLMs?](https://outcomeschool.com/blog/jailbreaking-in-llms)
-- How do you optimize prompts for cost and latency?
-- What is the difference between prompt engineering and prompt tuning?
-- What is a prompt template, and how do you design one for production use?
-- How do you handle multi-turn conversations with LLMs?
-- What is role prompting, and when is it effective?
-- What is prompt chaining, and how do you design a chain of prompts for complex tasks?
-  - Answer: [How does Prompt Chaining work?](https://outcomeschool.com/blog/how-does-prompt-chaining-work)
-- How do you evaluate and iterate on prompt quality?
-- What are meta-prompts, and how can they be used to generate prompts?
-- What are the common failure modes in prompting, and how do you debug them?
-- How do you handle edge cases and adversarial inputs in prompt design?
-- What is the "lost in the middle" problem in long-context prompting?
-  - Answer: [The Lost in the Middle Problem in LLMs](https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms)
-- What are output parsers, and why are they needed for production applications?
-- How do you handle multi-language prompting effectively?
-- Your few-shot prompting gives inconsistent results across similar inputs. How do you stabilize it?
-- Your LLM classification system is too sensitive to prompt wording changes. How do you reduce prompt sensitivity?
-- Your chatbot's system prompt containing proprietary business logic is being leaked by users. How do you prevent it?
-- Your LLM agent is vulnerable to prompt injection that reveals the system prompt. How do you defend it?
-  - Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
-- Your chain-of-thought prompting is not improving LLM accuracy on reasoning tasks. What do you fix?
-- Your AI system works in English but fails for other languages. How do you add multilingual support?
-- Your zero-shot cross-lingual transfer from English fails on other languages. How do you fix it?
+- 프롬프트 엔지니어링이란 무엇이며, AI 애플리케이션에서 왜 중요한가요?
+- 제로샷(zero-shot), 원샷(one-shot), 퓨샷(few-shot) 프롬프팅을 예시와 함께 설명하세요.
+  - 답변: [Explain zero-shot, one-shot, and few-shot prompting with examples](https://www.linkedin.com/posts/pallavi-shekhar_llm-prompting-ai-activity-7441801012472078336-JsHr)
+- 사고의 사슬(CoT, chain-of-thought) 프롬프팅이란 무엇이며, 언제 사용해야 하나요?
+  - 답변: [How does Chain-of-Thought (CoT) Prompting work?](https://outcomeschool.com/blog/how-does-chain-of-thought-prompting-work)
+- 자기 일관성(self-consistency) 프롬프팅을 설명하고, 이것이 추론을 어떻게 개선하는지 설명하세요.
+- 사고의 나무(tree-of-thought) 프롬프팅이란 무엇인가요?
+  - 답변: [How does Tree of Thoughts work?](https://outcomeschool.com/blog/how-does-tree-of-thoughts-work)
+- ReAct(Reasoning + Acting) 프롬프팅이란 무엇이며, 어떻게 동작하나요?
+  - 답변: [ReAct Agent](https://outcomeschool.com/blog/react-agent)
+- 시스템 프롬프트란 무엇이며, 모델의 동작에 어떤 영향을 주나요?
+- 일관된 구조화 출력(JSON, XML)을 얻으려면 프롬프트를 어떻게 구성하나요?
+- 프롬프트 인젝션(prompt injection)이란 무엇이며, 어떻게 방어하나요?
+  - 답변: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
+- LLM의 탈옥(jailbreaking)이란 무엇이며, 흔히 쓰이는 탈옥 기법에는 무엇이 있나요?
+  - 답변: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms) 및 [What is jailbreaking in LLMs?](https://outcomeschool.com/blog/jailbreaking-in-llms)
+- 비용과 지연 시간(latency)을 줄이도록 프롬프트를 어떻게 최적화하나요?
+- 프롬프트 엔지니어링과 프롬프트 튜닝(prompt tuning)의 차이는 무엇인가요?
+- 프롬프트 템플릿이란 무엇이며, 프로덕션용으로 어떻게 설계하나요?
+- LLM과의 멀티턴(multi-turn) 대화를 어떻게 처리하나요?
+- 역할 프롬프팅(role prompting)이란 무엇이며, 언제 효과적인가요?
+- 프롬프트 체이닝(prompt chaining)이란 무엇이며, 복잡한 작업을 위한 프롬프트 체인을 어떻게 설계하나요?
+  - 답변: [How does Prompt Chaining work?](https://outcomeschool.com/blog/how-does-prompt-chaining-work)
+- 프롬프트 품질을 어떻게 평가하고 개선해 나가나요?
+- 메타 프롬프트(meta-prompt)란 무엇이며, 프롬프트를 생성하는 데 어떻게 활용할 수 있나요?
+- 프롬프팅에서 흔히 발생하는 실패 유형은 무엇이며, 어떻게 디버깅하나요?
+- 프롬프트 설계에서 엣지 케이스와 적대적(adversarial) 입력을 어떻게 처리하나요?
+- 긴 컨텍스트 프롬프팅에서 "중간에서 길을 잃는(lost in the middle)" 문제란 무엇인가요?
+  - 답변: [The Lost in the Middle Problem in LLMs](https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms)
+- 출력 파서(output parser)란 무엇이며, 프로덕션 애플리케이션에 왜 필요한가요?
+- 다국어 프롬프팅을 효과적으로 처리하려면 어떻게 하나요?
+- 퓨샷 프롬프팅이 비슷한 입력에도 일관되지 않은 결과를 냅니다. 어떻게 안정화하나요?
+- LLM 분류 시스템이 프롬프트 문구 변화에 너무 민감합니다. 프롬프트 민감도를 어떻게 줄이나요?
+- 독점 비즈니스 로직이 담긴 챗봇의 시스템 프롬프트가 사용자에게 유출되고 있습니다. 어떻게 막나요?
+- LLM 에이전트가 시스템 프롬프트를 노출시키는 프롬프트 인젝션에 취약합니다. 어떻게 방어하나요?
+  - 답변: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
+- CoT 프롬프팅이 추론 작업에서 LLM의 정확도를 높이지 못하고 있습니다. 무엇을 고쳐야 하나요?
+- AI 시스템이 영어에서는 동작하지만 다른 언어에서는 실패합니다. 다국어 지원을 어떻게 추가하나요?
+- 영어에서 다른 언어로의 제로샷 교차 언어 전이(cross-lingual transfer)가 실패합니다. 어떻게 고치나요?
