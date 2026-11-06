@@ -1,58 +1,58 @@
-# Multimodal AI
+# 멀티모달 AI (Multimodal AI)
 
-[← Back to Table of Contents](../README.md)
+[← 목차로 돌아가기](../README.md)
 
-- What are Multimodal AI models, and how do they process different types of data?
-  - Answer: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)
-- How do vision-language models process images?
-  - Answer: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai) and [How does a Vision-Language Model (VLM) work?](https://outcomeschool.com/blog/vision-language-model-vlm)
-- How do Image Embeddings work?
-  - Answer: [How do Image Embeddings work?](https://outcomeschool.com/blog/how-do-image-embeddings-work)
-- How does CLIP work, and why is it important for multi-modal AI?
-  - Answer: [What is Contrastive Learning?](https://outcomeschool.com/blog/contrastive-learning) and [How do Image Embeddings work?](https://outcomeschool.com/blog/how-do-image-embeddings-work)
-- What are the key architectures for multi-modal models?
-  - Answer: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)
-- How does image generation work with diffusion models (Stable Diffusion, DALL-E, Flux)?
-  - Answer: [Diffusion Models](https://outcomeschool.com/blog/diffusion-models)
-- What is text-to-speech (TTS), and what models are used for it?
-  - Answer: [How does a TTS model start speaking before the full sentence arrives?](https://outcomeschool.com/blog/streaming-tts)
-- How does speech-to-text (Whisper) work?
-- Budget the end-to-end latency for a real-time voice agent (VAD, ASR, LLM, TTS, network). Where does the time go?
-  - Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent), [How do you build a latency budget for a voice AI agent?](https://outcomeschool.com/blog/voice-agent-latency-budget), [How does the voice-to-voice latency of a voice agent get measured?](https://outcomeschool.com/blog/voice-to-voice-latency) and [Why does the time-to-first-audio matter more than total response time?](https://outcomeschool.com/blog/time-to-first-audio)
-- What is turn-taking in a voice AI agent, and how does it detect when the user has finished speaking?
-  - Answer: [What is turn-taking in a voice AI agent?](https://outcomeschool.com/blog/what-is-turn-taking-in-a-voice-ai-agent), [How does endpointing decide when the user has finished speaking?](https://outcomeschool.com/blog/endpointing-in-voice-agents), [How do silence-based and model-based turn detection differ?](https://outcomeschool.com/blog/silence-vs-model-based-turn-detection), [How does dynamic endpointing adapt to how fast a user talks?](https://outcomeschool.com/blog/dynamic-endpointing), [How does a voice agent handle long pauses when the user is thinking?](https://outcomeschool.com/blog/long-pauses-in-voice-agents) and [Why does a voice agent cut people off mid-sentence?](https://outcomeschool.com/blog/voice-agents-cutting-users-off)
-- How does sentence chunking reduce the latency of a voice agent?
-  - Answer: [How does sentence chunking feed LLM output into TTS faster?](https://outcomeschool.com/blog/sentence-chunking-for-tts)
-- What is speculative (preemptive) LLM generation in a voice agent, and how does it reduce latency?
-  - Answer: [How does speculative LLM generation start replying before the user finishes?](https://outcomeschool.com/blog/speculative-generation-in-voice-agents)
-- What are filler phrases in a voice agent, and how do they hide the latency of a tool call?
-  - Answer: [How do filler phrases hide latency in a voice agent?](https://outcomeschool.com/blog/filler-phrases-in-voice-agents)
-- How do you handle a slow or long-running tool call in a voice agent?
-  - Answer: [How does a voice agent hide the delay of a slow tool call?](https://outcomeschool.com/blog/slow-tool-calls-in-voice-agents)
-- How do you handle barge-in (user interruptions) in a voice agent?
-  - Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent), [What is turn-taking in a voice AI agent?](https://outcomeschool.com/blog/what-is-turn-taking-in-a-voice-ai-agent), [What is barge-in in a voice AI agent?](https://outcomeschool.com/blog/what-is-barge-in-in-a-voice-ai-agent), [How does a voice agent tell a real interruption from a cough or background noise?](https://outcomeschool.com/blog/interruption-vs-background-noise) and [How does a voice agent stop speaking instantly when interrupted?](https://outcomeschool.com/blog/stopping-speech-on-interruption)
-- Cascaded ASR + LLM + TTS vs native speech-to-speech models: what are the trade-offs?
-  - Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent) and [Cascaded vs Speech-to-Speech: How to choose the right voice agent architecture?](https://outcomeschool.com/blog/cascaded-vs-speech-to-speech)
-- What is the difference between half-duplex and full-duplex voice agents?
-  - Answer: [How do half-duplex and full-duplex voice agents differ?](https://outcomeschool.com/blog/half-duplex-vs-full-duplex-voice-agents)
-- What is multi-modal RAG, and how does it differ from text-only RAG?
-- How do you build a system that processes both images and text?
-  - Answer: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)
-- What are multi-modal embeddings, and how are they used for cross-modal search?
-  - Answer: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)
-- How do you evaluate multi-modal AI systems?
-- What are the challenges of real-time multi-modal AI processing?
-- How do you handle video understanding with AI?
-- What is visual question answering (VQA)?
-- What is document understanding, and how do models parse documents with layouts?
-- How do you fine-tune a vision-language model?
-- What are the latency and cost considerations for multi-modal AI in production?
-- How do you handle multi-modal content moderation?
-- What is text-to-video generation, and what are the current state-of-the-art approaches?
-- Explain Multimodal Fusion Techniques: Early Fusion vs Late Fusion.
-- Your vision-language model generates factually incorrect image descriptions. How do you fix it?
-- Your VLM answers single-image questions but fails on multi-page documents. How do you fix it?
-- Your multimodal LLM ignores the image and generates descriptions from text alone. How do you fix it?
-- Your diffusion model ignores precise control requirements in text prompts. How do you improve controllability?
-- Your diffusion model generates sharp but repetitive images. How do you balance quality vs diversity?
-- Your diffusion model takes too long per image. How do you speed up sampling?
+- 멀티모달 AI 모델이란 무엇이며, 서로 다른 유형의 데이터를 어떻게 처리하나요?
+  - 답변: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)
+- 비전-언어 모델(VLM)은 이미지를 어떻게 처리하나요?
+  - 답변: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai) 및 [How does a Vision-Language Model (VLM) work?](https://outcomeschool.com/blog/vision-language-model-vlm)
+- 이미지 임베딩은 어떻게 동작하나요?
+  - 답변: [How do Image Embeddings work?](https://outcomeschool.com/blog/how-do-image-embeddings-work)
+- CLIP은 어떻게 동작하며, 멀티모달 AI에서 왜 중요한가요?
+  - 답변: [What is Contrastive Learning?](https://outcomeschool.com/blog/contrastive-learning) 및 [How do Image Embeddings work?](https://outcomeschool.com/blog/how-do-image-embeddings-work)
+- 멀티모달 모델의 핵심 아키텍처에는 무엇이 있나요?
+  - 답변: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)
+- 확산 모델(Stable Diffusion, DALL-E, Flux)로 이미지를 생성하는 과정은 어떻게 동작하나요?
+  - 답변: [Diffusion Models](https://outcomeschool.com/blog/diffusion-models)
+- 텍스트 음성 변환(TTS)이란 무엇이며, 어떤 모델이 사용되나요?
+  - 답변: [How does a TTS model start speaking before the full sentence arrives?](https://outcomeschool.com/blog/streaming-tts)
+- 음성 텍스트 변환(Whisper)은 어떻게 동작하나요?
+- 실시간 음성 에이전트의 엔드 투 엔드 지연 시간 예산(VAD, ASR, LLM, TTS, 네트워크)을 잡아 보세요. 시간은 어디에서 소요되나요?
+  - 답변: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent), [How do you build a latency budget for a voice AI agent?](https://outcomeschool.com/blog/voice-agent-latency-budget), [How does the voice-to-voice latency of a voice agent get measured?](https://outcomeschool.com/blog/voice-to-voice-latency) 및 [Why does the time-to-first-audio matter more than total response time?](https://outcomeschool.com/blog/time-to-first-audio)
+- 음성 AI 에이전트의 턴테이킹(turn-taking)이란 무엇이며, 사용자가 말을 마쳤는지 어떻게 감지하나요?
+  - 답변: [What is turn-taking in a voice AI agent?](https://outcomeschool.com/blog/what-is-turn-taking-in-a-voice-ai-agent), [How does endpointing decide when the user has finished speaking?](https://outcomeschool.com/blog/endpointing-in-voice-agents), [How do silence-based and model-based turn detection differ?](https://outcomeschool.com/blog/silence-vs-model-based-turn-detection), [How does dynamic endpointing adapt to how fast a user talks?](https://outcomeschool.com/blog/dynamic-endpointing), [How does a voice agent handle long pauses when the user is thinking?](https://outcomeschool.com/blog/long-pauses-in-voice-agents) 및 [Why does a voice agent cut people off mid-sentence?](https://outcomeschool.com/blog/voice-agents-cutting-users-off)
+- 문장 단위 청킹은 음성 에이전트의 지연 시간을 어떻게 줄이나요?
+  - 답변: [How does sentence chunking feed LLM output into TTS faster?](https://outcomeschool.com/blog/sentence-chunking-for-tts)
+- 음성 에이전트의 추측성(선제적, speculative/preemptive) LLM 생성이란 무엇이며, 지연 시간을 어떻게 줄이나요?
+  - 답변: [How does speculative LLM generation start replying before the user finishes?](https://outcomeschool.com/blog/speculative-generation-in-voice-agents)
+- 음성 에이전트의 필러 문구(filler phrase)란 무엇이며, 도구 호출의 지연 시간을 어떻게 숨기나요?
+  - 답변: [How do filler phrases hide latency in a voice agent?](https://outcomeschool.com/blog/filler-phrases-in-voice-agents)
+- 음성 에이전트에서 느리거나 오래 걸리는 도구 호출을 어떻게 처리하나요?
+  - 답변: [How does a voice agent hide the delay of a slow tool call?](https://outcomeschool.com/blog/slow-tool-calls-in-voice-agents)
+- 음성 에이전트에서 바지인(barge-in, 사용자의 말 끊기)을 어떻게 처리하나요?
+  - 답변: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent), [What is turn-taking in a voice AI agent?](https://outcomeschool.com/blog/what-is-turn-taking-in-a-voice-ai-agent), [What is barge-in in a voice AI agent?](https://outcomeschool.com/blog/what-is-barge-in-in-a-voice-ai-agent), [How does a voice agent tell a real interruption from a cough or background noise?](https://outcomeschool.com/blog/interruption-vs-background-noise) 및 [How does a voice agent stop speaking instantly when interrupted?](https://outcomeschool.com/blog/stopping-speech-on-interruption)
+- ASR + LLM + TTS를 이어 붙인 캐스케이드 방식과 네이티브 음성-음성(speech-to-speech) 모델: 각각의 트레이드오프는 무엇인가요?
+  - 답변: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent) 및 [Cascaded vs Speech-to-Speech: How to choose the right voice agent architecture?](https://outcomeschool.com/blog/cascaded-vs-speech-to-speech)
+- 반이중(half-duplex) 음성 에이전트와 전이중(full-duplex) 음성 에이전트의 차이는 무엇인가요?
+  - 답변: [How do half-duplex and full-duplex voice agents differ?](https://outcomeschool.com/blog/half-duplex-vs-full-duplex-voice-agents)
+- 멀티모달 RAG란 무엇이며, 텍스트 전용 RAG와 어떻게 다른가요?
+- 이미지와 텍스트를 모두 처리하는 시스템을 어떻게 만드나요?
+  - 답변: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)
+- 멀티모달 임베딩이란 무엇이며, 교차 모달(cross-modal) 검색에 어떻게 사용되나요?
+  - 답변: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)
+- 멀티모달 AI 시스템은 어떻게 평가하나요?
+- 실시간 멀티모달 AI 처리의 어려움은 무엇인가요?
+- AI로 동영상 이해(video understanding)를 어떻게 처리하나요?
+- 시각적 질의응답(VQA, Visual Question Answering)이란 무엇인가요?
+- 문서 이해(document understanding)란 무엇이며, 모델은 레이아웃이 있는 문서를 어떻게 파싱하나요?
+- 비전-언어 모델은 어떻게 파인튜닝하나요?
+- 프로덕션에서 멀티모달 AI의 지연 시간과 비용 측면의 고려 사항은 무엇인가요?
+- 멀티모달 콘텐츠 모더레이션을 어떻게 처리하나요?
+- 텍스트-동영상 생성이란 무엇이며, 현재 최신 기법에는 무엇이 있나요?
+- 멀티모달 융합 기법을 설명하세요: 초기 융합(Early Fusion)과 후기 융합(Late Fusion).
+- 비전-언어 모델이 사실과 다른 이미지 설명을 생성합니다. 어떻게 고치나요?
+- VLM이 단일 이미지 질문에는 답하지만 여러 페이지 문서에서는 실패합니다. 어떻게 고치나요?
+- 멀티모달 LLM이 이미지를 무시하고 텍스트만으로 설명을 생성합니다. 어떻게 고치나요?
+- 확산 모델이 텍스트 프롬프트의 정밀한 제어 요구 사항을 무시합니다. 제어 가능성을 어떻게 높이나요?
+- 확산 모델이 선명하지만 반복적인 이미지를 생성합니다. 품질과 다양성의 균형을 어떻게 맞추나요?
+- 확산 모델이 이미지 한 장을 만드는 데 너무 오래 걸립니다. 샘플링 속도를 어떻게 높이나요?
