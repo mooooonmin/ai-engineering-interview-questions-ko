@@ -1,59 +1,59 @@
-# AI Infrastructure and Scalability
+# AI 인프라와 확장성 (AI Infrastructure and Scalability)
 
-[← Back to Table of Contents](../README.md)
+[← 목차로 돌아가기](../README.md)
 
-- How do you improve inference speed in production LLM deployments?
-  - Answer: [LLM Inference Optimization](https://www.youtube.com/watch?v=jV2sCj4lHYk)
-- LLM optimization techniques
-  - Answer: [LLM optimization techniques](https://www.linkedin.com/posts/pallavi-shekhar_5-llm-optimization-techniques-lets-understand-activity-7442067281532325888-4aOS)
-- How do you select GPUs for LLM inference?
-  - Answer: [How does a GPU work for Deep Learning?](https://outcomeschool.com/blog/how-does-a-gpu-work-for-deep-learning)
-- How does a GPU work for Deep Learning?
-  - Answer: [How does a GPU work for Deep Learning?](https://outcomeschool.com/blog/how-does-a-gpu-work-for-deep-learning)
-- How do CUDA Kernels work?
-  - Answer: [How do CUDA Kernels work?](https://outcomeschool.com/blog/how-do-cuda-kernels-work)
-- How does a Google TPU work?
-  - Answer: [How does a Google TPU work?](https://outcomeschool.com/blog/how-does-a-google-tpu-work)
-- How does an LPU work?
-  - Answer: [How does an LPU work?](https://outcomeschool.com/blog/how-does-an-lpu-work)
-- Estimate the GPU memory needed to serve a 70B model (weights, KV cache, activations). Does it fit on a single 80 GB GPU?
-- Do the roofline math: how many tokens/sec can one H100 produce for a 70B model at batch size 1?
-- What is model parallelism vs data parallelism in distributed training?
-- What is tensor parallelism, and how does it help serve large models?
-- What is pipeline parallelism?
-- How does continuous batching improve LLM inference throughput?
-  - Answer: [Continuous Batching in LLMs](https://outcomeschool.com/blog/continuous-batching-in-llms)
-- What is speculative decoding, and how does it speed up inference?
-  - Answer: [Speculative Decoding](https://outcomeschool.com/blog/speculative-decoding)
-- How does Medusa (multi-head speculative decoding) work?
-  - Answer: [Medusa - Multi-Head Speculative Decoding](https://outcomeschool.com/blog/decoding-medusa)
-- How does EAGLE (feature-level speculative decoding) work?
-  - Answer: [EAGLE - Feature-Level Speculative Decoding](https://outcomeschool.com/blog/decoding-eagle)
-- What is N-gram Speculation in LLMs, and how does it speed up generation?
-  - Answer: [N-gram Speculation in LLMs](https://outcomeschool.com/blog/n-gram-speculation-in-llms)
-- What is KV cache, and how do you manage memory for it?
-  - Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
-- What is Paged Attention?
-  - Answer: [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)
-- How does GGUF work?
-  - Answer: [How does GGUF work?](https://outcomeschool.com/blog/how-does-gguf-work)
-- How do you optimize inference for edge and mobile deployment?
-  - Answer: [How does llama.cpp run LLMs on everyday hardware?](https://outcomeschool.com/blog/how-does-llama-cpp-run-llms-on-everyday-hardware) and [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work)
-- What is model quantization (INT8, INT4, FP16, BF16), and how does it affect quality?
-  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) and [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work)
-- How do you implement auto-scaling for AI workloads?
-- What is the role of load balancing in AI serving infrastructure?
-- How do you manage GPU memory for serving multiple models?
-- What is model sharding, and when would you use it?
-- How do you implement request queuing and priority scheduling for AI services?
-- What are the cost trade-offs between self-hosted and API-based AI inference?
-- How do you handle cold start latency for serverless AI deployments?
-- How do you implement model caching to reduce redundant computations?
-  - Answer: [How does Prompt Caching work?](https://outcomeschool.com/blog/how-does-prompt-caching-work)
-- What is the difference between synchronous and asynchronous inference, and when do you use each?
-- What is FSDP (Fully Sharded Data Parallel), and how does it differ from DeepSpeed ZeRO?
-- What are TTFT, TPOT, and throughput, and how do they trade against each other?
-  - Answer: [Prefill vs Decode: LLM Inference Optimization](https://outcomeschool.com/blog/prefill-vs-decode-llm-inference-optimization)
-- How do you monitor and profile LLM inference in production (TTFT, inter-token latency, GPU utilization)?
-- What is model routing at the infrastructure level, and how do you route requests based on complexity and cost?
-  - Answer: [LLM Routing](https://outcomeschool.com/blog/llm-routing)
+- 프로덕션 LLM 배포에서 추론 속도를 어떻게 높이나요?
+  - 답변: [LLM Inference Optimization](https://www.youtube.com/watch?v=jV2sCj4lHYk)
+- LLM 최적화 기법
+  - 답변: [LLM optimization techniques](https://www.linkedin.com/posts/pallavi-shekhar_5-llm-optimization-techniques-lets-understand-activity-7442067281532325888-4aOS)
+- LLM 추론용 GPU는 어떻게 고르나요?
+  - 답변: [How does a GPU work for Deep Learning?](https://outcomeschool.com/blog/how-does-a-gpu-work-for-deep-learning)
+- 딥러닝에서 GPU는 어떻게 동작하나요?
+  - 답변: [How does a GPU work for Deep Learning?](https://outcomeschool.com/blog/how-does-a-gpu-work-for-deep-learning)
+- CUDA 커널은 어떻게 동작하나요?
+  - 답변: [How do CUDA Kernels work?](https://outcomeschool.com/blog/how-do-cuda-kernels-work)
+- Google TPU는 어떻게 동작하나요?
+  - 답변: [How does a Google TPU work?](https://outcomeschool.com/blog/how-does-a-google-tpu-work)
+- LPU는 어떻게 동작하나요?
+  - 답변: [How does an LPU work?](https://outcomeschool.com/blog/how-does-an-lpu-work)
+- 70B 모델을 서빙하는 데 필요한 GPU 메모리(가중치, KV 캐시, 활성화 값)를 추정해 보세요. 80 GB GPU 한 장에 들어가나요?
+- 루프라인(roofline) 계산을 해 보세요: 배치 크기 1에서 H100 한 장은 70B 모델로 초당 몇 개의 토큰을 생성할 수 있나요?
+- 분산 학습에서 모델 병렬화와 데이터 병렬화의 차이는 무엇인가요?
+- 텐서 병렬화(tensor parallelism)란 무엇이며, 대형 모델 서빙에 어떻게 도움이 되나요?
+- 파이프라인 병렬화(pipeline parallelism)란 무엇인가요?
+- 연속 배칭(continuous batching)은 LLM 추론 처리량을 어떻게 높이나요?
+  - 답변: [Continuous Batching in LLMs](https://outcomeschool.com/blog/continuous-batching-in-llms)
+- 추측 디코딩(speculative decoding)이란 무엇이며, 추론 속도를 어떻게 높이나요?
+  - 답변: [Speculative Decoding](https://outcomeschool.com/blog/speculative-decoding)
+- Medusa(멀티 헤드 추측 디코딩)는 어떻게 동작하나요?
+  - 답변: [Medusa - Multi-Head Speculative Decoding](https://outcomeschool.com/blog/decoding-medusa)
+- EAGLE(특징 수준 추측 디코딩)은 어떻게 동작하나요?
+  - 답변: [EAGLE - Feature-Level Speculative Decoding](https://outcomeschool.com/blog/decoding-eagle)
+- LLM의 N-gram 추측(N-gram Speculation)이란 무엇이며, 생성 속도를 어떻게 높이나요?
+  - 답변: [N-gram Speculation in LLMs](https://outcomeschool.com/blog/n-gram-speculation-in-llms)
+- KV 캐시란 무엇이며, 그 메모리를 어떻게 관리하나요?
+  - 답변: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
+- 페이지드 어텐션(Paged Attention)이란 무엇인가요?
+  - 답변: [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)
+- GGUF는 어떻게 동작하나요?
+  - 답변: [How does GGUF work?](https://outcomeschool.com/blog/how-does-gguf-work)
+- 엣지 및 모바일 배포를 위해 추론을 어떻게 최적화하나요?
+  - 답변: [How does llama.cpp run LLMs on everyday hardware?](https://outcomeschool.com/blog/how-does-llama-cpp-run-llms-on-everyday-hardware) 및 [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work)
+- 모델 양자화(INT8, INT4, FP16, BF16)란 무엇이며, 품질에 어떤 영향을 주나요?
+  - 답변: 이 영상에서 설명합니다: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) 및 [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work)
+- AI 워크로드의 오토스케일링을 어떻게 구현하나요?
+- AI 서빙 인프라에서 로드 밸런싱은 어떤 역할을 하나요?
+- 여러 모델을 서빙할 때 GPU 메모리를 어떻게 관리하나요?
+- 모델 샤딩(model sharding)이란 무엇이며, 언제 사용하나요?
+- AI 서비스의 요청 대기열(queuing)과 우선순위 스케줄링을 어떻게 구현하나요?
+- 자체 호스팅 AI 추론과 API 기반 AI 추론의 비용 트레이드오프는 무엇인가요?
+- 서버리스 AI 배포에서 콜드 스타트 지연 시간을 어떻게 처리하나요?
+- 중복 연산을 줄이기 위한 모델 캐싱을 어떻게 구현하나요?
+  - 답변: [How does Prompt Caching work?](https://outcomeschool.com/blog/how-does-prompt-caching-work)
+- 동기 추론과 비동기 추론의 차이는 무엇이며, 각각은 언제 사용하나요?
+- FSDP(Fully Sharded Data Parallel)란 무엇이며, DeepSpeed ZeRO와 어떻게 다른가요?
+- TTFT, TPOT, 처리량(throughput)이란 무엇이며, 서로 어떤 트레이드오프 관계에 있나요?
+  - 답변: [Prefill vs Decode: LLM Inference Optimization](https://outcomeschool.com/blog/prefill-vs-decode-llm-inference-optimization)
+- 프로덕션에서 LLM 추론을 어떻게 모니터링하고 프로파일링하나요(TTFT, 토큰 간 지연 시간, GPU 사용률)?
+- 인프라 수준의 모델 라우팅이란 무엇이며, 요청을 복잡도와 비용에 따라 어떻게 라우팅하나요?
+  - 답변: [LLM Routing](https://outcomeschool.com/blog/llm-routing)
