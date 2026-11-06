@@ -1,44 +1,44 @@
-# Vector Databases and Embeddings
+# 벡터 데이터베이스와 임베딩 (Vector Databases and Embeddings)
 
-[← Back to Table of Contents](../README.md)
+[← 목차로 돌아가기](../README.md)
 
-- What are embeddings in the context of AI engineering?
-  - Answer: [Embeddings in Machine Learning](https://www.youtube.com/watch?v=LedXW6xl21s)
-- How do embedding models convert text to vectors?
-  - Answer: [What are Embeddings?](https://outcomeschool.com/blog/what-are-embeddings)
-- What is Contrastive Learning, and how is it used to train embedding models?
-  - Answer: [What is Contrastive Learning?](https://outcomeschool.com/blog/contrastive-learning)
-- What is the difference between sparse and dense embeddings?
-- Explain cosine similarity, dot product, and Euclidean distance for vector search.
-  - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work) and [How does Cosine Similarity work?](https://outcomeschool.com/blog/cosine-similarity)
-- What is a vector database, and how does it differ from a traditional database?
-  - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
-- How does Approximate Nearest Neighbor (ANN) search work?
-  - Answer: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
-- Compare HNSW, IVF, and flat indexes. How do you pick one, and what does recall@k cost in latency?
-  - Answer: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
-- How does an Embedding Cache work?
-  - Answer: [How does an Embedding Cache work?](https://outcomeschool.com/blog/how-does-an-embedding-cache-work)
-- How do you choose the right embedding model for your use case?
-- What is embedding dimensionality, and how does it affect performance and cost?
-- How do you handle embedding drift when the embedding model is updated?
-- What are multi-modal embeddings, and how are they generated?
-  - Answer: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)
-- How do you index and query multi-tenant data in a vector database?
-- What is quantization of embeddings, and how does it reduce storage costs?
-- How do you benchmark and evaluate embedding model quality?
-- What is the role of metadata in vector databases?
-  - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
-- How do you handle large-scale vector search with billions of vectors?
-  - Answer: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
-- What is hybrid search (combining keyword search with vector search)?
-  - Answer: [How does Hybrid Search work?](https://outcomeschool.com/blog/how-does-hybrid-search-work)
-- How do you fine-tune an embedding model for a specific domain?
-  - Answer: [What is Contrastive Learning?](https://outcomeschool.com/blog/contrastive-learning)
-- Your vector database for RAG is consuming too much memory. How do you reduce it?
-- Your vector database cannot scale to millions of embeddings. How do you fix the bottleneck?
-  - Answer: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
-- Your new embedding model has different dimensions from the existing vectors in production. How do you handle the mismatch?
-- Your vector search returns irrelevant results despite high similarity scores. How do you fix it?
-- You deployed a new embedding model, and search quality crashed overnight. How do you handle embedding drift?
-- Your semantic search fails for short queries. How do you improve it?
+- AI 엔지니어링에서 임베딩이란 무엇인가요?
+  - 답변: [Embeddings in Machine Learning](https://www.youtube.com/watch?v=LedXW6xl21s)
+- 임베딩 모델은 텍스트를 어떻게 벡터로 변환하나요?
+  - 답변: [What are Embeddings?](https://outcomeschool.com/blog/what-are-embeddings)
+- 대조 학습(Contrastive Learning)이란 무엇이며, 임베딩 모델을 학습하는 데 어떻게 사용되나요?
+  - 답변: [What is Contrastive Learning?](https://outcomeschool.com/blog/contrastive-learning)
+- 희소(sparse) 임베딩과 밀집(dense) 임베딩의 차이는 무엇인가요?
+- 벡터 검색에서 코사인 유사도, 내적(dot product), 유클리드 거리를 설명하세요.
+  - 답변: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work) 및 [How does Cosine Similarity work?](https://outcomeschool.com/blog/cosine-similarity)
+- 벡터 데이터베이스란 무엇이며, 기존 데이터베이스와 어떻게 다른가요?
+  - 답변: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
+- 근사 최근접 이웃(ANN, Approximate Nearest Neighbor) 검색은 어떻게 동작하나요?
+  - 답변: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
+- HNSW, IVF, 플랫(flat) 인덱스를 비교하세요. 어떻게 하나를 고르며, recall@k를 높이면 지연 시간은 얼마나 늘어나나요?
+  - 답변: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
+- 임베딩 캐시는 어떻게 동작하나요?
+  - 답변: [How does an Embedding Cache work?](https://outcomeschool.com/blog/how-does-an-embedding-cache-work)
+- 사용 사례에 맞는 임베딩 모델은 어떻게 고르나요?
+- 임베딩 차원 수란 무엇이며, 성능과 비용에 어떤 영향을 주나요?
+- 임베딩 모델이 업데이트될 때 생기는 임베딩 드리프트(embedding drift)를 어떻게 처리하나요?
+- 멀티모달 임베딩이란 무엇이며, 어떻게 생성되나요?
+  - 답변: [Multimodal AI](https://outcomeschool.com/blog/multimodal-ai)
+- 벡터 데이터베이스에서 멀티테넌트 데이터를 어떻게 인덱싱하고 조회하나요?
+- 임베딩 양자화란 무엇이며, 저장 비용을 어떻게 줄이나요?
+- 임베딩 모델의 품질을 어떻게 벤치마크하고 평가하나요?
+- 벡터 데이터베이스에서 메타데이터는 어떤 역할을 하나요?
+  - 답변: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
+- 수십억 개의 벡터를 대상으로 하는 대규모 벡터 검색을 어떻게 처리하나요?
+  - 답변: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
+- 하이브리드 검색(키워드 검색과 벡터 검색의 결합)이란 무엇인가요?
+  - 답변: [How does Hybrid Search work?](https://outcomeschool.com/blog/how-does-hybrid-search-work)
+- 특정 도메인에 맞게 임베딩 모델을 어떻게 파인튜닝하나요?
+  - 답변: [What is Contrastive Learning?](https://outcomeschool.com/blog/contrastive-learning)
+- RAG용 벡터 데이터베이스가 메모리를 너무 많이 씁니다. 어떻게 줄이나요?
+- 벡터 데이터베이스가 수백만 개의 임베딩으로 확장되지 않습니다. 병목을 어떻게 해결하나요?
+  - 답변: [How does Approximate Nearest Neighbor (ANN) search work?](https://outcomeschool.com/blog/how-does-approximate-nearest-neighbor-ann-search-work)
+- 새 임베딩 모델의 차원이 프로덕션에 있는 기존 벡터와 다릅니다. 이 불일치를 어떻게 처리하나요?
+- 유사도 점수가 높은데도 벡터 검색이 관련 없는 결과를 반환합니다. 어떻게 고치나요?
+- 새 임베딩 모델을 배포했더니 하룻밤 사이에 검색 품질이 급락했습니다. 임베딩 드리프트를 어떻게 처리하나요?
+- 짧은 쿼리에서 의미 검색(semantic search)이 실패합니다. 어떻게 개선하나요?
