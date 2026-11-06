@@ -1,0 +1,59 @@
+# AI Infrastructure and Scalability
+
+[← Back to Table of Contents](../README.md)
+
+- How do you improve inference speed in production LLM deployments?
+  - Answer: [LLM Inference Optimization](https://www.youtube.com/watch?v=jV2sCj4lHYk)
+- LLM optimization techniques
+  - Answer: [LLM optimization techniques](https://www.linkedin.com/posts/pallavi-shekhar_5-llm-optimization-techniques-lets-understand-activity-7442067281532325888-4aOS)
+- How do you select GPUs for LLM inference?
+  - Answer: [How does a GPU work for Deep Learning?](https://outcomeschool.com/blog/how-does-a-gpu-work-for-deep-learning)
+- How does a GPU work for Deep Learning?
+  - Answer: [How does a GPU work for Deep Learning?](https://outcomeschool.com/blog/how-does-a-gpu-work-for-deep-learning)
+- How do CUDA Kernels work?
+  - Answer: [How do CUDA Kernels work?](https://outcomeschool.com/blog/how-do-cuda-kernels-work)
+- How does a Google TPU work?
+  - Answer: [How does a Google TPU work?](https://outcomeschool.com/blog/how-does-a-google-tpu-work)
+- How does an LPU work?
+  - Answer: [How does an LPU work?](https://outcomeschool.com/blog/how-does-an-lpu-work)
+- Estimate the GPU memory needed to serve a 70B model (weights, KV cache, activations). Does it fit on a single 80 GB GPU?
+- Do the roofline math: how many tokens/sec can one H100 produce for a 70B model at batch size 1?
+- What is model parallelism vs data parallelism in distributed training?
+- What is tensor parallelism, and how does it help serve large models?
+- What is pipeline parallelism?
+- How does continuous batching improve LLM inference throughput?
+  - Answer: [Continuous Batching in LLMs](https://outcomeschool.com/blog/continuous-batching-in-llms)
+- What is speculative decoding, and how does it speed up inference?
+  - Answer: [Speculative Decoding](https://outcomeschool.com/blog/speculative-decoding)
+- How does Medusa (multi-head speculative decoding) work?
+  - Answer: [Medusa - Multi-Head Speculative Decoding](https://outcomeschool.com/blog/decoding-medusa)
+- How does EAGLE (feature-level speculative decoding) work?
+  - Answer: [EAGLE - Feature-Level Speculative Decoding](https://outcomeschool.com/blog/decoding-eagle)
+- What is N-gram Speculation in LLMs, and how does it speed up generation?
+  - Answer: [N-gram Speculation in LLMs](https://outcomeschool.com/blog/n-gram-speculation-in-llms)
+- What is KV cache, and how do you manage memory for it?
+  - Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
+- What is Paged Attention?
+  - Answer: [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)
+- How does GGUF work?
+  - Answer: [How does GGUF work?](https://outcomeschool.com/blog/how-does-gguf-work)
+- How do you optimize inference for edge and mobile deployment?
+  - Answer: [How does llama.cpp run LLMs on everyday hardware?](https://outcomeschool.com/blog/how-does-llama-cpp-run-llms-on-everyday-hardware) and [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work)
+- What is model quantization (INT8, INT4, FP16, BF16), and how does it affect quality?
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) and [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work)
+- How do you implement auto-scaling for AI workloads?
+- What is the role of load balancing in AI serving infrastructure?
+- How do you manage GPU memory for serving multiple models?
+- What is model sharding, and when would you use it?
+- How do you implement request queuing and priority scheduling for AI services?
+- What are the cost trade-offs between self-hosted and API-based AI inference?
+- How do you handle cold start latency for serverless AI deployments?
+- How do you implement model caching to reduce redundant computations?
+  - Answer: [How does Prompt Caching work?](https://outcomeschool.com/blog/how-does-prompt-caching-work)
+- What is the difference between synchronous and asynchronous inference, and when do you use each?
+- What is FSDP (Fully Sharded Data Parallel), and how does it differ from DeepSpeed ZeRO?
+- What are TTFT, TPOT, and throughput, and how do they trade against each other?
+  - Answer: [Prefill vs Decode: LLM Inference Optimization](https://outcomeschool.com/blog/prefill-vs-decode-llm-inference-optimization)
+- How do you monitor and profile LLM inference in production (TTFT, inter-token latency, GPU utilization)?
+- What is model routing at the infrastructure level, and how do you route requests based on complexity and cost?
+  - Answer: [LLM Routing](https://outcomeschool.com/blog/llm-routing)

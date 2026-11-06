@@ -1,0 +1,57 @@
+# Coding and Practical Implementation
+
+[← Back to Table of Contents](../README.md)
+
+- Implement a basic RAG pipeline using an embedding model and a vector database.
+- Build a simple AI agent with tool use (e.g., calculator, web search).
+  - Answer: [ReAct Agent](https://outcomeschool.com/blog/react-agent)
+- Implement semantic search using embeddings and cosine similarity.
+  - Answer: [How does Semantic Search work?](https://outcomeschool.com/blog/how-does-semantic-search-work) and [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
+- Write code for different text chunking strategies (fixed-size, recursive, semantic).
+  - Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)
+- Implement a prompt template system with variable substitution.
+- Build an evaluation pipeline for LLM outputs using LLM-as-a-judge.
+  - Answer: [LLM as a Judge](https://outcomeschool.com/blog/llm-as-a-judge)
+- Implement streaming responses for an LLM API.
+  - Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
+- Build a simple vector similarity search from scratch.
+  - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
+- Implement a conversation memory system for a chatbot (sliding window, summary, buffer).
+  - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
+- Write code to detect and handle hallucinations in LLM outputs.
+- Implement a retry mechanism with exponential backoff for LLM API calls.
+- Write a function calling (tool use) handler for an LLM API.
+  - Answer: [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)
+- Implement a simple re-ranker for search results.
+  - Answer: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work)
+- Build a basic document parser that extracts text from PDFs and splits it into chunks.
+  - Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)
+- Implement cosine similarity, dot product, and Euclidean distance functions from scratch.
+  - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
+- Write code to implement token counting and context window management.
+- Build a simple prompt versioning system.
+- Implement a caching layer for LLM responses.
+- Implement semantic caching for LLM queries (cache responses for semantically similar queries).
+  - Answer: [How does Semantic Caching work?](https://outcomeschool.com/blog/how-does-semantic-caching-work)
+- Write code to detect prompt injection attempts in user inputs.
+  - Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
+- Implement an LLM output guardrails system that checks for off-topic responses and PII leakage.
+  - Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
+- Build a multi-agent system where agents have different roles and collaborate on a task.
+  - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
+- Implement scaled dot-product attention with a causal mask from scratch (NumPy or PyTorch).
+  - Answer: [Math behind Attention - Q, K, and V](https://outcomeschool.com/blog/math-behind-attention-qkv) and [Causal Masking in Attention](https://outcomeschool.com/blog/causal-masking-in-attention)
+- Implement multi-head attention, then convert it to grouped-query attention.
+  - Answer: [Multi-Head Attention in Transformers](https://outcomeschool.com/blog/multi-head-attention-in-transformers) and [Grouped Query Attention](https://outcomeschool.com/blog/grouped-query-attention)
+- Implement a KV cache and single-step decode for causal multi-head attention.
+  - Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
+- Implement BPE (Byte Pair Encoding) training and encoding from scratch.
+  - Answer: [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms)
+- Implement top-k, top-p, and temperature sampling over a logits vector.
+- Implement an LRU cache with O(1) get/put, then add per-entry TTL.
+- Implement a token-bucket rate limiter for an LLM API where cost scales with tokens, then make it distributed.
+- Write an async batch processor that runs an LLM call over 50,000 documents with a concurrency limit, retries with jitter, and error isolation.
+- Write a streaming SSE parser for LLM token streams that handles arbitrary chunk boundaries.
+  - Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
+- Implement a minimal agent loop with tool dispatch, error handling, and a step budget.
+  - Answer: [AI Agent Loop](https://outcomeschool.com/blog/ai-agent-loop)

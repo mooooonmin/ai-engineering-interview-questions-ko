@@ -1,0 +1,43 @@
+# Prompt Engineering
+
+[← Back to Table of Contents](../README.md)
+
+- What is prompt engineering, and why is it critical for AI applications?
+- Explain zero-shot, one-shot, and few-shot prompting with examples.
+  - Answer: [Explain zero-shot, one-shot, and few-shot prompting with examples](https://www.linkedin.com/posts/pallavi-shekhar_llm-prompting-ai-activity-7441801012472078336-JsHr)
+- What is chain-of-thought (CoT) prompting, and when should you use it?
+  - Answer: [How does Chain-of-Thought (CoT) Prompting work?](https://outcomeschool.com/blog/how-does-chain-of-thought-prompting-work)
+- Explain self-consistency prompting and how it improves reasoning.
+- What is tree-of-thought prompting?
+  - Answer: [How does Tree of Thoughts work?](https://outcomeschool.com/blog/how-does-tree-of-thoughts-work)
+- What is ReAct (Reasoning + Acting) prompting, and how does it work?
+  - Answer: [ReAct Agent](https://outcomeschool.com/blog/react-agent)
+- What is a system prompt, and how does it influence model behavior?
+- How do you structure prompts for consistent structured output (JSON, XML)?
+- What is prompt injection, and how do you defend against it?
+  - Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
+- What is jailbreaking in LLMs, and what are common jailbreak techniques?
+  - Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms) and [What is jailbreaking in LLMs?](https://outcomeschool.com/blog/jailbreaking-in-llms)
+- How do you optimize prompts for cost and latency?
+- What is the difference between prompt engineering and prompt tuning?
+- What is a prompt template, and how do you design one for production use?
+- How do you handle multi-turn conversations with LLMs?
+- What is role prompting, and when is it effective?
+- What is prompt chaining, and how do you design a chain of prompts for complex tasks?
+  - Answer: [How does Prompt Chaining work?](https://outcomeschool.com/blog/how-does-prompt-chaining-work)
+- How do you evaluate and iterate on prompt quality?
+- What are meta-prompts, and how can they be used to generate prompts?
+- What are the common failure modes in prompting, and how do you debug them?
+- How do you handle edge cases and adversarial inputs in prompt design?
+- What is the "lost in the middle" problem in long-context prompting?
+  - Answer: [The Lost in the Middle Problem in LLMs](https://outcomeschool.com/blog/lost-in-the-middle-problem-in-llms)
+- What are output parsers, and why are they needed for production applications?
+- How do you handle multi-language prompting effectively?
+- Your few-shot prompting gives inconsistent results across similar inputs. How do you stabilize it?
+- Your LLM classification system is too sensitive to prompt wording changes. How do you reduce prompt sensitivity?
+- Your chatbot's system prompt containing proprietary business logic is being leaked by users. How do you prevent it?
+- Your LLM agent is vulnerable to prompt injection that reveals the system prompt. How do you defend it?
+  - Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
+- Your chain-of-thought prompting is not improving LLM accuracy on reasoning tasks. What do you fix?
+- Your AI system works in English but fails for other languages. How do you add multilingual support?
+- Your zero-shot cross-lingual transfer from English fails on other languages. How do you fix it?

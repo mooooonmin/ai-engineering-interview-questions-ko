@@ -1,0 +1,56 @@
+# AI Safety, Ethics, and Responsible AI
+
+[← Back to Table of Contents](../README.md)
+
+- What are hallucinations in LLMs, and how do you mitigate them?
+  - Answer: [Why Do LLMs Hallucinate? The Token-Level Explanation](https://outcomeschool.com/blog/why-do-llms-hallucinate-the-token-level-explanation)
+- What is prompt injection, and what are the different types (direct, indirect)?
+  - Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
+- How do you implement input and output guardrails for AI systems?
+  - Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
+- What is AI alignment, and why is it important?
+  - Answer: [Decoding InstructGPT](https://outcomeschool.com/blog/decoding-instructgpt) and [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)
+- How do you detect and mitigate bias in AI systems?
+- What are the key data privacy considerations (GDPR, CCPA) when building AI applications?
+- How do you handle PII in LLM inputs and outputs?
+- What is explainability in AI, and why does it matter?
+- What is the difference between interpretability and explainability?
+- What is mechanistic interpretability, and why do AI labs invest in it?
+- How do you build trust with users in AI-powered applications?
+- What are adversarial attacks on AI systems, and how do you defend against them?
+- What is data poisoning, and how can it affect AI models?
+- How do you implement content safety filters for AI-generated content?
+  - Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
+- What is responsible AI, and what frameworks exist for implementing it?
+- How do you handle copyright and intellectual property concerns with AI-generated content?
+- What is the EU AI Act, and how does it affect AI engineering?
+- How do you implement audit trails and logging for AI decisions?
+- What is model card documentation, and why is it important?
+- How do you handle misuse and abuse of AI systems in production?
+- What is differential privacy, and how can it be applied during model training?
+- How would you design an AI incident response plan?
+- What is the NIST AI Risk Management Framework (AI RMF)?
+- Your healthcare chatbot gives medical diagnoses it should not make. How do you add safety guardrails?
+  - Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
+- Your AI system is reproducing copyrighted material verbatim. How do you prevent this?
+- Your resume screening AI rejects more female candidates for engineering roles. How do you fix gender bias?
+- Your AI model passes bias checks by gender and race separately, but fails for intersectional groups. How do you handle it?
+- Your AI denied a loan, and the customer demands a GDPR explanation. How do you provide one?
+- A user invokes the right to be forgotten, but their data is in your model weights. How do you comply?
+- The EU AI Act may classify your AI system as high-risk. How do you comply?
+- Your differentially private model lost significant accuracy. How do you balance privacy and utility?
+- One malicious participant is poisoning your federated learning model. How do you defend against it?
+- Your AI hiring model uses proxy features for protected attributes. How do you eliminate proxy discrimination?
+- Your predictive model creates a feedback loop of biased outcomes. How do you break it?
+- Your AI generates fake news images. How do you implement watermarking for AI-generated content?
+  - Answer: [How Does LLM Watermarking Work?](https://outcomeschool.com/blog/how-does-llm-watermarking-work)
+- Your AI denies a service, and the user has no way to challenge it. How do you design an appeals process?
+- An auditor asks why your AI rejected a request 6 months ago, and you have no logs. How do you build audit trails?
+- You removed PII, but users were re-identified from anonymized data. How do you prevent re-identification?
+- A pre-trained model from an open-source repo may contain a hidden backdoor. How do you detect it?
+- Your LLM's training data was deliberately poisoned by an adversary. How do you respond?
+- Your AI mental health chatbot gave harmful advice to a user in crisis. How do you mitigate harm?
+- Your AI system caused incorrect critical decisions. How do you run a blameless post-mortem?
+- Radiologists agree with AI 98% of the time, even when it is wrong. How do you prevent human over-reliance on AI?
+- Your content moderation flags normal cultural expressions as offensive in other markets. How do you adapt cross-culturally?
+- Your AI training produces massive carbon emissions. How do you reduce environmental impact?

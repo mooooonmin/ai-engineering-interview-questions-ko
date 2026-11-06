@@ -1,0 +1,87 @@
+# LLMOps and Production AI
+
+[← Back to Table of Contents](../README.md)
+
+- How does Prompt Caching work?
+  - Answer: [How does Prompt Caching work?](https://outcomeschool.com/blog/how-does-prompt-caching-work)
+- Prefill vs Decode
+  - Answer: [Prefill vs Decode: LLM Inference Optimization](https://outcomeschool.com/blog/prefill-vs-decode-llm-inference-optimization)
+- Why is prefill compute-bound and decode memory-bandwidth-bound?
+  - Answer: [Prefill vs Decode: LLM Inference Optimization](https://outcomeschool.com/blog/prefill-vs-decode-llm-inference-optimization)
+- What is chunked prefill, and why does it improve tail latency under mixed traffic?
+  - Answer: [Prefill vs Decode: LLM Inference Optimization](https://outcomeschool.com/blog/prefill-vs-decode-llm-inference-optimization)
+- What is Prefill-Decode Disaggregation, and when does it pay off?
+  - Answer: [Prefill-Decode Disaggregation in LLM Inference](https://outcomeschool.com/blog/prefill-decode-disaggregation)
+- Explain the AI product lifecycle from ideation to production.
+- What is LLMOps, and how does it differ from traditional MLOps?
+- How do you serve LLMs in production?
+  - Answer: [How does vLLM work?](https://outcomeschool.com/blog/how-does-vllm-work), [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization) and [How does Model Serving work?](https://outcomeschool.com/blog/model-serving)
+- What is model quantization?
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) and [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work)
+- Explain post-training quantization (PTQ) vs quantization-aware training (QAT). What breaks when you push weights to 2-4 bits?
+  - Answer: [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work)
+- How do you monitor LLM applications in production?
+  - Answer: [AI Agent Observability](https://outcomeschool.com/blog/ai-agent-observability)
+- What is LLM observability?
+  - Answer: [AI Agent Observability](https://outcomeschool.com/blog/ai-agent-observability)
+- What are guardrails for LLMs, and how do you implement them?
+  - Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
+- How do you implement content filtering for AI outputs?
+  - Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
+- How do you estimate the cost of running an AI-powered feature in production?
+- How do you optimize LLM inference costs in production?
+  - Answer: [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization)
+- How do you implement A/B testing for LLM systems?
+- What is CI/CD for AI applications, and how does it differ from traditional CI/CD?
+- How do you version and manage prompts in production?
+- What is model versioning, and how do you handle model rollbacks?
+- How do you implement rate limiting and throttling for LLM APIs?
+- How do you handle model updates and migrations without downtime?
+- What is the role of feature flags in AI deployments?
+- How do you implement logging and tracing for LLM applications?
+  - Answer: [AI Agent Observability](https://outcomeschool.com/blog/ai-agent-observability)
+- How do you handle PII and sensitive data in LLM inputs and outputs?
+- What is a gateway pattern for LLM API management?
+- How does Token Streaming work?
+  - Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
+- How do you implement streaming responses for real-time AI applications?
+  - Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
+- How does vLLM work?
+  - Answer: [How does vLLM work?](https://outcomeschool.com/blog/how-does-vllm-work)
+- How does SGLang work?
+  - Answer: [How does SGLang work?](https://outcomeschool.com/blog/how-does-sglang-work)
+- How does TensorRT-LLM work?
+  - Answer: [How does TensorRT-LLM work?](https://outcomeschool.com/blog/how-does-tensorrt-llm-work)
+- How does llama.cpp run LLMs on everyday hardware?
+  - Answer: [How does llama.cpp run LLMs on everyday hardware?](https://outcomeschool.com/blog/how-does-llama-cpp-run-llms-on-everyday-hardware)
+- How does Ollama work?
+  - Answer: [How does Ollama work?](https://outcomeschool.com/blog/how-does-ollama-work)
+- When would you choose vLLM vs SGLang vs TensorRT-LLM?
+  - Answer: [How does vLLM work?](https://outcomeschool.com/blog/how-does-vllm-work), [How does SGLang work?](https://outcomeschool.com/blog/how-does-sglang-work) and [How does TensorRT-LLM work?](https://outcomeschool.com/blog/how-does-tensorrt-llm-work)
+- What are the key SLAs and metrics for production AI systems (latency, throughput, availability)?
+- Cloud vs on-device Model Deployment for AI applications.
+  - Answer: [Cloud vs On-Device Model Deployment](https://outcomeschool.com/blog/cloud-vs-on-device-model-deployment)
+- How do you implement fallback strategies when the primary model is unavailable or rate-limited?
+- How do you implement structured output from LLMs reliably in production?
+  - Answer: [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)
+- How do you handle long contexts efficiently in production (context compression, prefix caching)?
+  - Answer: [How does Prompt Caching work?](https://outcomeschool.com/blog/how-does-prompt-caching-work) and [How does context compaction work?](https://outcomeschool.com/blog/how-does-context-compaction-work)
+- What is semantic routing, and how do you implement it in a multi-model system?
+  - Answer: [LLM Routing](https://outcomeschool.com/blog/llm-routing)
+- How do you manage secrets and API keys securely in LLM applications?
+- Your LLM API has latency spikes during peak hours. How do you stabilize it?
+- Your LLM endpoint's p99 latency doubled after a deploy with no model change. How do you diagnose it?
+- Your LLM costs are too high in production. How do you reduce costs without degrading quality?
+  - Answer: [LLM Routing](https://outcomeschool.com/blog/llm-routing) and [How does Semantic Caching work?](https://outcomeschool.com/blog/how-does-semantic-caching-work)
+- Your application is hitting LLM provider rate limits during peak hours. How do you handle it?
+- Your application depends on one LLM provider. How do you switch providers without downtime?
+- Your AI system handles 100 requests/sec but crashes at 5000. How do you scale for concurrent requests?
+- A traffic spike brings down your AI system. How do you handle peak traffic?
+- One LLM provider outage took down your entire system. How do you eliminate single points of failure?
+- Your multi-LLM pipeline fails when one model in the chain breaks. How do you handle orchestration failure?
+  - Answer: [AI Orchestration](https://outcomeschool.com/blog/ai-orchestration)
+- Your AI pipeline has zero visibility into which step is failing. How do you add observability?
+  - Answer: [AI Agent Observability](https://outcomeschool.com/blog/ai-agent-observability)
+- You quantized your LLM, but accuracy dropped significantly. How do you minimize quantization loss?
+  - Answer: [How does Model Quantization work?](https://outcomeschool.com/blog/how-does-model-quantization-work)
+- One failing AI component can take down your entire platform. How do you design graceful degradation?

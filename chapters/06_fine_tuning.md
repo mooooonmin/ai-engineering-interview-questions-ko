@@ -1,0 +1,58 @@
+# Fine-Tuning and Model Adaptation
+
+[← Back to Table of Contents](../README.md)
+
+- What is fine-tuning, and when should you fine-tune an LLM?
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+- Explain the difference between full fine-tuning and parameter-efficient fine-tuning (PEFT).
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+- What is LoRA (Low-Rank Adaptation), and how does it work?
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+- What is QLoRA, and how does it enable fine-tuning on consumer hardware?
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+- How does fine-tuning work?
+  - Answer: [How does fine-tuning work?](https://outcomeschool.com/blog/how-does-fine-tuning-work)
+- Explain Prefix Tuning and Prompt Tuning. How are they different from LoRA?
+  - Answer: [How does Prefix Tuning work?](https://outcomeschool.com/blog/how-does-prefix-tuning-work)
+- What is adapter-based fine-tuning?
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+- Explain the difference between pre-training, supervised fine-tuning (SFT), and preference optimization (RLHF/DPO).
+  - Answer: [Decoding InstructGPT](https://outcomeschool.com/blog/decoding-instructgpt)
+- What is RLHF (Reinforcement Learning from Human Feedback), and how is it used to align LLMs?
+  - Answer: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)
+- What is Deep RL from Human Preferences, the paper that started RLHF?
+  - Answer: [Deep RL from Human Preferences](https://outcomeschool.com/blog/decoding-deep-rl-from-human-preferences)
+- Why did DPO displace PPO-based RLHF at many labs? When is online RL still better?
+  - Answer: [Direct Preference Optimization (DPO)](https://outcomeschool.com/blog/direct-preference-optimization-dpo) and [Proximal Policy Optimization (PPO)](https://outcomeschool.com/blog/proximal-policy-optimization-ppo)
+- What is instruction tuning, and why is it important for chat models?
+  - Answer: [Decoding InstructGPT](https://outcomeschool.com/blog/decoding-instructgpt)
+- How do you prepare a dataset for fine-tuning an LLM?
+- What is catastrophic forgetting, and how do you prevent it during fine-tuning?
+  - Answer: [Continual Learning in LLMs](https://outcomeschool.com/blog/continual-learning-in-llms)
+- When should you choose fine-tuning over RAG over prompt engineering?
+  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+- How do you evaluate a fine-tuned model's performance?
+  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
+- What is synthetic data generation, and how do you use it for fine-tuning?
+- What are the key hyperparameters for fine-tuning (learning rate, epochs, batch size, LoRA rank)?
+  - Answer: [LoRA - Low-Rank Adaptation of LLMs](https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms)
+- Do the GPU memory math for full fine-tuning a 7B model in bf16 with Adam. Now with LoRA and QLoRA.
+- How do you fine-tune a model for a specific domain (legal, medical, finance)?
+- What is continual pre-training, and when would you use it?
+- How do you merge multiple LoRA adapters?
+  - Answer: [LoRA - Low-Rank Adaptation of LLMs](https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms)
+- What is the difference between SFT (Supervised Fine-Tuning) and alignment training?
+  - Answer: [Decoding InstructGPT](https://outcomeschool.com/blog/decoding-instructgpt)
+- What is RLAIF (RL from AI Feedback), and how does it differ from RLHF?
+- What is Constitutional AI, and how does it differ from RLHF?
+- What is RLVR (Reinforcement Learning with Verifiable Rewards), and when does it beat a learned reward model?
+  - Answer: [Group Relative Policy Optimization (GRPO)](https://outcomeschool.com/blog/group-relative-policy-optimization-grpo)
+- What is knowledge distillation for fine-tuning, and what are the legal considerations?
+  - Answer: [How does Knowledge Distillation work?](https://outcomeschool.com/blog/how-does-knowledge-distillation-work)
+- Your fine-tuned LLM produces factually wrong outputs due to training data quality issues. How do you fix it?
+- You must choose between LoRA and full fine-tuning for a domain-specific assistant. How do you decide?
+  - Answer: [LoRA - Low-Rank Adaptation of LLMs](https://outcomeschool.com/blog/lora-low-rank-adaptation-of-llms)
+- Your fine-tuned model memorized training data verbatim instead of learning patterns. How do you fix overfitting?
+- Your fine-tuned LLM forgot its general capabilities after domain-specific fine-tuning. How do you fix catastrophic forgetting?
+  - Answer: [Continual Learning in LLMs](https://outcomeschool.com/blog/continual-learning-in-llms)
+- Your RLHF preference data has low annotator agreement. How do you ensure data quality?

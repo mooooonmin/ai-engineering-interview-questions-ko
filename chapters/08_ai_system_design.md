@@ -1,0 +1,64 @@
+# AI System Design
+
+[← Back to Table of Contents](../README.md)
+
+- Design a Real-Time Voice AI Agent
+  - Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent)
+- Design ChatGPT: Training to Serving (End to End)
+- Design a RAG System (Chat with Your Documents)
+- Design an enterprise RAG assistant over 10M documents with per-user permissions.
+- Design Memory for a Personal AI Assistant
+  - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory) and [How does ChatGPT remember you?](https://outcomeschool.com/blog/how-does-chatgpt-remember-you)
+- Design a Deep Research Agent
+- Design a Multi-Agent Customer Support System
+  - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
+- Design an On-Device AI Assistant
+  - Answer: [Cloud vs On-Device Model Deployment](https://outcomeschool.com/blog/cloud-vs-on-device-model-deployment) and [How does llama.cpp run LLMs on everyday hardware?](https://outcomeschool.com/blog/how-does-llama-cpp-run-llms-on-everyday-hardware)
+- Design a Multimodal Search System (Text, Image, Video)
+- Design an LLM Inference Platform (vLLM-as-a-Service)
+  - Answer: [How does vLLM work?](https://outcomeschool.com/blog/how-does-vllm-work) and [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization)
+- Design an LLM Evaluation Platform
+  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
+- Design a Text-to-Image Generation Service (Midjourney-like)
+- Design a Music Generation Service (Suno-like)
+- Design a Video Generation Service (Sora-like)
+- Design an AI Coding Agent.
+  - Answer: [How does Claude Code work?](https://outcomeschool.com/blog/how-does-claude-code-work) and [How does Cursor work?](https://outcomeschool.com/blog/how-does-cursor-work)
+- Design a code generation and review system.
+- Design a content moderation system using AI.
+- Design a real-time AI recommendation system.
+- Design an AI-powered email assistant.
+- Design a medical diagnosis assistant using AI.
+- Design a fraud detection system powered by LLMs.
+- Design an AI-powered data extraction pipeline from unstructured documents.
+- Design a Text-to-SQL system over a data warehouse with thousands of tables.
+- Design a personalized learning assistant.
+- Design an AI system for automated code migration.
+- Design an AI-powered legal document review system.
+- Design a conversational AI system with memory across sessions.
+  - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory) and [How does ChatGPT remember you?](https://outcomeschool.com/blog/how-does-chatgpt-remember-you)
+- How do you design for latency vs quality trade-offs in AI systems?
+- How do you implement caching strategies for LLM applications?
+  - Answer: [How does Prompt Caching work?](https://outcomeschool.com/blog/how-does-prompt-caching-work) and [How does Semantic Caching work?](https://outcomeschool.com/blog/how-does-semantic-caching-work)
+- How do you design rate limiting and cost management for AI APIs?
+- How do you handle failover and fallback strategies for AI systems?
+- How do you design an AI system for high availability and fault tolerance?
+- How do you design an AI system that gracefully degrades when the model is unavailable?
+- What are the key considerations for multi-region deployment of AI systems?
+- Design an AI-powered search engine for an e-commerce platform.
+- Design an AI gateway/proxy for managing LLM access across an organization.
+- How do you design a RAG system that handles conflicting information across sources?
+- How do you approach capacity planning for an AI system?
+- Design a multi-tenant AI chatbot platform where each business gets a custom chatbot.
+- Design an AI meeting summarizer system for thousands of meetings daily.
+- Design an AI notification system that prioritizes instead of broadcasting.
+- Design an AI-powered anomaly detection system for cloud infrastructure.
+- Design an AI-powered document processing pipeline for financial institutions.
+- Design an AI dynamic pricing engine.
+- Design an AI resume screening system that handles 100K applications per week.
+- Design an AI voice assistant architecture.
+  - Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent)
+- Design a multi-agent workflow system where agents collaborate on complex tasks.
+  - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
+- Design a real-time AI transcription system for concurrent audio streams.
+- Design an AI-powered live streaming content moderation system.
