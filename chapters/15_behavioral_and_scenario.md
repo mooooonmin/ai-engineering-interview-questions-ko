@@ -1,26 +1,26 @@
-# Behavioral and Scenario-Based Questions
+# 행동 및 상황 기반 질문 (Behavioral and Scenario-Based Questions)
 
-[← Back to Table of Contents](../README.md)
+[← 목차로 돌아가기](../README.md)
 
-- What is AI Engineering, and how does it differ from Machine Learning Engineering?
-- How do you decide whether a problem needs AI or a traditional software solution?
-- How do you measure the ROI of an AI feature?
-- How do you handle hallucinations when they occur in a production AI system?
-- How do you decide between using an LLM API vs self-hosting an open-source model?
-- How do you manage stakeholder expectations for AI projects?
-- Describe your approach to debugging a poor-performing RAG system.
-- How do you stay current with the rapidly evolving AI landscape?
-- How do you balance innovation with reliability in AI systems?
-- Tell me about a challenging AI project you worked on. What was the problem? What approach did you take? What trade-offs did you make? What was the outcome?
-- How would you handle a situation where an AI model produces biased or harmful outputs in production?
-- How do you approach cost optimization for an AI system that's exceeding budget?
-- Describe a time when you had to choose between model accuracy and latency. How did you make the decision?
-- How would you handle a situation where your AI system's quality degrades over time?
-- How do you communicate AI limitations to non-technical stakeholders?
-- How would you approach building an AI feature with limited labeled data?
-- Describe your experience working with cross-functional teams on AI projects.
-- Where do you see AI engineering heading in the next 3-5 years?
-- Why are you interested in this AI engineering role?
-- Your PM wants to ship an AI feature with a 15% hallucination rate on edge cases. How do you communicate the risk?
-- A non-technical executive asks why your AI feature cannot be 100% accurate. How do you explain LLM limitations?
-- You need to choose between a complex agentic system that scores 15% better on benchmarks, or a simpler RAG pipeline that is easier to maintain. How do you decide?
+- AI 엔지니어링이란 무엇이며, 머신러닝 엔지니어링과 어떻게 다른가요?
+- 어떤 문제에 AI가 필요한지, 기존 소프트웨어 방식으로 충분한지 어떻게 판단하나요?
+- AI 기능의 ROI(투자 대비 수익)를 어떻게 측정하나요?
+- 프로덕션 AI 시스템에서 환각이 발생하면 어떻게 대응하나요?
+- LLM API를 사용할지, 오픈소스 모델을 자체 호스팅할지 어떻게 결정하나요?
+- AI 프로젝트에서 이해관계자의 기대치를 어떻게 관리하나요?
+- 성능이 낮은 RAG 시스템을 디버깅하는 본인의 접근 방식을 설명하세요.
+- 빠르게 변하는 AI 분야의 최신 흐름을 어떻게 따라가나요?
+- AI 시스템에서 혁신과 안정성 사이의 균형을 어떻게 맞추나요?
+- 진행했던 어려운 AI 프로젝트에 대해 이야기해 주세요. 문제는 무엇이었나요? 어떤 접근 방식을 택했나요? 어떤 트레이드오프를 했나요? 결과는 어땠나요?
+- 프로덕션에서 AI 모델이 편향되거나 해로운 출력을 낸다면 어떻게 대응하겠습니까?
+- 예산을 초과하는 AI 시스템의 비용 최적화에 어떻게 접근하나요?
+- 모델의 정확도와 지연 시간 중 하나를 선택해야 했던 경험을 설명하세요. 어떻게 결정했나요?
+- AI 시스템의 품질이 시간이 지나면서 저하되는 상황에 어떻게 대응하겠습니까?
+- 비기술 이해관계자에게 AI의 한계를 어떻게 설명하나요?
+- 라벨링된 데이터가 부족한 상황에서 AI 기능을 만들어야 한다면 어떻게 접근하겠습니까?
+- AI 프로젝트에서 여러 직군이 함께하는 크로스펑셔널 팀과 일했던 경험을 설명하세요.
+- 앞으로 3~5년 동안 AI 엔지니어링은 어떤 방향으로 나아갈 것이라고 보나요?
+- 이 AI 엔지니어링 직무에 관심을 갖게 된 이유는 무엇인가요?
+- PM이 엣지 케이스에서 환각률이 15%인 AI 기능을 출시하려고 합니다. 이 위험을 어떻게 전달하나요?
+- 비기술 임원이 AI 기능이 왜 100% 정확할 수 없는지 묻습니다. LLM의 한계를 어떻게 설명하나요?
+- 벤치마크에서 15% 더 높은 점수를 받는 복잡한 에이전틱 시스템과, 유지보수가 쉬운 더 단순한 RAG 파이프라인 중 하나를 골라야 합니다. 어떻게 결정하나요?
