@@ -2,148 +2,2516 @@
 
 [← 목차로 돌아가기](../README.md)
 
-- 파운데이션 모델(foundation model)이란 무엇이며, AI 엔지니어링을 어떻게 바꿔 놓았나요?
-  - 답변: 이 영상에서 설명합니다: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
-- 대규모 언어 모델(LLM)이란 무엇이며, 어떻게 동작하나요?
-  - 답변: 이 영상에서 설명합니다: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) 및 [How does an LLM work?](https://outcomeschool.com/blog/large-language-model-llm)
-- ChatGPT 내부: Enter를 누르면 무슨 일이 일어나나요?
-  - 답변: [Inside ChatGPT: What Happens After You Hit Enter](https://outcomeschool.substack.com/p/inside-chatgpt-what-happens-after)
-- 트랜스포머(Transformer) 아키텍처란 무엇이며, 어떻게 동작하나요?
-  - 답변: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
-- 트랜스포머 아키텍처의 핵심 구성 요소는 무엇인가요?
-  - 답변: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
-- 디코더 전용(decoder-only) 트랜스포머에서 한 번의 순전파(forward pass) 동안 무슨 일이 일어나는지 단계별로 설명하세요.
-  - 답변: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
-- LLM에서 토큰화(tokenization)란 무엇인가요?
-  - 답변: [Tokenization in LLMs](https://outcomeschool.com/blog/tokenization-in-llms) 및 [Tokenization in Large Language Models (LLMs)](https://www.youtube.com/watch?v=sK2s9I84EVI)
-- BPE(Byte Pair Encoding)를 설명하세요.
-  - 답변: [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms)
-- WordPiece와 SentencePiece를 설명하세요.
-- 위치 인코딩(positional encoding)이란 무엇이며, 트랜스포머에 왜 필요한가요?
-  - 답변: [Positional Embeddings in LLMs](https://outcomeschool.substack.com/p/positional-embeddings-in-llms)
-- 임베딩(embedding)이란 무엇인가요?
-  - 답변: [Embeddings in Machine Learning](https://www.youtube.com/watch?v=LedXW6xl21s)
-- 어텐션의 Query(Q), Key(K), Value(V)를 설명하세요.
-  - 답변: [Math behind Attention - Q, K, and V](https://outcomeschool.com/blog/math-behind-attention-qkv)
-- 셀프 어텐션(self-attention)이란 무엇이며, 트랜스포머에서 어떻게 동작하나요?
-  - 답변: [Self Attention in Transformers](https://outcomeschool.com/blog/self-attention-in-transformers)
-- 트랜스포머의 크로스 어텐션(Cross Attention)이란 무엇인가요?
-  - 답변: [Cross Attention in Transformers](https://outcomeschool.com/blog/cross-attention-in-transformers)
-- 트랜스포머 아키텍처에서 내적(dot product) 어텐션을 왜 √dₖ로 나누어 스케일링하나요?
-  - 답변: [Math behind √dₖ Scaling Factor in Attention](https://outcomeschool.com/blog/scaling-dot-product-attention)
-- 인과적 마스킹(causal masking)이란 무엇인가요?
-  - 답변: [Causal Masking in Attention](https://outcomeschool.com/blog/causal-masking-in-attention)
-- 멀티 헤드 어텐션(multi-head attention)이란 무엇인가요? 왜 여러 개의 어텐션 헤드를 사용하나요?
-  - 답변: [Multi-Head Attention in Transformers](https://outcomeschool.com/blog/multi-head-attention-in-transformers)
-- LLM의 피드포워드 네트워크(Feed-Forward Network)란 무엇인가요?
-  - 답변: [Feed-Forward Networks in LLMs](https://outcomeschool.com/blog/feed-forward-networks-in-llms)
-- 생성형 AI(Generative AI)란 무엇인가요?
-  - 답변: [What is Generative AI?](https://outcomeschool.com/blog/what-is-generative-ai)
-- LLM의 컨텍스트 윈도우(context window)란 무엇이며, 왜 중요한가요?
-  - 답변: [Context Window in LLMs](https://www.linkedin.com/posts/amit-shekhar-iitbhu_the-context-window-is-the-llms-working-memory-activity-7437754426175672320-MH9c) 및 [How does the Context Window work?](https://outcomeschool.com/blog/context-window)
-- LLM의 컨텍스트 윈도우는 왜 제한되어 있나요?
-  - 답변: [Why is the context window limited in LLMs?](https://www.youtube.com/watch?v=CGIhxIaOg3M&lc)
-- LLM에서 온도(temperature)란 무엇이며, 출력에 어떤 영향을 주나요?
-  - 답변: [How does Temperature control LLM output?](https://outcomeschool.com/blog/how-does-temperature-control-llm-output)
-- LLM에서 첫 번째 토큰은 왜 나머지 토큰보다 느리게 생성되나요?
-  - 답변: [The First-Token Latency Problem in LLMs](https://www.youtube.com/watch?v=XD8DD4cEHu0)
-- Top-p(nucleus) 샘플링과 Top-k 샘플링을 설명하세요. 둘은 어떻게 다른가요?
-  - 답변: [How do Top-k and Top-p Sampling work?](https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work) 
-- 그리디 디코딩(greedy decoding), 빔 서치(beam search), top-k, top-p, 온도 샘플링을 비교하세요. 각각은 언제 실패하나요?
-  - 답변: [How do Top-k and Top-p Sampling work?](https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work) 
-- 로짓(logit)이란 무엇이며, 텍스트 생성에 어떻게 사용되나요?
-  - 답변: [Understanding Logits in Machine Learning](https://x.com/amitiitbhu/status/1927927814923207146) 및 [What are Logits in Machine Learning?](https://outcomeschool.com/blog/logits-in-machine-learning)
-- LLM의 정지 토큰(stop token)이란 무엇이며, LLM은 생성을 언제 멈춰야 하는지 어떻게 아나요?
-  - 답변: [Stop Tokens in LLMs](https://outcomeschool.com/blog/stop-tokens-in-llms)
-- 정지 토큰(stop token)과 정지 시퀀스(stop sequence)의 차이는 무엇인가요?
-  - 답변: [Stop Tokens in LLMs](https://outcomeschool.com/blog/stop-tokens-in-llms)
-- 트랜스포머의 스킵 연결(skip connection, 잔차 연결/residual connection)이란 무엇인가요?
-  - 답변: [Skip connections (residual connections) in Transformers](https://www.linkedin.com/posts/amit-shekhar-iitbhu_machinelearning-llm-deeplearning-share-7414239846707392512-pQdQ)
-- 오픈소스 LLM과 클로즈드소스 LLM의 차이는 무엇인가요? 어떤 경우에 어느 쪽을 선택하나요?
-- 인코더 전용(encoder-only), 디코더 전용(decoder-only), 인코더-디코더(encoder-decoder) 트랜스포머 아키텍처의 차이는 무엇인가요?
-  - 답변: [Encoder vs Decoder in Transformers](https://outcomeschool.com/blog/encoder-vs-decoder-in-transformers)
-- KV 캐시란 무엇이며, 추론 속도를 어떻게 높여 주나요?
-  - 답변: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
-- 대형 모델을 서빙하는 데 필요한 KV 캐시 메모리를 추정해 보세요. 이것이 배치 크기와 컨텍스트 길이를 어떻게 제약하나요?
-  - 답변: [KV Cache Compression](https://outcomeschool.com/blog/kv-cache-compression)
-- KV 캐시 압축(KV Cache Compression)
-  - 답변: [KV Cache Compression](https://outcomeschool.com/blog/kv-cache-compression)
-- 모델 증류(model distillation)란 무엇이며, LLM에서 어떻게 사용되나요?
-  - 답변: [How does Knowledge Distillation work?](https://outcomeschool.com/blog/how-does-knowledge-distillation-work)
-- 전문가 혼합(MoE, Mixture of Experts)이란 무엇이며, Mixtral 같은 모델에서 어떻게 동작하나요?
-  - 답변: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)
-- 밀집(dense) 모델과 희소(sparse) 모델의 차이는 무엇인가요?
-  - 답변: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)
-- DeepSeek-V4는 어떻게 동작하나요?
-  - 답변: [DeepSeek-V4 Architecture Explained](https://outcomeschool.com/blog/decoding-deepseek-v4)
-- Flash Attention이란 무엇인가요?
-  - 답변: [Decoding Flash Attention in LLMs](https://outcomeschool.com/blog/decoding-flash-attention)
-- 교차 엔트로피 손실(Cross-Entropy Loss)이란 무엇인가요?
-  - 답변: [Math Behind Cross-Entropy Loss](https://outcomeschool.com/blog/math-behind-cross-entropy-loss)
-- KL 발산(KL Divergence)이란 무엇인가요?
-  - 답변: [What is KL Divergence? The Math Explained Step by Step](https://outcomeschool.com/blog/kl-divergence)
-- 그룹 쿼리 어텐션(GQA, Grouped-Query Attention)이란 무엇이며, 멀티 헤드 어텐션(MHA)과 어떻게 다른가요?
-  - 답변: [Grouped Query Attention](https://outcomeschool.com/blog/grouped-query-attention)
-- 슬라이딩 윈도우 어텐션(Sliding Window Attention)은 어떻게 동작하나요?
-  - 답변: [How does Sliding Window Attention work?](https://outcomeschool.com/blog/how-does-sliding-window-attention-work)
-- 어텐션 싱크(Attention Sink)는 어떻게 동작하나요?
-  - 답변: [How do Attention Sinks work?](https://outcomeschool.com/blog/how-do-attention-sinks-work)
-- 회전 위치 임베딩(RoPE, Rotary Position Embedding)은 어떻게 동작하며, 왜 학습된 위치 임베딩보다 선호되나요?
-  - 답변: [Math Behind RoPE (Rotary Position Embedding)](https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding)
-- 레이어 정규화(Layer Normalization)를 설명하세요.
-  - 답변: [Batch Normalization vs Layer Normalization](https://outcomeschool.com/blog/batch-normalization-vs-layer-normalization)
-- RMSNorm(Root Mean Square Layer Normalization)을 설명하세요.
-  - 답변: [RMSNorm (Root Mean Square Layer Normalization)](https://outcomeschool.com/blog/rmsnorm-root-mean-square-layer-normalization)
-- 최신 트랜스포머는 왜 Post-LayerNorm 대신 Pre-LayerNorm(Pre-Norm)을 사용하나요?
-  - 답변: [RMSNorm (Root Mean Square Layer Normalization)](https://outcomeschool.com/blog/rmsnorm-root-mean-square-layer-normalization)
-- 스케일링 법칙(scaling laws, Chinchilla)이란 무엇이며, 모델 크기와 학습 데이터 양을 정할 때 어떤 지침이 되나요?
-- LLM이 지시를 계속 무시합니다. 구조화된 출력 형식을 따르게 하려면 어떻게 하나요?
-- LLM 기반 도구가 긴 문서에서 컨텍스트 윈도우 한도에 걸립니다. 어떻게 처리하나요?
-- LLM이 답을 모를 때 모른다고 인정하지 않습니다. "모르겠습니다"라고 말하게 하려면 어떻게 하나요?
-- LLM의 응답이 너무 장황합니다. 응답 길이를 어떻게 조절하나요?
-- LLM이 독점(proprietary) 학습 데이터를 암기해서 응답에 유출합니다. 이를 어떻게 막나요?
-- LLM 코딩 어시스턴트가 지원 중단(deprecated)된 라이브러리를 쓰는 오래된 코드를 생성합니다. 어떻게 고치나요?
-- 토크나이저가 중요한 도메인 용어를 의미 없는 서브워드 조각으로 쪼갭니다. 어떻게 고치나요?
-- 긴 시퀀스를 생성하는 동안 트랜스포머의 KV 캐시가 너무 커집니다. 메모리를 어떻게 관리하나요?
-  - 답변: [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)
-- 셀프 어텐션의 이차(quadratic) 복잡도 때문에 긴 문서에서 트랜스포머가 메모리 부족에 빠집니다. 어떻게 확장하나요?
-  - 답변: [How does Sliding Window Attention work?](https://outcomeschool.com/blog/how-does-sliding-window-attention-work) 및 [Decoding Flash Attention in LLMs](https://outcomeschool.com/blog/decoding-flash-attention)
-- 증류된 학생(student) 모델이 교사(teacher) 모델은 해냈던 복잡한 추론에 실패합니다. 그 격차를 어떻게 좁히나요?
-- RLHF 정렬 이후 LLM은 더 안전해졌지만 어려운 작업에서 능력을 잃었습니다. 정렬 비용(alignment tax)을 어떻게 관리하나요?
-- RLHF로 학습한 LLM이 진정으로 도움이 되기보다 보상 모델을 속이고(gaming) 있습니다. 보상 해킹(reward hacking)을 어떻게 고치나요?
-  - 답변: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)
-- 챗봇이 대화 10턴이 지나면 맥락을 잃습니다. 긴 대화의 맥락을 어떻게 유지하나요?
-  - 답변: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
-- 사용자가 대화 도중 주제를 바꾸면 챗봇이 실패합니다. 주제 전환을 어떻게 처리하나요?
-- QA 시스템이 컨텍스트에 답이 없는데도 항상 답을 생성합니다. 답할 수 없는 질문을 어떻게 감지하나요?
-- 요약 시스템이 원문 기사에 없는 사실을 지어냈습니다(환각). 어떻게 고치나요?
-- 텍스트 생성 결과가 긴 출력에서 같은 구절을 반복합니다. 반복을 어떻게 고치나요?
-- 트랜스포머는 텍스트를 다루는데, 이미지도 이해할 수 있나요?
-  - 답변: [Decoding Vision Transformer (ViT)](https://outcomeschool.com/blog/decoding-vision-transformer-vit)
-- 소형 언어 모델(SLM, Small Language Models)
-  - 답변: [Small Language Models (SLMs)](https://outcomeschool.com/blog/small-language-models-slms)
-- 대규모 추론 모델(LRM, Large Reasoning Models)
-  - 답변: [Large Reasoning Models (LRMs)](https://outcomeschool.com/blog/large-reasoning-models)
-- Jev 모델과 System One 모델
-  - 답변: [Jev and System One Models Explained](https://outcomeschool.com/blog/jev-and-system-one-models-explained)
-- 자기회귀 모델(Autoregressive Model)이란 무엇인가요?
-  - 답변: [Autoregressive Models](https://outcomeschool.com/blog/autoregressive-models)
-- 자기회귀 언어 모델링과 마스크 언어 모델링(masked language modeling)의 차이를 설명하세요.
-- 근접 정책 최적화(PPO, Proximal Policy Optimization)
-  - 답변: [Proximal Policy Optimization (PPO)](https://outcomeschool.com/blog/proximal-policy-optimization-ppo)
-- 직접 선호 최적화(DPO, Direct Preference Optimization)
-  - 답변: [Direct Preference Optimization (DPO)](https://outcomeschool.com/blog/direct-preference-optimization-dpo)
-- 그룹 상대 정책 최적화(GRPO, Group Relative Policy Optimization)
-  - 답변: [Group Relative Policy Optimization (GRPO)](https://outcomeschool.com/blog/group-relative-policy-optimization-grpo)
-- 재귀 언어 모델(RLM, Recursive Language Models)
-  - 답변: [Recursive Language Models (RLMs)](https://outcomeschool.com/blog/recursive-language-models)
-- LLM의 지속 학습(Continual Learning)
-  - 답변: [Continual Learning in LLMs](https://outcomeschool.com/blog/continual-learning-in-llms)
-- 재귀적 자기 개선(RSI, Recursive Self-Improvement)이란 무엇인가요?
-  - 답변: [What is Recursive Self-Improvement (RSI)?](https://outcomeschool.com/blog/what-is-recursive-self-improvement-rsi)
-- 확산 언어 모델(DLM, Diffusion Language Models)은 어떻게 동작하나요?
-  - 답변: [How do Diffusion Language Models (DLMs) work?](https://outcomeschool.com/blog/how-do-diffusion-language-models-dlms-work)
-- LLM 워터마킹은 어떻게 동작하나요?
-  - 답변: [How Does LLM Watermarking Work?](https://outcomeschool.com/blog/how-does-llm-watermarking-work)
-- RNN과 트랜스포머는 어떻게 다른가요?
-  - 답변: [How do RNNs and Transformers differ?](https://outcomeschool.com/blog/how-do-rnns-and-transformers-differ)
+> 질문을 클릭하면 답변이 펼쳐집니다. 먼저 스스로 답해 본 뒤 펼쳐 보세요.  
+> 답변은 학습용으로 새로 작성한 설명입니다. 원작자의 영문 자료는 각 답변 끝의 "더 읽어보기"에 있습니다.
+
+<details>
+<summary><b>Q1. 파운데이션 모델(foundation model)이란 무엇이며, AI 엔지니어링을 어떻게 바꿔 놓았나요?</b></summary>
+
+**파운데이션 모델** 은 대규모의 범용 데이터로 한 번 크게 사전 학습한 뒤, 여러 다운스트림 작업에 재사용하는 모델입니다. GPT, Claude, Llama, Gemini 같은 LLM과 CLIP 같은 멀티모달 모델이 대표적입니다.
+
+**예전 방식과의 차이**
+
+| 구분 | 전통적인 ML | 파운데이션 모델 시대 |
+|---|---|---|
+| 모델 | 작업마다 처음부터 학습 | 하나의 거대 모델을 재사용 |
+| 데이터 | 작업별 라벨 데이터 수천~수만 건 | 프롬프트 몇 줄, 예시 몇 개로도 시작 |
+| 핵심 역량 | 피처 엔지니어링, 모델 학습 | 프롬프트, RAG, 평가, 시스템 통합 |
+| 출시 속도 | 수개월 | 수일~수주 |
+
+**AI 엔지니어링에 준 변화**
+
+- **모델을 "만드는" 일에서 "활용하는" 일로:** 대부분의 팀은 모델을 학습하지 않고 API나 오픈 모델을 가져와 제품에 연결합니다.
+- **새로운 기술 스택:** 프롬프트 설계, 벡터 DB, 에이전트 오케스트레이션, 가드레일, LLM 평가 같은 영역이 생겼습니다.
+- **평가가 어려워짐:** 출력이 자유로운 텍스트라 정답 비교가 어렵고, LLM-as-a-judge 같은 새 평가 방법이 필요해졌습니다.
+- **비용 구조 변화:** 학습 비용 대신 토큰당 추론 비용과 지연 시간이 주요 관리 대상이 되었습니다.
+
+**면접 포인트:** "AI 엔지니어는 ML 엔지니어보다 제품·시스템 쪽에 가깝다"는 관점으로 정리하면 좋습니다.
+
+**더 읽어보기 (영문):** [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) (영상)
+
+</details>
+
+<details>
+<summary><b>Q2. 대규모 언어 모델(LLM)이란 무엇이며, 어떻게 동작하나요?</b></summary>
+
+**LLM** 은 대량의 텍스트로 학습해 주어진 문맥 다음에 올 토큰의 확률을 예측하는 트랜스포머 기반 신경망입니다.
+
+**동작 단계**
+
+1. **토큰화:** 입력 문장을 토큰(단어 조각) ID 시퀀스로 바꿉니다.
+2. **임베딩:** 각 토큰 ID를 고차원 벡터로 바꾸고 위치 정보를 더합니다.
+3. **트랜스포머 블록 반복:** 셀프 어텐션으로 토큰끼리 정보를 주고받고, 피드포워드 네트워크로 각 토큰 표현을 변환합니다. 이 블록을 수십 층 쌓습니다.
+4. **출력:** 마지막 토큰의 표현을 어휘 크기의 로짓(logit)으로 바꾸고 소프트맥스로 확률을 구합니다.
+5. **샘플링:** 확률 분포에서 다음 토큰을 고르고(그리디, top-p 등), 입력에 붙여 2~5단계를 반복합니다.
+
+**학습 과정**
+
+- **사전 학습:** "다음 토큰 맞히기"를 수조 개 토큰에 대해 반복해 언어 패턴과 지식을 익힙니다.
+- **후속 학습:** 지시 튜닝(SFT)과 선호도 학습(RLHF, DPO)으로 대화형 비서처럼 행동하게 만듭니다.
+
+**핵심 특징**
+
+- 지식은 파라미터에 "압축"되어 저장되므로 출처를 알 수 없고, 틀릴 수 있습니다.
+- 확률적으로 생성하므로 같은 질문에도 답이 달라질 수 있습니다.
+- 규모(파라미터·데이터·연산)가 커질수록 성능이 예측 가능하게 좋아지는 경향이 있습니다(스케일링 법칙).
+
+**더 읽어보기 (영문):** [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) (영상), [How does an LLM work?](https://outcomeschool.com/blog/large-language-model-llm)
+
+</details>
+
+<details>
+<summary><b>Q3. ChatGPT 내부: Enter를 누르면 무슨 일이 일어나나요?</b></summary>
+
+사용자가 메시지를 보낸 순간부터 답이 화면에 나타날 때까지의 전체 흐름을 설명하는 질문입니다. 모델 내부와 서비스 인프라를 함께 이야기하면 좋습니다.
+
+**1. 요청 준비 (서버 측)**
+
+- 인증, 속도 제한(rate limit), 입력 안전성 검사(모더레이션)를 거칩니다.
+- **프롬프트 조립:** 시스템 프롬프트 + 메모리/사용자 설정 + 이전 대화 기록 + 새 메시지를 채팅 템플릿(특수 토큰으로 역할 구분)에 맞춰 하나의 텍스트로 만듭니다.
+- 필요하면 웹 검색·파일 검색 같은 도구 결과가 추가됩니다.
+
+**2. 추론 서버로 전달**
+
+- 로드 밸런서가 GPU 추론 서버로 요청을 보내고, 서버는 연속 배칭(continuous batching)으로 다른 사용자 요청과 함께 처리합니다.
+
+**3. 프리필(prefill)**
+
+- 전체 프롬프트를 한 번에 토큰화하고 트랜스포머에 통과시켜 KV 캐시를 채웁니다. 이 단계가 첫 토큰이 나오기까지의 시간(TTFT)을 결정합니다.
+
+**4. 디코드(decode)**
+
+- 토큰을 하나씩 생성합니다. 매 단계에서 로짓 → 샘플링(온도, top-p) → 새 토큰을 KV 캐시에 추가하는 과정을 반복합니다.
+- 모델이 도구를 호출하겠다고 하면 생성을 멈추고 도구를 실행한 뒤 결과를 넣고 다시 생성합니다.
+
+**5. 스트리밍과 후처리**
+
+- 생성된 토큰은 SSE(Server-Sent Events)로 바로바로 브라우저에 전송되어 글자가 타이핑되듯 보입니다.
+- 출력 안전성 검사, 대화 기록 저장, 사용량 집계가 이어집니다.
+- 정지 토큰이나 최대 길이에 도달하면 생성이 끝납니다.
+
+**더 읽어보기 (영문):** [Inside ChatGPT: What Happens After You Hit Enter](https://outcomeschool.substack.com/p/inside-chatgpt-what-happens-after)
+
+</details>
+
+<details>
+<summary><b>Q4. 트랜스포머(Transformer) 아키텍처란 무엇이며, 어떻게 동작하나요?</b></summary>
+
+**트랜스포머** 는 2017년 논문 "Attention Is All You Need"에서 소개된 신경망 구조로, 순환(RNN) 없이 **어텐션** 만으로 시퀀스 안의 관계를 학습합니다. 현재 거의 모든 LLM의 기반입니다.
+
+**핵심 아이디어**
+
+- 문장의 모든 토큰이 다른 모든 토큰을 직접 "참고"할 수 있습니다(셀프 어텐션).
+- 순서대로 처리하지 않아 GPU에서 병렬 계산이 가능하고, 먼 거리의 단어 관계도 쉽게 잡습니다.
+
+**동작 흐름 (디코더 기준)**
+
+1. 토큰 임베딩 + 위치 정보(위치 인코딩 또는 RoPE)
+2. N개의 트랜스포머 블록 반복. 블록 하나는 다음으로 이루어집니다.
+   - 멀티 헤드 셀프 어텐션: 토큰들이 서로의 정보를 섞습니다.
+   - 피드포워드 네트워크(FFN): 각 토큰 표현을 개별적으로 변환합니다.
+   - 잔차 연결(residual) + 레이어 정규화: 깊게 쌓아도 학습이 안정되게 합니다.
+3. 출력층: 어휘 전체에 대한 로짓을 계산해 다음 토큰을 예측합니다.
+
+**원래 구조와 변형**
+
+- 원 논문은 **인코더-디코더** 구조(번역용)였습니다.
+- BERT는 인코더만, GPT 계열 LLM은 디코더만 사용합니다.
+
+**한계:** 어텐션 계산량이 시퀀스 길이의 제곱에 비례해 긴 문맥에서 비용이 커집니다. 그래서 Flash Attention, 슬라이딩 윈도우 어텐션 같은 최적화가 나왔습니다.
+
+**더 읽어보기 (영문):** [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
+
+</details>
+
+<details>
+<summary><b>Q5. 트랜스포머 아키텍처의 핵심 구성 요소는 무엇인가요?</b></summary>
+
+| 구성 요소 | 역할 |
+|---|---|
+| **토큰 임베딩** | 토큰 ID를 학습 가능한 벡터로 변환 |
+| **위치 정보** | 어텐션은 순서를 모르므로 위치를 알려 줌 (사인/코사인 인코딩, 학습형 임베딩, RoPE) |
+| **셀프 어텐션** | Q·K로 토큰 간 관련도를 계산하고, 그 가중치로 V를 섞어 문맥을 반영 |
+| **멀티 헤드** | 여러 개의 어텐션을 병렬로 수행해 문법·의미·참조 등 다양한 관계를 동시에 학습 |
+| **피드포워드 네트워크(FFN)** | 토큰마다 독립적으로 적용되는 2~3층 MLP. 모델 파라미터의 큰 비중을 차지하며 "지식 저장소" 역할을 한다고 해석됨 |
+| **잔차 연결** | 입력을 출력에 더해 깊은 네트워크에서도 기울기가 잘 흐르게 함 |
+| **레이어 정규화** | 각 층의 값 분포를 안정시켜 학습을 안정화 (요즘은 RMSNorm, Pre-Norm 배치가 일반적) |
+| **인과적 마스크** | 디코더에서 미래 토큰을 보지 못하게 막음 |
+| **출력층(LM head)** | 마지막 은닉 상태를 어휘 크기 로짓으로 변환 |
+
+**블록 하나의 계산 (Pre-Norm 기준)**
+
+```python
+x = x + attention(norm(x))   # 토큰끼리 정보 교환
+x = x + ffn(norm(x))         # 토큰별 변환
+```
+
+**더 읽어보기 (영문):** [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
+
+</details>
+
+<details>
+<summary><b>Q6. 디코더 전용(decoder-only) 트랜스포머에서 한 번의 순전파(forward pass) 동안 무슨 일이 일어나는지 단계별로 설명하세요.</b></summary>
+
+입력이 `"The cat sat"`이고 다음 토큰을 예측하는 상황을 가정합니다. 기호: 시퀀스 길이 T, 은닉 차원 d, 어휘 크기 V.
+
+1. **토큰화:** 문자열 → 토큰 ID `[T]`.
+2. **임베딩 조회:** 임베딩 행렬 `[V, d]`에서 각 ID의 벡터를 꺼내 `[T, d]`를 만듭니다. (학습형 위치 임베딩을 쓰는 모델이라면 여기서 더합니다.)
+3. **L개의 블록을 차례로 통과:** 각 블록에서
+   1. **정규화:** RMSNorm/LayerNorm.
+   2. **Q, K, V 투영:** `Q = xW_q, K = xW_k, V = xW_v`, 헤드 수만큼 나눕니다. RoPE를 쓰면 여기서 Q, K를 회전시킵니다.
+   3. **어텐션 점수:** `QKᵀ / √d_k` → `[T, T]` 행렬.
+   4. **인과적 마스크:** 자기보다 뒤에 있는 위치를 -∞로 채웁니다.
+   5. **소프트맥스 → V 가중합:** 각 토큰이 앞 토큰들의 정보를 섞은 표현을 얻습니다.
+   6. **헤드 결합 + 출력 투영(W_o) + 잔차 더하기.**
+   7. **정규화 → FFN(예: SwiGLU) → 잔차 더하기.**
+4. **최종 정규화.**
+5. **LM head:** 마지막 위치의 벡터 `[d]`에 `[d, V]` 행렬을 곱해 로짓 `[V]`를 얻습니다.
+6. **소프트맥스 + 샘플링:** 확률 분포에서 다음 토큰(예: "on")을 고릅니다.
+
+**추론 시 차이점**
+
+- 첫 순전파(프리필)는 T개 토큰 전체를 한 번에 처리하고, 각 층의 K, V를 **KV 캐시** 에 저장합니다.
+- 이후 단계(디코드)는 새 토큰 1개만 넣고, Q는 새 토큰 것만 계산하며 K, V는 캐시를 재사용합니다.
+
+**더 읽어보기 (영문):** [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
+
+</details>
+
+<details>
+<summary><b>Q7. LLM에서 토큰화(tokenization)란 무엇인가요?</b></summary>
+
+**토큰화** 는 텍스트를 모델이 처리하는 기본 단위인 **토큰** 으로 나누고 정수 ID로 바꾸는 과정입니다.
+
+**왜 단어나 글자가 아니라 "서브워드"인가**
+
+- **단어 단위:** 어휘가 너무 커지고, 처음 보는 단어(OOV)를 처리하지 못합니다.
+- **글자 단위:** 어휘는 작지만 시퀀스가 너무 길어지고 의미 단위를 잡기 어렵습니다.
+- **서브워드 단위(BPE, WordPiece, SentencePiece):** 자주 나오는 단어는 통째로, 드문 단어는 조각으로 나눠 둘의 장점을 취합니다. 예: `unbelievable` → `un` + `believ` + `able`.
+
+**실무에서 중요한 이유**
+
+- **비용과 한도:** API 요금과 컨텍스트 윈도우는 글자 수가 아니라 토큰 수로 계산됩니다. 영어는 대략 1토큰 ≈ 4글자, 한국어는 같은 내용에 토큰이 더 많이 드는 경우가 많습니다.
+- **모델 동작:** 글자 수 세기, 철자 뒤집기 같은 작업에 LLM이 약한 이유가 토큰 단위로 보기 때문입니다.
+- **숫자·코드 처리:** 숫자가 어떻게 쪼개지는지에 따라 산술 능력이 달라집니다.
+- **모델마다 토크나이저가 다릅니다.** 같은 문장도 모델에 따라 토큰 수가 다르므로, 비용 계산 시 해당 모델의 토크나이저를 써야 합니다.
+
+```python
+import tiktoken
+enc = tiktoken.get_encoding("cl100k_base")
+ids = enc.encode("Hello, world!")
+print(ids, len(ids))   # 토큰 ID 목록과 개수
+```
+
+**더 읽어보기 (영문):** [Tokenization in LLMs](https://outcomeschool.com/blog/tokenization-in-llms), [Tokenization in Large Language Models (LLMs)](https://www.youtube.com/watch?v=sK2s9I84EVI) (영상)
+
+</details>
+
+<details>
+<summary><b>Q8. BPE(Byte Pair Encoding)를 설명하세요.</b></summary>
+
+**BPE** 는 가장 자주 함께 나오는 기호 쌍을 반복해서 하나로 합치며 어휘를 만드는 서브워드 토큰화 알고리즘입니다. GPT 계열과 Llama 등 많은 LLM이 사용합니다.
+
+**학습 과정**
+
+1. 모든 텍스트를 글자(또는 바이트) 단위로 쪼개 시작 어휘를 만듭니다.
+2. 코퍼스에서 인접한 기호 쌍의 빈도를 셉니다.
+3. 가장 빈도가 높은 쌍(예: `t` + `h`)을 새 기호 `th`로 합치고 병합 규칙으로 기록합니다.
+4. 목표 어휘 크기(예: 5만~20만)에 도달할 때까지 2~3단계를 반복합니다.
+
+**예시**
+
+```
+코퍼스: low, lower, newest, widest
+1회차: (e, s) 가장 많음 → "es"
+2회차: (es, t) → "est"
+3회차: (l, o) → "lo"
+...
+```
+
+**인코딩(사용) 과정:** 새 텍스트를 글자로 쪼갠 뒤, 학습 때 기록한 병합 규칙을 **같은 순서대로** 적용합니다.
+
+**바이트 수준 BPE(Byte-level BPE)**
+
+- 글자 대신 UTF-8 바이트(256개)에서 시작합니다.
+- 어떤 언어, 이모지, 특수문자도 "모르는 토큰" 없이 표현할 수 있습니다. GPT-2 이후 널리 쓰입니다.
+
+**장단점**
+
+- 장점: 단순하고 빠르며, 미등록 단어 문제가 없습니다.
+- 단점: 빈도만 보므로 언어학적으로 어색하게 쪼개질 수 있고, 학습 데이터에 적게 나온 언어(한국어 등)는 토큰이 잘게 나뉘어 비용이 늘어납니다.
+
+**더 읽어보기 (영문):** [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms)
+
+</details>
+
+<details>
+<summary><b>Q9. WordPiece와 SentencePiece를 설명하세요.</b></summary>
+
+**WordPiece**
+
+- BERT 계열에서 쓰는 서브워드 알고리즘입니다.
+- BPE처럼 쌍을 병합하지만, 기준이 단순 빈도가 아니라 **"이 쌍을 합치면 학습 데이터의 우도(likelihood)가 얼마나 오르나"** 입니다. 대략 `빈도(ab) / (빈도(a) × 빈도(b))`가 큰 쌍을 우선 합칩니다. 따로 자주 나오는 흔한 조각보다, 함께 나올 때 의미가 있는 조각을 선호합니다.
+- 단어 중간 조각에 `##` 표시를 붙입니다. 예: `playing` → `play`, `##ing`.
+- 인코딩 시 어휘에서 가장 긴 접두어부터 매칭(greedy longest-match)합니다.
+
+**SentencePiece**
+
+- Google이 만든 토큰화 **라이브러리이자 프레임워크** 입니다. 내부 알고리즘으로 BPE나 **Unigram** 을 선택할 수 있습니다.
+- 가장 큰 특징은 **공백을 일반 문자처럼 취급** 한다는 점입니다(공백을 `▁`로 표시). 미리 단어 단위로 자르지 않으므로 한국어·일본어·중국어처럼 띄어쓰기가 불규칙하거나 없는 언어에도 그대로 적용됩니다.
+- 디코딩이 손실 없이 원문으로 복원됩니다. 예: `▁Hello▁world` → `Hello world`.
+- T5, Llama 1·2, Gemma 등이 사용합니다.
+
+**Unigram 알고리즘 (SentencePiece의 기본값)**
+
+- BPE와 반대로, 큰 후보 어휘에서 시작해 우도에 기여가 적은 토큰을 **제거** 해 나갑니다.
+- 한 단어를 여러 방식으로 쪼갤 수 있어, 학습 중에 다양한 분할을 샘플링하는 정규화(subword regularization)가 가능합니다.
+
+| | BPE | WordPiece | SentencePiece(Unigram) |
+|---|---|---|---|
+| 방향 | 병합 | 병합 | 가지치기 |
+| 기준 | 빈도 | 우도 증가 | 우도 손실 |
+| 공백 처리 | 사전 분할 필요 | 사전 분할 필요 | 공백도 문자로 취급 |
+
+</details>
+
+<details>
+<summary><b>Q10. 위치 인코딩(positional encoding)이란 무엇이며, 트랜스포머에 왜 필요한가요?</b></summary>
+
+**왜 필요한가:** 셀프 어텐션은 토큰 집합을 순서와 무관하게 처리합니다(순열 불변). "개가 사람을 물었다"와 "사람이 개를 물었다"를 구분하려면 각 토큰의 위치 정보를 따로 넣어 줘야 합니다.
+
+**주요 방식**
+
+1. **사인/코사인 위치 인코딩 (원 논문)**
+   - 위치 `pos`, 차원 `i`에 대해 `PE(pos, 2i) = sin(pos / 10000^(2i/d))`, `PE(pos, 2i+1) = cos(...)`.
+   - 학습 파라미터가 없고, 차원마다 다른 주기를 가져 상대 위치를 선형 변환으로 표현할 수 있습니다.
+2. **학습형 절대 위치 임베딩 (BERT, GPT-2)**
+   - 위치마다 학습 가능한 벡터를 둡니다. 단순하지만, 학습 때 본 최대 길이보다 긴 입력에는 쓸 수 없습니다.
+3. **상대 위치 방식**
+   - 토큰 간 거리를 어텐션 점수에 반영합니다. 예: T5의 상대 위치 바이어스, ALiBi(거리에 비례한 페널티).
+4. **RoPE (회전 위치 임베딩)**
+   - Q, K 벡터를 위치에 따라 회전시켜, 내적 결과가 두 토큰의 **상대 거리** 에만 의존하게 만듭니다. Llama, Qwen, Mistral 등 최신 LLM의 표준입니다.
+
+**실무 포인트:** 컨텍스트 길이를 늘리는 기법(Position Interpolation, NTK scaling, YaRN 등)은 대부분 RoPE를 조정하는 방식입니다.
+
+**더 읽어보기 (영문):** [Positional Embeddings in LLMs](https://outcomeschool.substack.com/p/positional-embeddings-in-llms)
+
+</details>
+
+<details>
+<summary><b>Q11. 임베딩(embedding)이란 무엇인가요?</b></summary>
+
+**임베딩** 은 단어, 문장, 이미지 같은 데이터를 **의미를 담은 고정 길이의 실수 벡터** 로 표현한 것입니다. 의미가 비슷한 대상은 벡터 공간에서 가깝게 위치합니다.
+
+**두 가지 맥락**
+
+1. **모델 내부의 토큰 임베딩**
+   - LLM 첫 층의 임베딩 행렬 `[어휘 크기, d]`에서 토큰 ID별 벡터를 꺼냅니다.
+   - 학습을 통해 비슷한 쓰임의 토큰들이 가까워집니다.
+2. **문장/문서 임베딩 (검색용)**
+   - 임베딩 모델(예: OpenAI text-embedding, BGE, E5)이 텍스트 전체를 벡터 하나(예: 768~3072차원)로 바꿉니다.
+   - RAG, 의미 검색, 추천, 클러스터링, 중복 탐지에 씁니다.
+
+**직관적 예시**
+
+- `king - man + woman ≈ queen` (Word2Vec의 유명한 예)
+- "환불 받고 싶어요"와 "돈 돌려주세요"는 단어가 거의 겹치지 않아도 임베딩은 가깝습니다. 이것이 키워드 검색과 다른 점입니다.
+
+**유사도 측정:** 주로 코사인 유사도를 쓰며, 정규화된 벡터라면 내적과 같습니다.
+
+**주의점**
+
+- 같은 임베딩 모델로 만든 벡터끼리만 비교할 수 있습니다.
+- 도메인 특화 용어나 숫자·고유명사는 임베딩이 잘 구분하지 못할 수 있어, 하이브리드 검색으로 보완합니다.
+
+**더 읽어보기 (영문):** [Embeddings in Machine Learning](https://www.youtube.com/watch?v=LedXW6xl21s) (영상)
+
+</details>
+
+<details>
+<summary><b>Q12. 어텐션의 Query(Q), Key(K), Value(V)를 설명하세요.</b></summary>
+
+어텐션은 **"각 토큰이 다른 토큰들에서 어떤 정보를 얼마나 가져올지"** 를 정하는 메커니즘이고, Q, K, V는 그 계산에 쓰는 세 가지 역할의 벡터입니다.
+
+**검색 비유**
+
+- **Query(Q):** "내가 찾고 있는 것" — 현재 토큰의 질문
+- **Key(K):** "나는 이런 정보를 갖고 있어" — 각 토큰의 색인표
+- **Value(V):** "실제로 전달할 내용" — 각 토큰이 넘겨줄 정보
+
+도서관에서 검색어(Q)를 책 제목·태그(K)와 비교해 관련도를 매기고, 관련도가 높은 책의 내용(V)을 더 많이 읽는 것과 비슷합니다.
+
+**계산**
+
+1. 같은 입력 `X`에서 서로 다른 가중치로 만듭니다: `Q = XW_q`, `K = XW_k`, `V = XW_v`.
+2. 관련도 점수: `scores = QKᵀ / √d_k`
+3. 확률로 변환: `weights = softmax(scores)` (각 행의 합이 1)
+4. 정보 결합: `output = weights · V`
+
+$$\text{Attention}(Q,K,V) = \text{softmax}\left(\frac{QK^\top}{\sqrt{d_k}}\right)V$$
+
+**왜 세 개로 나누나:** 한 토큰이 "무엇을 찾는가(Q)"와 "어떻게 찾아지는가(K)", "무엇을 전달하는가(V)"를 따로 학습해야 표현력이 높아집니다. 예를 들어 대명사 "it"의 Q는 명사를 찾도록, "cat"의 K는 명사로 찾히도록, V는 "고양이"라는 의미를 전달하도록 학습됩니다.
+
+**더 읽어보기 (영문):** [Math behind Attention - Q, K, and V](https://outcomeschool.com/blog/math-behind-attention-qkv)
+
+</details>
+
+<details>
+<summary><b>Q13. 셀프 어텐션(self-attention)이란 무엇이며, 트랜스포머에서 어떻게 동작하나요?</b></summary>
+
+**셀프 어텐션** 은 Q, K, V를 **모두 같은 시퀀스** 에서 만들어, 시퀀스 안의 각 토큰이 같은 시퀀스의 다른 토큰들을 참고해 자기 표현을 갱신하는 어텐션입니다.
+
+**예시:** "The animal didn't cross the street because **it** was too tired."
+
+- "it"의 Q가 모든 토큰의 K와 비교되고, "animal"과의 점수가 높게 나옵니다.
+- 그 결과 "it"의 새 표현에 "animal"의 V 정보가 많이 섞여, 모델이 "it = animal"이라는 관계를 반영합니다.
+
+**동작 단계**
+
+1. 입력 `X [T, d]`에서 `Q, K, V`를 선형 변환으로 만듭니다.
+2. 모든 토큰 쌍의 점수 `QKᵀ/√d_k` → `[T, T]` 행렬을 계산합니다.
+3. (디코더라면) 미래 위치를 마스킹합니다.
+4. 소프트맥스로 가중치를 구하고 `V`를 가중합합니다.
+5. 여러 헤드 결과를 이어 붙이고 출력 투영을 합니다.
+
+**장점**
+
+- 거리와 상관없이 한 단계 만에 어떤 토큰이든 연결됩니다(RNN은 거리만큼 단계가 필요).
+- 모든 위치를 병렬 계산할 수 있어 학습이 빠릅니다.
+
+**단점**
+
+- 계산량과 메모리가 `O(T²)`라 긴 시퀀스에서 비쌉니다.
+
+**셀프 vs 크로스 어텐션:** 셀프는 Q, K, V가 모두 같은 시퀀스에서 나오고, 크로스는 Q는 한 시퀀스, K·V는 다른 시퀀스(예: 인코더 출력)에서 나옵니다.
+
+**더 읽어보기 (영문):** [Self Attention in Transformers](https://outcomeschool.com/blog/self-attention-in-transformers)
+
+</details>
+
+<details>
+<summary><b>Q14. 트랜스포머의 크로스 어텐션(Cross Attention)이란 무엇인가요?</b></summary>
+
+**크로스 어텐션** 은 Query는 한 시퀀스에서, Key와 Value는 **다른 시퀀스** 에서 가져오는 어텐션입니다. 두 정보 흐름을 연결할 때 씁니다.
+
+**대표 사례**
+
+1. **인코더-디코더 트랜스포머 (번역, T5)**
+   - 디코더가 영어 문장을 생성할 때, 디코더의 현재 상태(Q)로 인코더가 만든 한국어 원문 표현(K, V)을 참고합니다. "지금 번역할 단어에 해당하는 원문 위치"를 찾는 역할입니다.
+2. **텍스트-이미지 생성 (Stable Diffusion)**
+   - 이미지 생성 네트워크의 특징(Q)이 텍스트 프롬프트 임베딩(K, V)을 참고해 "고양이", "빨간색" 같은 조건을 반영합니다.
+3. **멀티모달 모델**
+   - 일부 VLM은 텍스트 토큰(Q)이 이미지 특징(K, V)을 크로스 어텐션으로 참조합니다(예: Flamingo 계열).
+
+**셀프 어텐션과 비교**
+
+| | 셀프 어텐션 | 크로스 어텐션 |
+|---|---|---|
+| Q 출처 | 시퀀스 A | 시퀀스 A |
+| K, V 출처 | 시퀀스 A | 시퀀스 B |
+| 점수 행렬 | `[T_A, T_A]` | `[T_A, T_B]` |
+| 용도 | 문맥 이해 | 외부 정보 조건화 |
+
+**참고:** GPT 같은 디코더 전용 LLM에는 크로스 어텐션이 없습니다. 대신 모든 정보를 하나의 시퀀스로 이어 붙여 셀프 어텐션으로 처리합니다.
+
+**더 읽어보기 (영문):** [Cross Attention in Transformers](https://outcomeschool.com/blog/cross-attention-in-transformers)
+
+</details>
+
+<details>
+<summary><b>Q15. 트랜스포머 아키텍처에서 내적(dot product) 어텐션을 왜 √dₖ로 나누어 스케일링하나요?</b></summary>
+
+**결론:** 차원 `d_k`가 커질수록 Q·K 내적 값의 크기가 커져 소프트맥스가 한쪽으로 쏠리고(포화), 기울기가 거의 0이 되어 학습이 어려워지기 때문입니다. `√d_k`로 나누면 점수의 분산이 1 정도로 유지됩니다.
+
+**수학적 이유**
+
+- Q와 K의 각 성분이 평균 0, 분산 1인 독립 변수라고 가정합니다.
+- 내적 `q·k = Σ q_i k_i`는 `d_k`개 항의 합이므로 **분산이 `d_k`** 가 됩니다.
+- 예: `d_k = 128`이면 표준편차가 약 11.3이라 점수가 ±30 수준까지 흔히 나옵니다.
+- `√d_k`로 나누면 분산이 `d_k / d_k = 1`로 돌아옵니다.
+
+**소프트맥스 포화가 왜 문제인가**
+
+- 점수 차이가 크면 `softmax([30, 5, 2])` ≈ `[1, 0, 0]`처럼 거의 원-핫이 됩니다.
+- 이 상태에서는 소프트맥스의 기울기가 매우 작아(기울기 소실) 어텐션 가중치가 학습되지 않습니다.
+- 또한 모델이 한 토큰만 보게 되어 여러 토큰의 정보를 섞는 능력이 떨어집니다.
+
+**보충 포인트**
+
+- 이것을 **스케일드 내적 어텐션(scaled dot-product attention)** 이라고 부릅니다.
+- 일부 최신 모델은 QK-Norm(Q, K를 정규화)처럼 다른 방식으로 점수 크기를 안정화하기도 합니다.
+
+**더 읽어보기 (영문):** [Math behind √dₖ Scaling Factor in Attention](https://outcomeschool.com/blog/scaling-dot-product-attention)
+
+</details>
+
+<details>
+<summary><b>Q16. 인과적 마스킹(causal masking)이란 무엇인가요?</b></summary>
+
+**인과적 마스킹** 은 디코더의 셀프 어텐션에서 각 토큰이 **자기 자신과 앞쪽 토큰만** 보도록, 뒤쪽(미래) 토큰과의 어텐션을 막는 것입니다.
+
+**왜 필요한가**
+
+- LLM은 "앞의 토큰들로 다음 토큰을 예측"하도록 학습합니다.
+- 학습 때는 문장 전체를 한 번에 넣어 모든 위치의 예측을 병렬로 계산하는데, 마스크가 없으면 위치 3을 예측할 때 위치 4의 정답을 미리 볼 수 있어 "커닝"이 됩니다.
+- 마스크 덕분에 한 번의 순전파로 T개 위치의 다음 토큰 예측을 동시에 학습할 수 있습니다(teacher forcing).
+
+**구현**
+
+- 어텐션 점수 행렬 `[T, T]`에서 대각선 위쪽(미래 위치)을 `-∞`로 채운 뒤 소프트맥스를 적용합니다. `exp(-∞) = 0`이므로 가중치가 0이 됩니다.
+
+```python
+import torch
+T = 4
+scores = torch.randn(T, T)
+mask = torch.triu(torch.ones(T, T), diagonal=1).bool()  # 위쪽 삼각형 = 미래
+scores = scores.masked_fill(mask, float("-inf"))
+weights = torch.softmax(scores, dim=-1)
+```
+
+```
+      t1  t2  t3  t4
+t1 [  ✓   ✗   ✗   ✗ ]
+t2 [  ✓   ✓   ✗   ✗ ]
+t3 [  ✓   ✓   ✓   ✗ ]
+t4 [  ✓   ✓   ✓   ✓ ]
+```
+
+**관련 개념:** 인코더(BERT)는 마스크 없이 양방향을 모두 보고, 대신 입력 일부 토큰을 가려서 맞히는 방식(MLM)으로 학습합니다.
+
+**더 읽어보기 (영문):** [Causal Masking in Attention](https://outcomeschool.com/blog/causal-masking-in-attention)
+
+</details>
+
+<details>
+<summary><b>Q17. 멀티 헤드 어텐션(multi-head attention)이란 무엇인가요? 왜 여러 개의 어텐션 헤드를 사용하나요?</b></summary>
+
+**멀티 헤드 어텐션** 은 어텐션을 한 번만 크게 하는 대신, 은닉 차원을 h개로 나눠 **h개의 작은 어텐션을 병렬로 수행** 하고 결과를 합치는 방식입니다.
+
+**계산**
+
+1. `d_model = 4096`, 헤드 수 `h = 32`라면 헤드당 차원은 `d_k = 128`입니다.
+2. 각 헤드는 자기만의 `W_q, W_k, W_v`로 Q, K, V를 만들고 어텐션을 계산합니다.
+3. 32개 헤드의 출력(각 128차원)을 이어 붙여 4096차원으로 만들고, `W_o`로 한 번 더 섞습니다.
+
+$$\text{MultiHead}(X) = \text{Concat}(\text{head}_1, \dots, \text{head}_h) W_o$$
+
+**왜 여러 헤드인가**
+
+- **다양한 관계를 동시에 포착:** 한 헤드는 주어-동사 관계, 다른 헤드는 대명사가 가리키는 대상, 또 다른 헤드는 바로 앞 토큰을 보는 식으로 서로 다른 패턴을 학습합니다.
+- **평균화 문제 완화:** 어텐션 하나는 여러 위치를 하나의 가중 평균으로 섞기 때문에, 서로 다른 정보가 뭉개집니다. 여러 헤드면 각자 다른 곳에 집중할 수 있습니다.
+- **비용은 거의 같음:** 전체 차원을 나눠 쓰므로 단일 헤드와 계산량이 비슷합니다.
+
+**관련 발전**
+
+- 추론 시 KV 캐시 메모리를 줄이기 위해 K, V 헤드를 공유하는 **MQA**(모든 Q 헤드가 K, V 한 세트 공유)와 **GQA**(그룹별 공유)가 나왔고, 최신 LLM 대부분이 GQA를 씁니다.
+
+**더 읽어보기 (영문):** [Multi-Head Attention in Transformers](https://outcomeschool.com/blog/multi-head-attention-in-transformers)
+
+</details>
+
+<details>
+<summary><b>Q18. LLM의 피드포워드 네트워크(Feed-Forward Network)란 무엇인가요?</b></summary>
+
+**피드포워드 네트워크(FFN, MLP 블록)** 는 트랜스포머 블록에서 어텐션 다음에 오는 층으로, **각 토큰 위치에 독립적으로** 같은 2~3층 신경망을 적용합니다.
+
+**역할 분담**
+
+- **어텐션:** 토큰 **사이** 의 정보를 섞습니다(토큰 간 통신).
+- **FFN:** 각 토큰의 표현을 **개별적으로** 비선형 변환합니다(토큰 내부 처리).
+
+**구조**
+
+- 기본형: `FFN(x) = W₂ · activation(W₁ · x)`
+  - `W₁`이 `d → 4d`로 확장하고, `W₂`가 `4d → d`로 다시 줄입니다.
+- 최신 LLM은 **SwiGLU** 같은 게이트 구조를 씁니다.
+
+```python
+def swiglu_ffn(x):
+    return W_down(silu(W_gate(x)) * W_up(x))
+```
+
+**왜 중요한가**
+
+- 모델 파라미터의 약 2/3가 FFN에 있습니다.
+- 연구에 따르면 FFN이 "key-value 메모리"처럼 동작해 사실 지식을 저장하는 역할을 한다고 해석됩니다. 예: "에펠탑은 ___에 있다"에서 "파리"를 떠올리는 데 FFN 뉴런이 관여합니다.
+
+**MoE와의 관계:** 전문가 혼합(MoE) 모델은 이 FFN을 여러 개(전문가)로 늘리고, 토큰마다 일부 전문가만 골라 실행해 파라미터 수는 늘리되 계산량은 유지합니다.
+
+**더 읽어보기 (영문):** [Feed-Forward Networks in LLMs](https://outcomeschool.com/blog/feed-forward-networks-in-llms)
+
+</details>
+
+<details>
+<summary><b>Q19. 생성형 AI(Generative AI)란 무엇인가요?</b></summary>
+
+**생성형 AI** 는 학습한 데이터의 분포를 익혀 **새로운 콘텐츠(텍스트, 이미지, 음성, 영상, 코드 등)를 만들어 내는 AI** 입니다.
+
+**판별형 AI와의 차이**
+
+| | 판별형(Discriminative) | 생성형(Generative) |
+|---|---|---|
+| 목적 | 입력을 분류·예측 | 새 데이터를 생성 |
+| 학습 대상 | `P(y∣x)` 경계 | `P(x)` 또는 `P(x∣조건)` 분포 |
+| 예시 | 스팸 분류, 사기 탐지 | 글쓰기, 이미지 생성 |
+
+**주요 모델 계열**
+
+- **자기회귀 모델(LLM):** 토큰을 하나씩 생성 — GPT, Claude, Llama
+- **확산 모델(Diffusion):** 노이즈를 점점 제거해 이미지·영상 생성 — Stable Diffusion, Sora
+- **GAN:** 생성자와 판별자가 경쟁하며 학습 — 과거 이미지 생성의 주류
+- **VAE:** 잠재 공간을 학습해 샘플링
+
+**활용 예:** 챗봇, 코드 생성, 문서 요약, 이미지·디자인 생성, 음성 합성, 합성 데이터 생성.
+
+**과제:** 환각, 저작권, 딥페이크 같은 오남용, 편향, 평가의 어려움, 높은 연산 비용.
+
+**더 읽어보기 (영문):** [What is Generative AI?](https://outcomeschool.com/blog/what-is-generative-ai)
+
+</details>
+
+<details>
+<summary><b>Q20. LLM의 컨텍스트 윈도우(context window)란 무엇이며, 왜 중요한가요?</b></summary>
+
+**컨텍스트 윈도우** 는 LLM이 한 번의 요청에서 처리할 수 있는 **최대 토큰 수** 입니다. 입력(시스템 프롬프트, 대화 기록, 문서)과 출력 토큰을 모두 포함합니다. 모델의 "작업 기억(working memory)"이라고 생각하면 됩니다.
+
+**왜 중요한가**
+
+- **넣을 수 있는 정보의 양:** 긴 문서 분석, 대규모 코드베이스, 긴 대화가 가능한지를 결정합니다.
+- **넘치면:** 오래된 대화가 잘리거나 요청이 실패합니다. 모델은 윈도우 밖의 내용은 전혀 기억하지 못합니다.
+- **비용과 지연 시간:** 토큰이 많을수록 요금이 늘고, 첫 토큰까지의 시간(TTFT)이 길어집니다.
+- **품질:** 윈도우가 크다고 모든 내용을 똑같이 잘 활용하지는 못합니다. 중간에 있는 정보를 놓치는 "lost in the middle" 현상이 있습니다.
+
+**관리 전략**
+
+- 오래된 대화 요약, 슬라이딩 윈도우
+- RAG로 필요한 부분만 검색해 넣기
+- 프롬프트 캐싱으로 반복되는 앞부분 비용 절감
+- 출력 최대 토큰(`max_tokens`)을 고려해 입력 예산 계산
+
+**더 읽어보기 (영문):** [Context Window in LLMs](https://www.linkedin.com/posts/amit-shekhar-iitbhu_the-context-window-is-the-llms-working-memory-activity-7437754426175672320-MH9c), [How does the Context Window work?](https://outcomeschool.com/blog/context-window)
+
+</details>
+
+<details>
+<summary><b>Q21. LLM의 컨텍스트 윈도우는 왜 제한되어 있나요?</b></summary>
+
+컨텍스트 윈도우가 무한하지 않은 이유는 **계산 비용, 메모리, 학습 방식** 세 가지로 정리할 수 있습니다.
+
+**1. 어텐션의 이차(quadratic) 비용**
+
+- 셀프 어텐션은 모든 토큰 쌍을 비교하므로 계산량이 `O(T²)`입니다. 길이를 2배로 늘리면 어텐션 계산은 약 4배가 됩니다.
+- Flash Attention 등으로 메모리 사용은 줄였지만, 연산량 자체는 여전히 길이의 제곱에 비례합니다.
+
+**2. KV 캐시 메모리**
+
+- 추론 시 모든 이전 토큰의 K, V를 층마다 저장해야 합니다. KV 캐시는 길이에 **선형** 으로 늘어나, 긴 컨텍스트에서는 모델 가중치보다 더 큰 GPU 메모리를 차지하기도 합니다.
+- 메모리가 차면 동시에 처리할 수 있는 요청 수(배치)도 줄어듭니다.
+
+**3. 학습 시 본 길이의 한계**
+
+- 모델은 사전 학습 때 주로 특정 길이(예: 4K, 8K)의 시퀀스로 학습합니다. 그보다 긴 위치는 본 적이 없어 위치 인코딩이 일반화되지 않고 성능이 급격히 떨어집니다.
+- 긴 문맥 학습 데이터 자체가 적고, 긴 시퀀스 학습은 비용이 매우 큽니다.
+
+**4. 품질 문제**
+
+- 윈도우를 늘려도 중간 정보를 잘 활용하지 못하는 "lost in the middle" 현상, 관련 없는 정보에 주의가 분산되는 문제가 있습니다.
+
+**늘리는 방법:** RoPE 스케일링(YaRN 등) 후 긴 데이터로 추가 학습, 슬라이딩 윈도우·희소 어텐션, GQA·KV 캐시 압축, 링 어텐션 같은 분산 기법.
+
+**더 읽어보기 (영문):** [Why is the context window limited in LLMs?](https://www.youtube.com/watch?v=CGIhxIaOg3M&lc) (영상)
+
+</details>
+
+<details>
+<summary><b>Q22. LLM에서 온도(temperature)란 무엇이며, 출력에 어떤 영향을 주나요?</b></summary>
+
+**온도** 는 다음 토큰을 샘플링하기 전에 로짓을 나누는 값으로, 확률 분포가 **얼마나 뾰족하거나 평평한지** 를 조절합니다.
+
+$$p_i = \frac{\exp(z_i / T)}{\sum_j \exp(z_j / T)}$$
+
+**효과**
+
+| 온도 | 분포 | 출력 특성 | 적합한 작업 |
+|---|---|---|---|
+| T → 0 | 가장 높은 토큰에 집중 (그리디와 같음) | 결정적, 반복적 | 추출, 분류, 코드, 사실 답변 |
+| T = 1 | 원래 분포 그대로 | 균형 | 일반 대화 |
+| T > 1 | 평평해짐, 낮은 확률 토큰도 자주 선택 | 다양·창의적이지만 엉뚱해질 위험 | 브레인스토밍, 창작 |
+
+**예시:** 로짓이 `[2.0, 1.0, 0.1]`일 때
+- T=1: 확률 ≈ `[0.66, 0.24, 0.10]`
+- T=0.5: ≈ `[0.86, 0.12, 0.02]` (더 확신)
+- T=2: ≈ `[0.50, 0.30, 0.20]` (더 고르게)
+
+**실무 포인트**
+
+- 온도 0이어도 GPU 연산의 비결정성이나 배치 구성 차이 때문에 결과가 완전히 똑같지 않을 수 있습니다.
+- 온도는 보통 top-p나 top-k와 함께 씁니다. 둘 다 크게 바꾸기보다는 하나를 주로 조정하는 것이 일반적입니다.
+- 온도를 높인다고 "더 똑똑해지지" 않습니다. 정확성이 중요한 작업에서는 낮게 둡니다.
+
+**더 읽어보기 (영문):** [How does Temperature control LLM output?](https://outcomeschool.com/blog/how-does-temperature-control-llm-output)
+
+</details>
+
+<details>
+<summary><b>Q23. LLM에서 첫 번째 토큰은 왜 나머지 토큰보다 느리게 생성되나요?</b></summary>
+
+첫 토큰이 나오기 전에 **프롬프트 전체를 처리하는 프리필(prefill) 단계** 가 있기 때문입니다. 이 시간을 **TTFT(Time To First Token)** 라고 합니다.
+
+**두 단계 비교**
+
+| | 프리필 (첫 토큰) | 디코드 (이후 토큰) |
+|---|---|---|
+| 처리하는 토큰 | 입력 프롬프트 전체 (수천~수십만) | 새 토큰 1개씩 |
+| 작업 | 모든 토큰의 어텐션 계산 + KV 캐시 생성 | 캐시된 K, V를 읽고 1토큰 계산 |
+| 병목 | **연산(compute-bound)** | **메모리 대역폭(memory-bound)** |
+| 시간 결정 요인 | 프롬프트 길이 | 모델 크기, 배치 크기 |
+
+**왜 첫 토큰이 특히 느린가**
+
+- 프롬프트가 1만 토큰이면, 첫 토큰을 내기 전에 1만 토큰 × 모든 층의 계산을 끝내야 합니다. 어텐션은 길이의 제곱으로 늘어납니다.
+- 그 이후 토큰은 KV 캐시 덕분에 새 토큰 하나만 계산하면 되므로 빠릅니다.
+- 서빙 환경에서는 대기열에서 기다리는 시간도 TTFT에 포함됩니다.
+
+**TTFT 줄이는 방법**
+
+- **프롬프트 캐싱/프리픽스 캐싱:** 같은 시스템 프롬프트·문서의 KV 캐시를 재사용
+- 프롬프트 길이 줄이기, 불필요한 컨텍스트 제거
+- 청크 프리필(chunked prefill), 프리필-디코드 분리(disaggregation)
+- 더 작은 모델이나 더 빠른 GPU, 텐서 병렬화
+
+**UX 측면:** 스트리밍으로 첫 토큰을 빨리 보여 주는 것이 체감 속도에 가장 중요합니다.
+
+**더 읽어보기 (영문):** [The First-Token Latency Problem in LLMs](https://www.youtube.com/watch?v=XD8DD4cEHu0) (영상)
+
+</details>
+
+<details>
+<summary><b>Q24. Top-p(nucleus) 샘플링과 Top-k 샘플링을 설명하세요. 둘은 어떻게 다른가요?</b></summary>
+
+두 방식 모두 **확률이 낮은 "꼬리" 토큰을 잘라내고** 남은 후보 안에서만 샘플링해, 다양성은 유지하면서 엉뚱한 토큰이 나오는 것을 막습니다.
+
+**Top-k 샘플링**
+
+- 확률이 가장 높은 **k개** 토큰만 남기고, 확률을 다시 정규화해 샘플링합니다.
+- 예: k=3이면 항상 후보가 3개입니다.
+- **문제:** 후보 수가 고정입니다. 모델이 확신할 때(1등 확률 95%)도 3개를 남기고, 애매할 때(상위 50개가 비슷)도 3개만 남깁니다.
+
+**Top-p (nucleus) 샘플링**
+
+- 확률이 높은 순으로 더해 **누적 확률이 p 이상** 이 되는 최소 집합만 남깁니다.
+- 예: p=0.9일 때
+  - 모델이 확신하면 1~2개 토큰만 남고
+  - 불확실하면 수십 개 토큰이 남습니다.
+- 후보 수가 상황에 따라 **자동으로 조절** 되는 것이 장점입니다.
+
+**예시** (확률: A 0.5, B 0.3, C 0.1, D 0.05, E 0.05)
+
+- top-k=2 → {A, B}
+- top-p=0.85 → A+B=0.8 < 0.85 이므로 C까지 → {A, B, C}
+
+```python
+def top_p_filter(probs, p=0.9):
+    sorted_p, idx = probs.sort(descending=True)
+    cum = sorted_p.cumsum(0)
+    keep = cum - sorted_p < p          # 누적이 p를 넘기 전까지 + 넘는 첫 토큰
+    filtered = torch.zeros_like(probs)
+    filtered[idx[keep]] = probs[idx[keep]]
+    return filtered / filtered.sum()
+```
+
+**실무:** 두 방법을 같이 쓰기도 합니다(먼저 top-k로 거르고 top-p 적용). 대부분 API는 top-p를 기본 제공합니다.
+
+**더 읽어보기 (영문):** [How do Top-k and Top-p Sampling work?](https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work)
+
+</details>
+
+<details>
+<summary><b>Q25. 그리디 디코딩(greedy decoding), 빔 서치(beam search), top-k, top-p, 온도 샘플링을 비교하세요. 각각은 언제 실패하나요?</b></summary>
+
+| 방법 | 동작 | 장점 | 실패하는 경우 |
+|---|---|---|---|
+| **그리디** | 매 단계 확률 1위 토큰 선택 | 빠르고 결정적 | 같은 문장을 반복하는 루프에 빠짐. 지금은 최선이지만 전체로는 나쁜 선택을 함 |
+| **빔 서치** | 상위 B개 후보 문장을 유지하며 전체 확률이 높은 것 선택 | 번역·요약처럼 정답이 좁은 작업에 강함 | 개방형 생성에서 무난하고 짧고 지루한 답, 반복. 계산량 B배. 대화형 LLM에서는 거의 안 씀 |
+| **Top-k** | 상위 k개 중 샘플링 | 엉뚱한 토큰 차단 | 분포가 뾰족할 때 k가 크면 엉뚱한 토큰 허용, 평평할 때 k가 작으면 다양성 부족 |
+| **Top-p** | 누적 확률 p까지의 후보 중 샘플링 | 후보 수가 자동 조절 | 분포가 매우 평평하면 후보가 너무 많아 품질 저하. p가 너무 낮으면 그리디처럼 반복 |
+| **온도** | 분포 자체를 날카롭게/평평하게 | 창의성 정도를 간단히 조절 | 너무 높으면 문법·사실이 무너짐, 너무 낮으면 반복적 |
+
+**어떤 것을 언제 쓰나**
+
+- **정확성이 중요(추출, 분류, 코드, JSON):** 온도 0 또는 낮게 + 그리디에 가깝게
+- **일반 대화:** 온도 0.7 안팎 + top-p 0.9 정도
+- **창작, 아이디어:** 온도를 높이고 top-p 유지
+- **번역, 고전적인 seq2seq:** 빔 서치
+
+**추가 기법:** 반복 페널티(repetition/frequency penalty), min-p 샘플링(1등 확률 대비 일정 비율 이상만 허용) 등으로 위 방법의 약점을 보완합니다.
+
+**더 읽어보기 (영문):** [How do Top-k and Top-p Sampling work?](https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work)
+
+</details>
+
+<details>
+<summary><b>Q26. 로짓(logit)이란 무엇이며, 텍스트 생성에 어떻게 사용되나요?</b></summary>
+
+**로짓** 은 모델의 마지막 층이 출력하는 **정규화되지 않은 점수** 입니다. 확률로 바꾸기 전의 날것의 값으로, 범위 제한이 없고 음수일 수도 있습니다.
+
+**LLM에서의 위치**
+
+1. 마지막 은닉 상태 `h [d]`에 LM head 행렬 `W [d, V]`를 곱합니다.
+2. 결과 `z = hW`가 어휘 크기 V(예: 128,000)만큼의 로짓 벡터입니다. 각 값은 "그 토큰이 다음에 올 가능성의 점수"입니다.
+3. 소프트맥스로 확률로 바꿉니다: `p = softmax(z)`.
+
+**텍스트 생성에서의 활용**
+
+- **샘플링 전처리:** 온도로 나누기(`z/T`), top-k/top-p로 걸러내기 등은 모두 로짓 또는 확률 단계에서 이루어집니다.
+- **로짓 조작(logit processing):**
+  - 반복 페널티: 이미 나온 토큰의 로짓을 낮춤
+  - 로짓 바이어스(logit bias): 특정 토큰을 금지(-∞)하거나 선호
+  - 구조화 출력(constrained decoding): JSON 문법상 올 수 없는 토큰의 로짓을 -∞로 막음
+- **신뢰도 추정:** 로그 확률(logprobs)로 모델이 얼마나 확신하는지 보고, 분류 결과의 점수로 쓰거나 환각 탐지 신호로 활용합니다.
+
+**학습에서의 역할:** 교차 엔트로피 손실은 정답 토큰의 로짓이 높아지도록 학습합니다.
+
+**용어 유래:** 통계에서 logit은 로그 오즈(log-odds) `log(p/(1-p))`를 뜻하며, 딥러닝에서는 "소프트맥스 이전 값"이라는 넓은 의미로 씁니다.
+
+**더 읽어보기 (영문):** [Understanding Logits in Machine Learning](https://x.com/amitiitbhu/status/1927927814923207146), [What are Logits in Machine Learning?](https://outcomeschool.com/blog/logits-in-machine-learning)
+
+</details>
+
+<details>
+<summary><b>Q27. LLM의 정지 토큰(stop token)이란 무엇이며, LLM은 생성을 언제 멈춰야 하는지 어떻게 아나요?</b></summary>
+
+**정지 토큰** 은 "여기서 생성을 끝낸다"는 의미로 학습된 특수 토큰입니다. 예: `<|endoftext|>`, `</s>`, `<|eot_id|>`(Llama 3의 턴 종료).
+
+**LLM이 멈추는 법을 배우는 방식**
+
+- 학습 데이터의 각 문서·응답 끝에 정지 토큰을 붙여 둡니다.
+- 모델은 다음 토큰 예측의 일부로 "응답이 충분히 끝났다고 판단되는 지점에서 정지 토큰의 확률을 높이는 것"을 배웁니다.
+- 지시 튜닝 단계의 채팅 템플릿에서는 어시스턴트 턴이 끝날 때마다 턴 종료 토큰이 붙어 있어, 대화형 모델은 답을 마치면 이 토큰을 생성합니다.
+
+**생성이 실제로 멈추는 조건**
+
+1. 모델이 정지 토큰(EOS)을 생성함
+2. 사용자가 지정한 **정지 시퀀스** 문자열이 출력에 나타남
+3. `max_tokens`(최대 생성 길이)에 도달함
+4. 컨텍스트 윈도우가 가득 참
+
+API 응답의 `finish_reason`(예: `stop`, `length`)으로 어떤 이유로 끝났는지 확인할 수 있습니다. `length`로 끝났다면 답이 잘렸다는 뜻이므로 처리해야 합니다.
+
+**흔한 문제**
+
+- 베이스 모델(지시 튜닝 전)은 EOS를 잘 내지 않아 계속 이어 씁니다.
+- 채팅 템플릿을 잘못 적용하면 모델이 멈추지 않거나 사용자 턴까지 지어냅니다.
+
+**더 읽어보기 (영문):** [Stop Tokens in LLMs](https://outcomeschool.com/blog/stop-tokens-in-llms)
+
+</details>
+
+<details>
+<summary><b>Q28. 정지 토큰(stop token)과 정지 시퀀스(stop sequence)의 차이는 무엇인가요?</b></summary>
+
+| | 정지 토큰 (Stop/EOS token) | 정지 시퀀스 (Stop sequence) |
+|---|---|---|
+| 정체 | 어휘에 있는 **특수 토큰 하나** | 사용자가 지정하는 **임의의 문자열** |
+| 누가 정하나 | 모델 학습 시 정해짐 | 추론 시 API 파라미터로 지정 (`stop=["\n\nUser:"]`) |
+| 누가 판단하나 | 모델이 직접 생성해서 끝냄 | 추론 엔진이 출력 텍스트를 감시하다가 일치하면 끊음 |
+| 출력 포함 여부 | 보통 출력에서 제외 | 보통 일치한 문자열은 출력에서 제외 |
+| 용도 | 자연스러운 응답 종료 | 형식 제어, 원하는 지점에서 강제 종료 |
+
+**정지 시퀀스 사용 예**
+
+- 퓨샷 프롬프트에서 모델이 다음 예시 `"Q:"`까지 지어내지 않도록 `stop=["Q:"]` 지정
+- 대화 시뮬레이션에서 모델이 사용자 대사를 만들지 않도록 `stop=["User:"]`
+- 코드 생성에서 함수 하나만 받도록 `stop=["\ndef "]`
+
+**구현상 주의점**
+
+- 정지 시퀀스는 여러 토큰에 걸쳐 나타날 수 있어, 엔진은 생성된 텍스트를 누적해 문자열 비교를 합니다. 스트리밍에서는 일치 여부가 확정될 때까지 일부 토큰을 잠시 보류해야 합니다.
+- 정지 시퀀스는 모델이 "끝났다"고 판단한 것이 아니므로, 답이 의도보다 일찍 잘릴 수 있습니다.
+
+**더 읽어보기 (영문):** [Stop Tokens in LLMs](https://outcomeschool.com/blog/stop-tokens-in-llms)
+
+</details>
+
+<details>
+<summary><b>Q29. 트랜스포머의 스킵 연결(skip connection, 잔차 연결/residual connection)이란 무엇인가요?</b></summary>
+
+**잔차 연결** 은 어떤 층의 입력을 그 층의 출력에 **그대로 더해 주는** 연결입니다. ResNet(2015)에서 처음 널리 쓰였고, 트랜스포머의 모든 어텐션·FFN 서브층에 들어 있습니다.
+
+```python
+x = x + sublayer(x)   # sublayer: 어텐션 또는 FFN
+```
+
+**왜 필요한가**
+
+1. **기울기 소실 방지:** 역전파 때 기울기가 덧셈 경로를 통해 직접 앞 층까지 전달됩니다(미분이 1인 "고속도로"). 수십~100층 이상 쌓아도 학습이 됩니다.
+2. **학습이 쉬워짐:** 각 층은 출력 전체가 아니라 입력에 대한 **변화량(잔차)** 만 학습하면 됩니다. 필요 없는 층은 0에 가까운 출력을 내면 되므로 깊게 쌓아도 성능이 나빠지지 않습니다.
+3. **정보 보존:** 앞 층의 정보가 사라지지 않고 계속 전달됩니다.
+
+**잔차 스트림(residual stream) 관점**
+
+- 해석 가능성 연구에서는 트랜스포머를 "하나의 잔차 스트림에 각 층이 정보를 더하고 읽는 구조"로 봅니다. 어텐션 헤드와 FFN은 이 공유 통로에 정보를 써 넣는 모듈입니다.
+
+**Pre-Norm vs Post-Norm**
+
+- Post-Norm: `x = norm(x + sublayer(x))` (원 논문)
+- Pre-Norm: `x = x + sublayer(norm(x))` (최신 LLM) — 잔차 경로가 정규화를 거치지 않아 깊은 모델에서 학습이 더 안정적입니다.
+
+**더 읽어보기 (영문):** [Skip connections (residual connections) in Transformers](https://www.linkedin.com/posts/amit-shekhar-iitbhu_machinelearning-llm-deeplearning-share-7414239846707392512-pQdQ)
+
+</details>
+
+<details>
+<summary><b>Q30. 오픈소스 LLM과 클로즈드소스 LLM의 차이는 무엇인가요? 어떤 경우에 어느 쪽을 선택하나요?</b></summary>
+
+**정의**
+
+- **클로즈드소스(독점) 모델:** 가중치가 공개되지 않고 API로만 사용합니다. 예: GPT, Claude, Gemini.
+- **오픈 웨이트/오픈소스 모델:** 가중치를 내려받아 직접 실행할 수 있습니다. 예: Llama, Qwen, Mistral, DeepSeek, Gemma. (학습 데이터·코드까지 공개된 "완전한 오픈소스"는 드물어, 정확히는 "오픈 웨이트"라고 부르기도 합니다.)
+
+**비교**
+
+| 기준 | 클로즈드 (API) | 오픈 웨이트 (자체 호스팅) |
+|---|---|---|
+| 성능 | 최상위 성능은 대체로 여기 | 빠르게 따라잡는 중, 작업에 따라 충분 |
+| 초기 비용·운영 | 낮음, 인프라 불필요 | GPU, MLOps 인력 필요 |
+| 대규모 사용 시 비용 | 토큰당 과금이 커질 수 있음 | 트래픽이 많고 일정하면 더 저렴할 수 있음 |
+| 데이터 통제 | 외부 서버로 전송 (계약으로 보호) | 데이터가 내부에 머묾 |
+| 커스터마이징 | 제한적 파인튜닝 | 자유로운 파인튜닝, 양자화, 구조 변경 |
+| 안정성·버전 | 제공사가 모델을 바꾸거나 종료할 수 있음 | 버전 고정 가능 |
+| 지연 시간 | 네트워크 + 제공사 상황에 의존 | 직접 최적화 가능, 온디바이스도 가능 |
+
+**선택 기준**
+
+- **클로즈드가 맞는 경우:** 빠른 프로토타이핑, 최고 수준의 추론 능력이 필요, 트래픽이 적거나 들쭉날쭉, ML 인프라 인력이 없음.
+- **오픈이 맞는 경우:** 규제·보안상 데이터가 밖으로 나가면 안 됨(의료, 금융, 공공), 대량·일정한 트래픽, 도메인 파인튜닝이 핵심, 오프라인·엣지 배포, 공급업체 종속을 피하고 싶음.
+- **실무에서는 혼합:** 어려운 요청은 클로즈드 대형 모델로, 단순하고 대량인 요청은 작은 오픈 모델로 라우팅하는 구성이 흔합니다.
+
+</details>
+
+<details>
+<summary><b>Q31. 인코더 전용(encoder-only), 디코더 전용(decoder-only), 인코더-디코더(encoder-decoder) 트랜스포머 아키텍처의 차이는 무엇인가요?</b></summary>
+
+| | 인코더 전용 | 디코더 전용 | 인코더-디코더 |
+|---|---|---|---|
+| 대표 모델 | BERT, RoBERTa | GPT, Llama, Claude | T5, BART, 원래 트랜스포머 |
+| 어텐션 | 양방향 (모든 토큰을 봄) | 단방향 (인과적 마스크) | 인코더 양방향 + 디코더 단방향 + 크로스 어텐션 |
+| 학습 목표 | 마스크된 토큰 맞히기 (MLM) | 다음 토큰 예측 | 입력을 보고 출력 시퀀스 생성 (span corruption 등) |
+| 강점 | 문장 이해, 분류, 임베딩, 검색 | 자유로운 생성, 범용성 | 입력→출력 변환 (번역, 요약) |
+| 약점 | 텍스트 생성에 부적합 | 같은 크기에서 양방향 이해가 약할 수 있음 | 구조가 복잡, 대화형으로 확장하기 덜 자연스러움 |
+
+**각 구조의 흐름**
+
+- **인코더 전용:** 입력 전체를 한 번에 보고 각 토큰의 문맥 표현을 출력합니다. 분류 헤드를 붙여 감성 분석, 개체명 인식 등에 쓰고, 검색용 임베딩 모델과 리랭커의 기반이 됩니다.
+- **디코더 전용:** 지금까지의 토큰만 보고 다음 토큰을 예측합니다. 입력과 출력을 하나의 시퀀스로 이어 붙여 처리합니다.
+- **인코더-디코더:** 인코더가 입력을 이해하고, 디코더가 크로스 어텐션으로 그 표현을 참조하면서 출력을 생성합니다.
+
+**왜 지금은 디코더 전용이 주류인가**
+
+- 구조가 단순하고 "다음 토큰 예측" 하나로 어떤 작업이든 텍스트 생성 문제로 바꿀 수 있습니다.
+- 규모를 키울수록 성능이 잘 올라가고, KV 캐시로 생성이 효율적입니다.
+- 퓨샷·인컨텍스트 학습 능력이 뛰어납니다.
+
+**더 읽어보기 (영문):** [Encoder vs Decoder in Transformers](https://outcomeschool.com/blog/encoder-vs-decoder-in-transformers)
+
+</details>
+
+<details>
+<summary><b>Q32. KV 캐시란 무엇이며, 추론 속도를 어떻게 높여 주나요?</b></summary>
+
+**KV 캐시** 는 자기회귀 생성 중에 이미 처리한 토큰들의 **Key와 Value 벡터를 층마다 저장해 두고 재사용** 하는 기법입니다.
+
+**캐시가 없으면**
+
+- 토큰 100개를 생성할 때, 매 단계마다 지금까지의 모든 토큰에 대해 K, V를 처음부터 다시 계산합니다.
+- 이전 토큰들의 K, V는 바뀌지 않는데도 반복 계산하므로, 전체 연산량이 길이의 제곱에 비례해 낭비됩니다.
+
+**캐시가 있으면**
+
+1. **프리필:** 프롬프트 전체를 한 번 처리하며 모든 층의 K, V를 캐시에 저장합니다.
+2. **디코드:** 새 토큰 1개에 대해서만 Q, K, V를 계산하고, 새 K, V를 캐시에 추가합니다. 어텐션은 새 Q와 캐시의 모든 K, V로 계산합니다.
+3. 단계당 계산이 "전체 시퀀스"에서 "토큰 1개"로 줄어듭니다.
+
+**왜 K, V만 캐시하나:** 새 토큰을 만들 때 필요한 Q는 새 토큰의 것뿐이고, 과거 토큰의 Q는 다시 쓰이지 않습니다.
+
+**대가: 메모리**
+
+- 크기 ≈ `2(K,V) × 층 수 × KV 헤드 수 × 헤드 차원 × 시퀀스 길이 × 배치 × 바이트 수`
+- 긴 컨텍스트, 큰 배치에서 GPU 메모리의 대부분을 차지해 동시 처리량을 제한합니다.
+
+**메모리 최적화 기법:** GQA/MQA(KV 헤드 수 감소), MLA(KV를 저차원으로 압축), KV 캐시 양자화(FP8, INT4), PagedAttention(메모리 단편화 제거), 프리픽스 캐시 공유, 슬라이딩 윈도우.
+
+**더 읽어보기 (영문):** [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
+
+</details>
+
+<details>
+<summary><b>Q33. 대형 모델을 서빙하는 데 필요한 KV 캐시 메모리를 추정해 보세요. 이것이 배치 크기와 컨텍스트 길이를 어떻게 제약하나요?</b></summary>
+
+**공식**
+
+```
+KV 캐시(바이트) = 2 × L × n_kv_heads × d_head × seq_len × batch × bytes_per_value
+```
+
+- `2`: K와 V
+- `L`: 층 수, `n_kv_heads`: KV 헤드 수(GQA면 Q 헤드보다 적음), `d_head`: 헤드 차원
+
+**예시: Llama 3 70B 급 모델 (공개된 구성 기준: 80층, KV 헤드 8개, 헤드 차원 128, FP16=2바이트)**
+
+- 토큰 1개당: `2 × 80 × 8 × 128 × 2 = 327,680 바이트 ≈ 0.31MB`
+- 시퀀스 8K 토큰 1개: `0.31MB × 8,192 ≈ 2.5GB`
+- 시퀀스 128K 토큰 1개: 약 40GB
+
+**GQA가 없었다면 (KV 헤드 64개):** 8배인 토큰당 약 2.5MB, 128K 시퀀스 하나에 300GB 이상이 필요합니다. GQA가 왜 필수인지 보여 주는 숫자입니다.
+
+**GPU 예산으로 본 제약 (H100 80GB × 4장 = 320GB 가정)**
+
+- FP16 가중치 70B × 2바이트 ≈ 140GB
+- 활성화·여유분 약 20GB를 빼면 KV 캐시에 쓸 수 있는 공간은 약 160GB
+- 8K 컨텍스트면 동시 시퀀스 약 64개, 128K 컨텍스트면 약 4개
+
+**결론: 배치 크기 × 컨텍스트 길이 ≈ 상수**
+
+- 컨텍스트를 늘리면 동시 요청 수(배치)를 줄여야 하고, 처리량과 비용 효율이 떨어집니다.
+- 디코드는 메모리 대역폭 병목이라 배치가 클수록 GPU 효율이 좋아지는데, KV 캐시가 그 배치를 제한합니다.
+
+**대응:** KV 캐시 FP8/INT4 양자화(2~4배 절약), PagedAttention으로 낭비 제거, 프리픽스 공유, 긴 요청과 짧은 요청 분리 서빙, 모델 가중치 양자화로 KV 캐시에 쓸 공간 확보.
+
+**더 읽어보기 (영문):** [KV Cache Compression](https://outcomeschool.com/blog/kv-cache-compression)
+
+</details>
+
+<details>
+<summary><b>Q34. KV 캐시 압축(KV Cache Compression)</b></summary>
+
+**KV 캐시 압축** 은 긴 컨텍스트와 큰 배치에서 GPU 메모리를 가장 많이 차지하는 KV 캐시의 크기를 줄이는 기법들의 총칭입니다.
+
+**1. 구조적 압축 (모델 설계 단계)**
+
+- **MQA / GQA:** 여러 Q 헤드가 K, V 헤드를 공유해 저장량을 수 배 줄입니다.
+- **MLA (Multi-head Latent Attention):** DeepSeek이 사용한 방식으로, K, V를 저차원 잠재 벡터 하나로 압축해 저장하고 필요할 때 복원합니다.
+- **층 간 KV 공유:** 인접한 층이 같은 KV를 사용합니다.
+
+**2. 양자화**
+
+- KV 값을 FP16 대신 FP8, INT4 등으로 저장합니다. 2~4배 절약되며 품질 손실이 비교적 작습니다.
+
+**3. 토큰 선택·제거 (eviction)**
+
+- 모든 과거 토큰이 똑같이 중요하지 않다는 관찰에 기반합니다.
+- **슬라이딩 윈도우:** 최근 N개 토큰만 유지합니다.
+- **어텐션 싱크 + 최근 토큰 유지 (StreamingLLM):** 맨 앞 몇 개 토큰과 최근 토큰만 남깁니다.
+- **중요도 기반 제거 (H2O, SnapKV 등):** 누적 어텐션 점수가 높은 "중요 토큰"만 남깁니다.
+
+**4. 병합·저랭크 근사**
+
+- 비슷한 토큰의 KV를 합치거나, KV 행렬을 저랭크로 근사합니다.
+
+**5. 시스템 수준**
+
+- **PagedAttention:** 압축은 아니지만 메모리 단편화를 없애 실사용 효율을 높입니다.
+- **CPU/SSD 오프로딩:** 자주 안 쓰는 KV를 GPU 밖으로 옮깁니다.
+
+**트레이드오프:** 압축률이 높을수록 긴 문맥 속 특정 정보를 정확히 찾아야 하는 작업("needle in a haystack")에서 품질이 떨어질 수 있으므로, 작업 특성에 맞춰 평가해야 합니다.
+
+**더 읽어보기 (영문):** [KV Cache Compression](https://outcomeschool.com/blog/kv-cache-compression)
+
+</details>
+
+<details>
+<summary><b>Q35. 모델 증류(model distillation)란 무엇이며, LLM에서 어떻게 사용되나요?</b></summary>
+
+**지식 증류** 는 크고 성능 좋은 **교사(teacher) 모델** 의 지식을 작고 빠른 **학생(student) 모델** 에 옮기는 학습 방법입니다.
+
+**고전적인 방식 (Hinton, 2015)**
+
+- 학생이 정답 라벨(hard label)뿐 아니라 교사의 **확률 분포 전체(soft label)** 를 따라 하도록 학습합니다.
+- 교사가 "고양이 0.7, 개 0.2, 자동차 0.01"이라고 하면 "고양이와 개가 비슷하다"는 정보까지 전달됩니다. 이를 "암묵적 지식(dark knowledge)"이라 부릅니다.
+- 손실: `α · CE(정답, 학생) + (1-α) · KL(교사 ∥ 학생)` (온도를 높여 분포를 부드럽게 함)
+
+**LLM에서의 방식**
+
+1. **로짓 증류:** 교사의 토큰별 확률 분포를 학생이 KL 발산으로 따라 합니다. 교사와 학생의 토크나이저가 같아야 하고, 교사 모델에 직접 접근해야 합니다.
+2. **출력(합성 데이터) 증류:** 교사가 만든 답변·추론 과정을 학습 데이터로 삼아 학생을 SFT합니다. API만으로도 가능해 가장 흔합니다. 예: 대형 추론 모델의 사고 과정을 작은 모델에 학습시키는 것.
+3. **온폴리시 증류(on-policy distillation):** 학생이 직접 생성한 시퀀스에 대해 교사가 토큰별로 평가·교정해 줍니다. 학생이 실제로 하는 실수를 고쳐 주므로 효율적입니다.
+
+**장점:** 추론 비용·지연 시간 대폭 감소, 온디바이스 배포 가능, 특정 작업에서는 교사에 가까운 성능.
+
+**한계와 주의점:** 학생은 교사의 능력 상한을 넘기 어렵고, 복잡한 추론은 잘 옮겨지지 않을 수 있습니다. 상용 API 출력을 경쟁 모델 학습에 쓰는 것은 이용 약관상 금지된 경우가 많습니다.
+
+**더 읽어보기 (영문):** [How does Knowledge Distillation work?](https://outcomeschool.com/blog/how-does-knowledge-distillation-work)
+
+</details>
+
+<details>
+<summary><b>Q36. 전문가 혼합(MoE, Mixture of Experts)이란 무엇이며, Mixtral 같은 모델에서 어떻게 동작하나요?</b></summary>
+
+**MoE** 는 트랜스포머의 FFN을 여러 개의 **전문가(expert)** 로 나누고, 각 토큰마다 **라우터(router, 게이트)** 가 일부 전문가만 골라 실행하는 구조입니다. 전체 파라미터는 크지만 토큰당 계산량은 작게 유지합니다.
+
+**동작 과정**
+
+1. 토큰의 은닉 벡터 `x`가 라우터(작은 선형층)를 통과해 전문가별 점수를 얻습니다.
+2. 점수가 높은 **상위 k개** 전문가를 선택합니다(top-k 라우팅).
+3. 선택된 전문가 FFN들만 계산하고, 라우터 점수(소프트맥스 가중치)로 결과를 가중합합니다.
+
+```python
+scores = router(x)                       # [n_experts]
+topk_w, topk_idx = scores.topk(k)
+w = softmax(topk_w)
+y = sum(w[i] * experts[topk_idx[i]](x) for i in range(k))
+```
+
+**Mixtral 8x7B 예시**
+
+- 층마다 전문가 8개, 토큰당 2개 선택(top-2)
+- 총 파라미터 약 47B(어텐션 등은 공유하므로 8×7B=56B보다 작음), 토큰당 활성 파라미터 약 13B
+- 13B 모델 수준의 계산량으로 그보다 훨씬 큰 밀집 모델에 가까운 성능을 냅니다.
+
+**학습상의 과제**
+
+- **부하 불균형:** 라우터가 몇몇 전문가에게만 토큰을 몰아주면 나머지가 학습되지 않습니다. 보조 손실(load balancing loss)이나 바이어스 조정으로 고르게 분배합니다.
+- **용량 제한:** 전문가당 처리할 토큰 수 상한을 넘으면 토큰이 버려질 수 있습니다.
+
+**서빙상의 과제**
+
+- 계산은 적어도 **모든 전문가의 가중치를 메모리에 올려야** 합니다. 메모리 요구량은 총 파라미터 기준입니다.
+- 여러 GPU에 전문가를 나눠 두는 전문가 병렬화(expert parallelism)와 그에 따른 통신이 필요합니다.
+
+**최근 추세:** DeepSeek 계열처럼 작은 전문가를 많이 두고(세분화), 항상 실행되는 공유 전문가(shared expert)를 함께 쓰는 구조가 많아졌습니다.
+
+**더 읽어보기 (영문):** [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)
+
+</details>
+
+<details>
+<summary><b>Q37. 밀집(dense) 모델과 희소(sparse) 모델의 차이는 무엇인가요?</b></summary>
+
+| | 밀집 모델 (Dense) | 희소 모델 (Sparse, 주로 MoE) |
+|---|---|---|
+| 토큰당 사용 파라미터 | **전부** | **일부만** (선택된 전문가) |
+| 예시 | Llama 3 70B, GPT-3 | Mixtral 8x7B, DeepSeek-V3, 다수의 최신 대형 모델 |
+| 연산량 (FLOPs/토큰) | 총 파라미터에 비례 | 활성 파라미터에 비례 → 적음 |
+| 메모리 | 총 파라미터 | 총 파라미터 (전부 올려야 함) |
+| 같은 학습 연산 대비 품질 | 기준 | 대체로 더 높음 |
+| 서빙 복잡도 | 단순 | 전문가 병렬화, 라우팅, 부하 균형 필요 |
+| 학습 안정성 | 안정적 | 라우터 붕괴·부하 불균형 관리 필요 |
+
+**핵심 개념: "총 파라미터" vs "활성 파라미터"**
+
+- 예를 들어 총 600B, 활성 37B인 MoE 모델은 **지식 용량은 600B급**, **토큰당 계산은 37B급** 에 가깝습니다.
+
+**언제 무엇을 고르나**
+
+- **희소(MoE)가 유리:** 대규모 트래픽에서 토큰당 비용을 낮추고 싶을 때, 여러 GPU를 쓸 수 있을 때, 같은 예산으로 더 높은 품질이 필요할 때.
+- **밀집이 유리:** 메모리가 제한된 단일 GPU·온디바이스 환경, 배치가 작아 전문가가 골고루 활용되지 않는 환경, 파인튜닝·운영을 단순하게 하고 싶을 때.
+
+**참고:** "희소"는 어텐션의 희소성(일부 토큰만 보는 sparse attention)이나 가중치 프루닝을 가리킬 때도 쓰이므로, 면접에서는 어떤 의미인지 명확히 하는 것이 좋습니다.
+
+**더 읽어보기 (영문):** [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)
+
+</details>
+
+<details>
+<summary><b>Q38. DeepSeek-V4는 어떻게 동작하나요?</b></summary>
+
+> 이 답변은 원작자의 해설 글에 정리된 공개 정보를 바탕으로 요약했습니다. 세부 수치는 DeepSeek의 공식 기술 보고서로 확인하세요.
+
+**DeepSeek-V4** 는 DeepSeek이 2026년에 공개한 오픈 웨이트 **MoE(전문가 혼합) LLM 계열** 입니다. 가장 큰 특징은 **100만(1M) 토큰 컨텍스트를 기본으로 지원하면서**, 이전 세대보다 긴 문맥 처리 비용을 크게 낮췄다는 점입니다.
+
+**모델 구성 (해설 글 기준)**
+
+- **V4-Pro:** 총 약 1.6T 파라미터, 토큰당 활성 약 49B
+- **V4-Flash:** 총 약 284B 파라미터, 토큰당 활성 약 13B
+
+**핵심 기술**
+
+1. **하이브리드 압축 어텐션:** 긴 문맥에서 모든 토큰을 그대로 보는 대신,
+   - 토큰 몇 개씩 묶어 압축한 뒤 인덱서로 중요한 블록만 골라 보는 **압축 희소 어텐션**,
+   - 훨씬 크게 압축해 전체 흐름을 밀집 방식으로 보는 **고압축 어텐션**,
+   - 가까운 토큰을 정밀하게 보는 **슬라이딩 윈도우** 를 층마다 섞어 씁니다.
+   - 그 결과 1M 토큰에서 토큰당 연산과 KV 캐시가 이전 세대 대비 크게 줄었다고 설명됩니다.
+2. **잔차 경로 확장:** 잔차 스트림을 여러 갈래로 넓히고, 그 섞는 방식을 수학적으로 제약해 깊은 모델의 학습을 안정화하는 기법을 사용합니다.
+3. **학습 효율화:** Muon 옵티마이저, 전문가 가중치의 FP4 양자화 인식 학습, 짧은 길이에서 1M까지 점진적으로 늘리는 학습 스케줄, 멀티 토큰 예측(MTP — 추론 시 추측 디코딩 드래프트로도 활용).
+4. **후속 학습:** 분야별 전문 모델을 SFT와 GRPO 강화학습으로 따로 만든 뒤, 온폴리시 증류로 하나의 모델에 합칩니다.
+5. **추론 모드:** 생각 없이 바로 답하는 모드부터 깊게 추론하는 모드까지 여러 단계를 제공합니다.
+
+**면접 포인트:** 구체 수치보다 "MoE로 계산량을 줄이고, 압축·희소 어텐션으로 긴 문맥의 KV 캐시와 어텐션 비용을 줄였다"는 큰 흐름을 설명할 수 있으면 충분합니다.
+
+**더 읽어보기 (영문):** [DeepSeek-V4 Architecture Explained](https://outcomeschool.com/blog/decoding-deepseek-v4)
+
+</details>
+
+<details>
+<summary><b>Q39. Flash Attention이란 무엇인가요?</b></summary>
+
+**Flash Attention** 은 어텐션의 수학적 결과는 **똑같이 유지하면서**, GPU 메모리 계층을 효율적으로 써서 훨씬 빠르고 메모리를 적게 쓰도록 만든 **IO 인지(IO-aware) 정확 어텐션 알고리즘** 입니다(Tri Dao 외, 2022).
+
+**기존 어텐션의 문제**
+
+- `S = QKᵀ` → `P = softmax(S)` → `O = PV`를 계산하려면 `[T, T]` 크기의 S, P 행렬을 GPU의 느린 메모리(HBM)에 썼다가 다시 읽어야 합니다.
+- 실제 병목은 연산이 아니라 **메모리 읽기·쓰기** 였고, `O(T²)` 메모리 때문에 긴 시퀀스에서는 메모리가 부족했습니다.
+
+**Flash Attention의 아이디어**
+
+1. **타일링(tiling):** Q, K, V를 작은 블록으로 나눠 GPU의 빠른 온칩 메모리(SRAM)에 올리고, 블록 단위로 계산합니다.
+2. **온라인 소프트맥스:** 소프트맥스는 행 전체를 봐야 하는데, 블록을 처리하면서 최댓값과 합계를 갱신하는 방식으로 전체 행렬 없이 정확한 결과를 얻습니다.
+3. **커널 퓨전:** 행렬곱, 마스킹, 소프트맥스, V 곱셈을 한 커널에서 처리해 중간 결과를 HBM에 쓰지 않습니다.
+4. **역전파 재계산:** 큰 어텐션 행렬을 저장하지 않고, 역전파 때 블록 단위로 다시 계산합니다.
+
+**효과**
+
+- 메모리 사용이 `O(T²)` → `O(T)`
+- 실제 속도 2~4배 향상(버전, 하드웨어에 따라 다름)
+- 긴 컨텍스트 학습·추론을 현실적으로 만든 핵심 기술입니다.
+
+**버전:** FlashAttention-2(병렬화 개선), FlashAttention-3(H100의 비동기·FP8 기능 활용). PyTorch의 `scaled_dot_product_attention`도 내부적으로 이런 커널을 사용합니다.
+
+**주의:** 연산량(FLOPs) 자체는 여전히 `O(T²)`입니다. "근사 어텐션"이 아니라는 점이 중요합니다.
+
+**더 읽어보기 (영문):** [Decoding Flash Attention in LLMs](https://outcomeschool.com/blog/decoding-flash-attention)
+
+</details>
+
+<details>
+<summary><b>Q40. 교차 엔트로피 손실(Cross-Entropy Loss)이란 무엇인가요?</b></summary>
+
+**교차 엔트로피 손실** 은 모델이 예측한 확률 분포가 정답 분포와 얼마나 다른지를 측정하는 손실 함수로, 분류와 언어 모델 학습의 표준입니다.
+
+**정의**
+
+$$H(p, q) = -\sum_i p_i \log q_i$$
+
+- `p`: 정답 분포, `q`: 모델 예측 분포
+- 정답이 원-핫(정답 클래스만 1)이면 간단히 **정답 클래스의 음의 로그 확률** 이 됩니다: `loss = -log q_정답`
+
+**직관**
+
+- 정답에 확률 0.9를 주면 `-log 0.9 ≈ 0.105` (작은 손실)
+- 정답에 확률 0.01을 주면 `-log 0.01 ≈ 4.6` (큰 손실)
+- 틀린 답에 확신할수록 손실이 크게 커져, 자신 있게 틀리는 것을 강하게 벌합니다.
+
+**LLM에서의 사용**
+
+- 각 위치에서 "다음 토큰 정답"에 대한 교차 엔트로피를 구하고, 모든 위치의 평균을 손실로 씁니다.
+- **퍼플렉서티(perplexity)** = `exp(평균 교차 엔트로피)`. "모델이 평균적으로 몇 개의 후보 사이에서 헷갈리는가"로 해석할 수 있습니다.
+
+```python
+import torch.nn.functional as F
+# logits: [batch, seq, vocab], targets: [batch, seq]
+loss = F.cross_entropy(logits.view(-1, logits.size(-1)), targets.view(-1))
+```
+
+**왜 이 손실인가**
+
+- 최대 우도 추정(MLE)과 같습니다. 학습 데이터의 확률을 최대화하는 것과 동일합니다.
+- 소프트맥스와 함께 쓰면 기울기가 `q - p`로 매우 간단해져 학습이 안정적입니다.
+
+**관계:** `교차 엔트로피 = 엔트로피(p) + KL(p ∥ q)`. 정답 분포가 고정이면 교차 엔트로피 최소화는 KL 발산 최소화와 같습니다.
+
+**더 읽어보기 (영문):** [Math Behind Cross-Entropy Loss](https://outcomeschool.com/blog/math-behind-cross-entropy-loss)
+
+</details>
+
+<details>
+<summary><b>Q41. KL 발산(KL Divergence)이란 무엇인가요?</b></summary>
+
+**KL 발산(Kullback-Leibler Divergence)** 은 두 확률 분포 P와 Q가 얼마나 다른지를 측정하는 값입니다. "P가 진짜 분포일 때, Q로 근사하면 정보를 얼마나 잃는가"로 해석합니다.
+
+$$D_{KL}(P \parallel Q) = \sum_x P(x) \log \frac{P(x)}{Q(x)}$$
+
+**성질**
+
+- 항상 0 이상이고, 두 분포가 같을 때만 0입니다.
+- **대칭이 아닙니다:** `KL(P∥Q) ≠ KL(Q∥P)`. 그래서 엄밀한 의미의 "거리"는 아닙니다.
+- 교차 엔트로피와의 관계: `H(P, Q) = H(P) + KL(P∥Q)`
+
+**방향에 따른 차이**
+
+- **순방향 KL(P∥Q), mode-covering:** P가 확률을 주는 곳에서 Q가 0이면 무한대 페널티가 붙습니다. Q가 P의 모든 영역을 넓게 덮으려 합니다.
+- **역방향 KL(Q∥P), mode-seeking:** Q가 확률을 주는 곳만 따집니다. Q가 P의 한 봉우리에 집중하려 합니다.
+
+**AI 엔지니어링에서 쓰이는 곳**
+
+- **RLHF/PPO:** 보상만 쫓다가 이상한 출력을 내지 않도록, 학습 중인 모델이 원래 SFT 모델에서 너무 멀어지지 않게 KL 페널티를 줍니다.
+- **DPO:** 손실 함수가 KL 제약이 있는 RL 목표에서 유도됩니다.
+- **지식 증류:** 학생 분포를 교사 분포에 맞추는 손실로 사용합니다(순방향 또는 역방향 선택이 결과에 영향).
+- **VAE:** 잠재 분포를 사전 분포에 가깝게 만드는 정규화 항.
+- **모니터링:** 입력 데이터 분포의 변화(드리프트) 측정.
+
+**더 읽어보기 (영문):** [What is KL Divergence? The Math Explained Step by Step](https://outcomeschool.com/blog/kl-divergence)
+
+</details>
+
+<details>
+<summary><b>Q42. 그룹 쿼리 어텐션(GQA, Grouped-Query Attention)이란 무엇이며, 멀티 헤드 어텐션(MHA)과 어떻게 다른가요?</b></summary>
+
+**GQA** 는 Query 헤드는 여러 개 유지하되, **여러 Query 헤드가 Key·Value 헤드 한 세트를 공유** 하도록 묶는 어텐션입니다. KV 캐시를 줄이기 위해 나왔습니다.
+
+**세 방식 비교 (Q 헤드 32개 기준)**
+
+| 방식 | KV 헤드 수 | KV 캐시 크기 | 품질 |
+|---|---|---|---|
+| **MHA** (Multi-Head) | 32 | 기준 (1×) | 가장 좋음 |
+| **GQA** (Grouped-Query, 그룹 8개) | 8 | 1/4 | MHA에 매우 가까움 |
+| **MQA** (Multi-Query) | 1 | 1/32 | 품질 저하가 생길 수 있음 |
+
+```
+MHA:  Q1 Q2 Q3 Q4      GQA:  Q1 Q2 | Q3 Q4      MQA:  Q1 Q2 Q3 Q4
+      K1 K2 K3 K4            K1    | K2               K1
+      V1 V2 V3 V4            V1    | V2               V1
+```
+
+**왜 중요한가**
+
+- 디코드 단계는 매 토큰마다 KV 캐시 전체를 메모리에서 읽어야 하는 **메모리 대역폭 병목** 입니다.
+- KV 헤드를 줄이면 캐시 크기와 읽는 양이 줄어 **추론이 빨라지고, 더 큰 배치와 더 긴 컨텍스트** 를 처리할 수 있습니다.
+- Q 헤드는 그대로이므로 표현력 손실은 MQA보다 훨씬 작습니다.
+
+**적용**
+
+- Llama 2 70B, Llama 3, Mistral, Qwen 등 대부분의 최신 LLM이 GQA를 씁니다.
+- 기존 MHA 모델의 K, V 헤드를 그룹별로 평균 내서 GQA로 바꾼 뒤 소량 추가 학습(uptraining)하는 방법도 있습니다.
+
+**더 읽어보기 (영문):** [Grouped Query Attention](https://outcomeschool.com/blog/grouped-query-attention)
+
+</details>
+
+<details>
+<summary><b>Q43. 슬라이딩 윈도우 어텐션(Sliding Window Attention)은 어떻게 동작하나요?</b></summary>
+
+**슬라이딩 윈도우 어텐션(SWA)** 은 각 토큰이 시퀀스 전체가 아니라 **바로 앞의 W개 토큰만** 보도록 어텐션 범위를 제한하는 방식입니다.
+
+**동작**
+
+- 윈도우 크기 W=4096이면 위치 10,000의 토큰은 위치 5,905~10,000만 봅니다.
+- 마스크 관점에서는 인과적 마스크에 "너무 먼 과거도 가리기"를 추가한 띠(band) 모양입니다.
+
+**비용**
+
+- 어텐션 계산: `O(T²)` → `O(T × W)` (길이에 선형)
+- KV 캐시: 최근 W개만 유지하면 되므로 **고정 크기** (롤링 버퍼)
+
+**정보가 W보다 멀리 전달되는 원리**
+
+- 층을 쌓으면 수용 영역(receptive field)이 넓어집니다. 1층에서 W만큼, 2층에서는 그 토큰들이 이미 앞의 W를 봤으므로 약 2W 범위의 정보가 전달됩니다.
+- L층이면 이론상 약 `L × W` 거리까지 정보가 흐릅니다(CNN의 수용 영역과 비슷).
+
+**사용 예**
+
+- Mistral 7B가 SWA를 사용했습니다.
+- Gemma 2·3 등은 **로컬(SWA) 층과 글로벌(전체) 어텐션 층을 번갈아** 배치해, 비용을 줄이면서 먼 거리 정보도 직접 볼 수 있게 합니다.
+
+**한계**
+
+- 먼 과거의 특정 정보를 정확히 찾아야 하는 작업(긴 문서 QA, needle-in-a-haystack)에는 약합니다. 그래서 글로벌 층과 혼합하는 하이브리드 방식이 많이 쓰입니다.
+
+**더 읽어보기 (영문):** [How does Sliding Window Attention work?](https://outcomeschool.com/blog/how-does-sliding-window-attention-work)
+
+</details>
+
+<details>
+<summary><b>Q44. 어텐션 싱크(Attention Sink)는 어떻게 동작하나요?</b></summary>
+
+**어텐션 싱크** 는 LLM이 의미와 상관없이 **시퀀스 맨 앞의 몇몇 토큰(특히 첫 토큰)에 어텐션 가중치를 크게 몰아주는 현상** 과, 이를 이용한 기법을 말합니다.
+
+**왜 생기나**
+
+- 소프트맥스는 가중치의 합이 반드시 1이 되어야 합니다.
+- 어떤 헤드가 "지금은 딱히 볼 게 없다"고 판단해도 가중치를 어딘가에 줘야 하므로, 모든 토큰이 볼 수 있는 첫 토큰을 "쓰레기통"처럼 사용하게 됩니다.
+- 첫 토큰의 V 값은 작게 학습되어, 거기에 몰린 가중치는 출력에 거의 영향을 주지 않습니다. 사실상 "아무것도 안 함(no-op)" 역할입니다.
+
+**발견된 문제 (StreamingLLM, 2023)**
+
+- KV 캐시를 줄이려고 슬라이딩 윈도우로 오래된 토큰을 버리면, 첫 토큰도 같이 사라집니다.
+- 그러면 싱크 역할을 하던 곳이 없어져 어텐션 분포가 무너지고, 생성 품질이 급격히 나빠졌습니다.
+
+**해결: 싱크 토큰을 유지하는 스트리밍**
+
+- KV 캐시에서 **처음 몇 개(예: 4개) 토큰 + 최근 W개 토큰** 만 유지합니다.
+- 이렇게 하면 고정된 메모리로 사실상 무한 길이 스트리밍 생성이 안정적으로 가능합니다. (단, 중간 내용을 "기억"하는 것은 아닙니다.)
+
+**모델 설계에 반영**
+
+- 학습 시 전용 싱크 토큰을 두거나, 소프트맥스에 "아무것도 보지 않을" 여지를 주는 학습 가능한 싱크 값(logit)을 추가하는 모델들도 있습니다. 이 경우 첫 토큰에 의존하지 않아도 됩니다.
+
+**더 읽어보기 (영문):** [How do Attention Sinks work?](https://outcomeschool.com/blog/how-do-attention-sinks-work)
+
+</details>
+
+<details>
+<summary><b>Q45. 회전 위치 임베딩(RoPE, Rotary Position Embedding)은 어떻게 동작하며, 왜 학습된 위치 임베딩보다 선호되나요?</b></summary>
+
+**RoPE** 는 위치 정보를 벡터에 더하는 대신, **Query와 Key 벡터를 위치에 비례한 각도만큼 회전** 시켜 위치를 표현하는 방법입니다(RoFormer, 2021).
+
+**동작**
+
+1. 헤드 차원 d의 벡터를 2개씩 짝지어 d/2개의 2차원 평면으로 봅니다.
+2. 위치 m의 토큰은 i번째 평면에서 `m × θ_i`만큼 회전합니다. 주파수는 `θ_i = 10000^(-2i/d)`로 차원마다 다릅니다(낮은 차원은 빠르게, 높은 차원은 느리게 회전).
+3. 어텐션 점수를 계산하기 직전에 Q와 K에만 적용합니다(V에는 적용 안 함).
+
+```python
+def rope(x, pos, theta):        # x: [..., d], 짝수/홀수 차원을 쌍으로
+    x1, x2 = x[..., 0::2], x[..., 1::2]
+    cos, sin = torch.cos(pos * theta), torch.sin(pos * theta)
+    return torch.stack([x1 * cos - x2 * sin, x1 * sin + x2 * cos], -1).flatten(-2)
+```
+
+**핵심 성질: 상대 위치만 남는다**
+
+- 위치 m의 q와 위치 n의 k를 회전시킨 뒤 내적하면, 결과는 **m - n(상대 거리)** 에만 의존합니다.
+- 즉 절대 위치로 계산하지만, 어텐션은 "얼마나 떨어져 있는가"를 자연스럽게 반영합니다.
+
+**학습형 절대 위치 임베딩보다 나은 이유**
+
+- **추가 파라미터 없음:** 수식으로 정해진 회전입니다.
+- **상대 위치 인식:** 언어에서는 절대 위치보다 상대 거리가 중요합니다.
+- **길이 확장 가능:** 학습형은 학습한 최대 길이 이후의 위치 벡터가 아예 없습니다. RoPE는 회전 각도를 조정(Position Interpolation, NTK-aware scaling, YaRN)해 적은 추가 학습으로 컨텍스트를 늘릴 수 있습니다.
+- **거리에 따른 감쇠:** 멀리 떨어진 토큰일수록 내적이 평균적으로 작아지는 경향이 있어 자연스러운 지역성 편향을 줍니다.
+
+**사용:** Llama, Qwen, Mistral, DeepSeek 등 대부분의 최신 오픈 LLM.
+
+**더 읽어보기 (영문):** [Math Behind RoPE (Rotary Position Embedding)](https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding)
+
+</details>
+
+<details>
+<summary><b>Q46. 레이어 정규화(Layer Normalization)를 설명하세요.</b></summary>
+
+**레이어 정규화** 는 **하나의 샘플(토큰) 안에서** 모든 특징 차원의 평균과 분산을 구해 정규화하는 기법입니다.
+
+$$\text{LN}(x) = \gamma \cdot \frac{x - \mu}{\sqrt{\sigma^2 + \epsilon}} + \beta$$
+
+- `μ, σ²`: 해당 토큰 벡터의 d개 값에 대한 평균·분산
+- `γ, β`: 학습 가능한 스케일·이동 파라미터
+
+**배치 정규화(BatchNorm)와의 차이**
+
+| | BatchNorm | LayerNorm |
+|---|---|---|
+| 통계 계산 방향 | 배치 안의 여러 샘플, 같은 특징 | 한 샘플 안의 모든 특징 |
+| 배치 크기 의존 | 있음 (작으면 불안정) | 없음 |
+| 학습/추론 동작 | 다름 (이동 평균 사용) | 같음 |
+| 가변 길이 시퀀스 | 다루기 어려움 | 자연스러움 |
+| 주 사용처 | CNN (이미지) | 트랜스포머, RNN |
+
+**트랜스포머에서 LayerNorm을 쓰는 이유**
+
+- 시퀀스 길이가 제각각이고, 추론 시 배치 크기가 1일 수도 있습니다. 샘플 단위로 계산하는 LayerNorm이 적합합니다.
+- 깊은 층을 거치며 값의 크기가 폭주하거나 줄어드는 것을 막아 학습을 안정시킵니다.
+
+**발전:** 최신 LLM은 평균 빼기를 생략한 **RMSNorm** 을 주로 쓰고, 정규화를 서브층 앞에 두는 **Pre-Norm** 배치를 사용합니다.
+
+**더 읽어보기 (영문):** [Batch Normalization vs Layer Normalization](https://outcomeschool.com/blog/batch-normalization-vs-layer-normalization)
+
+</details>
+
+<details>
+<summary><b>Q47. RMSNorm(Root Mean Square Layer Normalization)을 설명하세요.</b></summary>
+
+**RMSNorm** 은 LayerNorm에서 **평균을 빼는 과정(중심화)과 이동 파라미터 β를 없애고**, 제곱평균제곱근(RMS)으로만 크기를 정규화하는 단순화 버전입니다(2019).
+
+$$\text{RMSNorm}(x) = \gamma \cdot \frac{x}{\sqrt{\frac{1}{d}\sum_i x_i^2 + \epsilon}}$$
+
+```python
+class RMSNorm(torch.nn.Module):
+    def __init__(self, d, eps=1e-6):
+        super().__init__()
+        self.weight = torch.nn.Parameter(torch.ones(d))
+        self.eps = eps
+    def forward(self, x):
+        rms = x.pow(2).mean(-1, keepdim=True).add(self.eps).rsqrt()
+        return x * rms * self.weight
+```
+
+**LayerNorm과의 차이**
+
+| | LayerNorm | RMSNorm |
+|---|---|---|
+| 평균 빼기 | O | X |
+| 분산/RMS로 나누기 | O (분산) | O (RMS) |
+| 학습 파라미터 | γ, β | γ만 |
+| 계산 비용 | 기준 | 약간 적음 |
+
+**왜 쓰나**
+
+- 논문의 핵심 주장은 LayerNorm의 효과가 주로 **크기 재조정(re-scaling)** 에서 오고, 평균 이동(re-centering)은 크게 중요하지 않다는 것입니다.
+- 계산이 단순해 GPU에서 조금 더 빠르고, 대규모 학습에서도 안정적입니다.
+- 정규화는 모든 층에서 반복되므로 작은 절약도 누적되면 의미가 있습니다.
+
+**사용:** Llama, Mistral, Qwen, Gemma 등 대부분의 최신 LLM이 Pre-Norm 위치에 RMSNorm을 사용합니다.
+
+**더 읽어보기 (영문):** [RMSNorm (Root Mean Square Layer Normalization)](https://outcomeschool.com/blog/rmsnorm-root-mean-square-layer-normalization)
+
+</details>
+
+<details>
+<summary><b>Q48. 최신 트랜스포머는 왜 Post-LayerNorm 대신 Pre-LayerNorm(Pre-Norm)을 사용하나요?</b></summary>
+
+**두 배치의 차이**
+
+```python
+# Post-Norm (원래 트랜스포머, BERT)
+x = norm(x + sublayer(x))
+
+# Pre-Norm (GPT-2 이후 대부분의 LLM)
+x = x + sublayer(norm(x))
+```
+
+**Pre-Norm을 쓰는 이유: 학습 안정성**
+
+1. **깨끗한 잔차 경로:** Pre-Norm에서는 입력 x가 정규화를 거치지 않고 출력까지 그대로 더해집니다. 역전파 때 기울기가 이 "고속도로"를 통해 곧바로 앞 층까지 전달됩니다.
+2. **Post-Norm의 문제:** 매 층마다 잔차 합을 정규화하므로 기울기가 정규화 층을 계속 통과합니다. 층이 깊어지면 출력층 근처 기울기가 커지고 앞쪽은 작아져 학습이 불안정합니다. 그래서 학습률 워밍업에 매우 민감하고, 수십 층 이상에서는 발산하기 쉽습니다.
+3. **결과:** Pre-Norm은 워밍업 의존도가 낮고, 큰 학습률과 100층 이상의 깊은 모델에서도 안정적으로 학습됩니다. 대규모 LLM 학습에서 이 안정성이 결정적입니다.
+
+**Pre-Norm의 단점과 보완**
+
+- 잔차 스트림 값의 크기가 층을 지날수록 계속 커질 수 있어, **마지막에 최종 정규화** 를 한 번 더 둡니다.
+- 같은 조건에서 잘 학습된 Post-Norm보다 최종 성능이 약간 낮을 수 있다는 보고도 있어, 두 방식을 섞은 변형(예: 서브층 앞뒤 모두 정규화, DeepNorm)도 연구됩니다.
+
+**더 읽어보기 (영문):** [RMSNorm (Root Mean Square Layer Normalization)](https://outcomeschool.com/blog/rmsnorm-root-mean-square-layer-normalization)
+
+</details>
+
+<details>
+<summary><b>Q49. 스케일링 법칙(scaling laws, Chinchilla)이란 무엇이며, 모델 크기와 학습 데이터 양을 정할 때 어떤 지침이 되나요?</b></summary>
+
+**스케일링 법칙** 은 모델 크기(N), 학습 데이터 양(D), 학습 연산량(C)을 늘릴 때 손실이 **거듭제곱 법칙(power law)** 을 따라 예측 가능하게 줄어든다는 경험적 관찰입니다.
+
+**Kaplan 외 (OpenAI, 2020)**
+
+- 손실은 N, D, C 각각에 대해 거듭제곱 형태로 감소합니다.
+- 고정된 연산 예산이라면 **모델 크기를 더 키우는 쪽** 이 유리하다고 결론 내렸습니다. GPT-3(175B)가 상대적으로 적은 토큰(약 3,000억)으로 학습된 배경입니다.
+
+**Chinchilla (DeepMind, 2022)**
+
+- 학습률 스케줄 등을 더 정교하게 맞춰 다시 실험한 결과, **N과 D를 같은 비율로 늘려야 연산 효율이 최적** 이라고 수정했습니다.
+- 경험 법칙: **파라미터 1개당 약 20개 토큰**. 예: 70B 모델 → 약 1.4조 토큰.
+- Chinchilla(70B, 1.4T 토큰)는 4배 큰 Gopher(280B, 3,000억 토큰)보다 같은 연산으로 더 좋은 성능을 냈습니다.
+
+**학습 연산량 계산:** `C ≈ 6 × N × D` FLOPs (순전파 2 + 역전파 4).
+
+**실무 지침과 그 이후**
+
+- Chinchilla 최적은 "학습 비용" 기준입니다. 실제 서비스에서는 **추론 비용** 이 훨씬 크므로, 작은 모델을 Chinchilla 비율보다 훨씬 많은 데이터로 **과학습(over-training)** 하는 것이 일반적입니다. 예: Llama 3 8B는 15조 토큰 이상으로 학습했습니다(파라미터당 약 2,000토큰).
+- 고품질 데이터가 부족해지면서 데이터 품질, 합성 데이터, 데이터 반복 학습이 중요해졌습니다.
+- 최근에는 사전 학습뿐 아니라 **추론 시간 연산(test-time compute)** 을 늘려 성능을 올리는 스케일링도 주목받습니다.
+
+</details>
+
+<details>
+<summary><b>Q50. LLM이 지시를 계속 무시합니다. 구조화된 출력 형식을 따르게 하려면 어떻게 하나요?</b></summary>
+
+**원인 진단**
+
+- 지시가 길고 모호하거나, 서로 충돌하는 지시가 있음
+- 중요한 형식 요구가 긴 프롬프트 중간에 묻혀 있음
+- 예시가 없거나, 예시와 지시가 서로 다름
+- 모델이 너무 작거나 지시 따르기 학습이 약함
+- 온도가 높아 출력이 흔들림
+
+**해결책 (강한 순서대로)**
+
+1. **API 차원의 구조화 출력 사용**
+   - OpenAI의 Structured Outputs, Anthropic의 도구 스키마, Gemini의 `response_schema` 등 **JSON 스키마를 강제** 하는 기능을 씁니다.
+   - 자체 호스팅이라면 **제약 디코딩(constrained decoding)**: Outlines, XGrammar, llama.cpp의 grammar 등으로 문법상 불가능한 토큰의 로짓을 막습니다. 형식 오류가 원천적으로 사라집니다.
+2. **함수 호출(tool calling)로 우회:** 답을 "도구 인자"로 받도록 설계하면 대부분 모델이 스키마를 잘 지킵니다.
+3. **프롬프트 개선**
+   - 형식 지시를 명확하고 짧게, 시스템 프롬프트와 메시지 **끝부분** 에 둡니다.
+   - 정확한 출력 예시(퓨샷)를 1~3개 줍니다.
+   - 어시스턴트 응답을 `{`로 미리 채워(prefill) 시작합니다(지원하는 API에서).
+   - 온도를 0 또는 낮게 설정합니다.
+4. **검증 + 재시도 루프**
+   - Pydantic 등으로 파싱·검증하고, 실패하면 오류 메시지를 넣어 다시 요청합니다(Instructor 같은 라이브러리).
+5. **파인튜닝:** 대량으로 같은 형식을 써야 하면 작은 모델을 형식에 맞게 파인튜닝합니다.
+
+```python
+from pydantic import BaseModel
+class Ticket(BaseModel):
+    category: str
+    priority: int
+# response = client.parse(model=..., messages=..., response_format=Ticket)
+```
+
+**검증 방법:** 형식 준수율(파싱 성공률)을 지표로 두고 회귀 테스트로 관리합니다.
+
+</details>
+
+<details>
+<summary><b>Q51. LLM 기반 도구가 긴 문서에서 컨텍스트 윈도우 한도에 걸립니다. 어떻게 처리하나요?</b></summary>
+
+**먼저 확인할 것:** 작업이 "문서 전체를 이해해야 하는가(요약, 전체 비교)" 아니면 "일부만 찾으면 되는가(질의응답)"에 따라 해법이 다릅니다.
+
+**전략**
+
+1. **RAG (일부만 필요한 경우)**
+   - 문서를 청크로 나누고 임베딩해 질문과 관련된 청크만 넣습니다. 가장 확장성이 좋습니다.
+2. **Map-Reduce 요약 (전체가 필요한 경우)**
+   - 청크별로 요약(map) → 요약들을 다시 합쳐 요약(reduce). 병렬화가 가능합니다.
+3. **Refine (순차 처리)**
+   - 첫 청크 요약 → 다음 청크를 읽으며 요약을 갱신. 문맥 흐름이 중요할 때 유리하지만 느립니다.
+4. **계층적 처리**
+   - 섹션 → 장 → 문서 순으로 요약 트리를 만들고, 질문에 따라 필요한 수준을 찾아 들어갑니다.
+5. **전처리로 줄이기**
+   - 머리말·꼬리말, 중복, 표 서식, HTML 태그 같은 노이즈를 제거합니다.
+6. **더 긴 컨텍스트 모델 사용**
+   - 가장 간단하지만 비용·지연이 늘고, 중간 정보를 놓칠 수 있습니다. 프롬프트 캐싱을 함께 쓰면 반복 질의 비용을 줄일 수 있습니다.
+7. **에이전트 방식**
+   - 모델이 목차를 보고 필요한 섹션을 도구로 읽어 오게 합니다.
+
+**청킹 시 주의점**
+
+- 문단·섹션 경계를 지켜 자르고, 약간의 겹침(overlap)을 둡니다.
+- 각 청크에 문서 제목·섹션 정보 같은 메타데이터를 붙입니다.
+
+**토큰 예산 관리:** `입력 + 출력 ≤ 컨텍스트 윈도우`이므로 출력 공간을 미리 확보하고, 토크나이저로 실제 토큰 수를 세서 자릅니다.
+
+</details>
+
+<details>
+<summary><b>Q52. LLM이 답을 모를 때 모른다고 인정하지 않습니다. "모르겠습니다"라고 말하게 하려면 어떻게 하나요?</b></summary>
+
+**왜 모른다고 하지 않나**
+
+- 다음 토큰 예측과 "도움이 되는 답"을 보상하는 학습 때문에, 그럴듯한 답을 만드는 쪽으로 편향되어 있습니다.
+- 모델은 자신이 무엇을 아는지 정확히 판단하는 능력(보정, calibration)이 완벽하지 않습니다.
+
+**해결책**
+
+1. **명시적 허용과 기준 제시**
+   - "제공된 문서에 답이 없으면 정확히 '제공된 정보로는 답할 수 없습니다'라고 답하세요."
+   - 모르는 것을 인정하는 예시를 퓨샷으로 포함합니다.
+2. **근거 기반 답변 강제 (RAG)**
+   - 답의 각 주장에 출처 인용을 요구하고, 인용할 수 없는 주장은 쓰지 않게 합니다.
+3. **"답할 수 있는가"를 먼저 판단하게 하기**
+   - 1단계: 컨텍스트에 답이 있는지 yes/no로 판단 → 2단계: 있을 때만 답변 생성.
+   - 별도의 작은 분류 모델이나 LLM 판정자로 검증할 수도 있습니다.
+4. **신뢰도 신호 활용**
+   - 토큰 로그 확률(logprobs)이 낮거나, 같은 질문에 여러 번 샘플링했을 때 답이 서로 다르면(self-consistency) 불확실하다고 보고 "모르겠습니다"로 처리합니다.
+5. **검색 점수 임계값**
+   - RAG에서 검색된 문서의 유사도가 낮으면 아예 답변 생성 대신 거절 응답을 반환합니다.
+6. **파인튜닝**
+   - 답할 수 없는 질문과 "모르겠습니다" 응답 쌍을 학습 데이터에 포함합니다.
+
+**평가:** 답이 없는 질문이 섞인 테스트셋을 만들어 **거절 정확도** 와 **과잉 거절률**(답할 수 있는데 거절한 비율)을 함께 측정합니다. 둘 사이 균형이 중요합니다.
+
+</details>
+
+<details>
+<summary><b>Q53. LLM의 응답이 너무 장황합니다. 응답 길이를 어떻게 조절하나요?</b></summary>
+
+**원인**
+
+- 선호도 학습(RLHF)에서 사람·보상 모델이 길고 자세한 답을 선호하는 편향(length bias)이 있었습니다.
+- 지시가 모호하면 모델은 "자세할수록 도움이 된다"고 가정합니다.
+
+**해결책**
+
+1. **구체적인 길이 지시**
+   - "간결하게" 대신 **"3문장 이내", "불릿 5개 이하", "100단어 이내"** 처럼 측정 가능한 기준을 씁니다.
+   - 서론·맺음말·질문 반복을 하지 말라고 명시합니다("인사말 없이 바로 답하세요").
+2. **출력 형식 지정**
+   - JSON 필드, 표, 정해진 템플릿으로 구조를 고정하면 군더더기가 줄어듭니다.
+3. **퓨샷 예시**
+   - 원하는 길이의 예시 답변을 보여 주는 것이 지시보다 효과적인 경우가 많습니다.
+4. **`max_tokens` 설정**
+   - 비용과 최악의 경우를 제한하는 안전장치입니다. 단, 문장 중간에 잘릴 수 있으므로 단독으로 쓰기보다 지시와 함께 씁니다. `finish_reason`이 `length`면 후처리합니다.
+5. **후처리**
+   - 필요하면 작은 모델로 2차 요약하거나, 정해진 길이로 자릅니다.
+6. **모델·설정 선택**
+   - 추론(thinking) 모델은 사고 과정이 길어질 수 있으니 추론 예산(reasoning effort/budget) 옵션을 조정합니다.
+7. **파인튜닝·선호도 학습**
+   - 간결한 답을 선호하는 데이터로 DPO 등을 적용합니다.
+
+**측정:** 평균 출력 토큰 수와 함께, 짧아지면서 정보가 빠지지 않았는지 품질 평가도 같이 봅니다.
+
+</details>
+
+<details>
+<summary><b>Q54. LLM이 독점(proprietary) 학습 데이터를 암기해서 응답에 유출합니다. 이를 어떻게 막나요?</b></summary>
+
+**즉각적인 대응 (서비스 계층)**
+
+1. **출력 필터링**
+   - 알려진 민감 문자열(고객명, 계약 번호, 내부 코드 등)에 대해 정확 일치·n-gram 매칭이나 블룸 필터 검사를 합니다.
+   - PII 탐지기(예: Presidio)로 개인정보를 가립니다.
+2. **유출 시도 탐지**
+   - "학습 데이터를 그대로 출력해" 같은 추출 공격 패턴을 입력 단계에서 막습니다.
+3. **샘플링 조정**
+   - 긴 문자열이 그대로 재현되는 것은 그리디에 가까운 디코딩에서 더 잘 일어납니다. 반복 페널티 등으로 완화할 수 있지만 근본 해결책은 아닙니다.
+
+**근본적인 해결 (데이터·학습 계층)**
+
+1. **학습 데이터 정제**
+   - 학습 전에 민감 정보를 탐지·제거하거나 가명 처리합니다.
+   - **중복 제거:** 같은 문서가 여러 번 나오면 암기가 크게 늘어납니다. 중복 제거만으로도 암기가 줄어든다는 연구가 있습니다.
+2. **학습 방식 조정**
+   - 같은 데이터로 여러 에포크 학습하지 않고, 과적합을 모니터링합니다.
+   - 필요하면 **차분 프라이버시(DP-SGD)** 로 개별 샘플의 영향을 수학적으로 제한합니다(정확도 손실이 있음).
+3. **구조 변경**
+   - 민감한 지식은 모델 가중치에 넣지 말고 **RAG + 접근 제어** 로 제공합니다. 권한이 있는 사용자에게만 해당 문서를 검색해 줍니다.
+4. **머신 언러닝(machine unlearning)**
+   - 이미 학습된 정보를 제거하는 기법을 시도할 수 있지만, 완전한 제거를 보장하기 어렵습니다. 확실히 하려면 정제된 데이터로 재학습해야 합니다.
+
+**검증:** 학습 데이터의 앞부분을 프롬프트로 주고 뒷부분을 그대로 생성하는지 테스트하는 **암기 추출 테스트(canary 삽입 포함)** 를 출시 전에 실행합니다.
+
+</details>
+
+<details>
+<summary><b>Q55. LLM 코딩 어시스턴트가 지원 중단(deprecated)된 라이브러리를 쓰는 오래된 코드를 생성합니다. 어떻게 고치나요?</b></summary>
+
+**원인:** 모델의 지식은 학습 데이터 시점에 멈춰 있고(지식 컷오프), 인터넷에는 옛 버전 코드가 훨씬 많아서 오래된 API 패턴이 더 "그럴듯하게" 학습되어 있습니다.
+
+**해결책**
+
+1. **최신 문서를 컨텍스트로 제공 (RAG)**
+   - 사용하는 라이브러리의 **현재 버전 공식 문서·변경 이력(changelog)·마이그레이션 가이드** 를 인덱싱해 관련 부분을 프롬프트에 넣습니다.
+   - MCP 문서 서버 같은 도구로 최신 문서를 조회하게 합니다.
+2. **프로젝트 정보 제공**
+   - `requirements.txt`, `package.json`, lock 파일의 버전 정보를 컨텍스트에 포함합니다.
+   - 시스템 프롬프트나 저장소 규칙 파일에 "pandas 2.x 사용, `df.append` 금지"처럼 명시합니다.
+3. **도구 기반 검증 루프 (에이전트)**
+   - 생성한 코드를 실제로 설치된 버전으로 **린트·타입 체크·테스트 실행** 하고, deprecation 경고나 오류를 다시 모델에 넣어 고치게 합니다.
+   - 이 방식이 가장 확실합니다. 모델이 틀려도 실행 환경이 잡아 줍니다.
+4. **후처리 규칙**
+   - 알려진 deprecated API 목록을 정적 분석 규칙(예: Ruff, ESLint 규칙, codemod)으로 잡아 경고·자동 수정합니다.
+5. **모델 선택·파인튜닝**
+   - 지식 컷오프가 더 최근인 모델로 바꾸거나, 사내 최신 코드베이스로 파인튜닝합니다.
+
+**평가:** 주요 라이브러리별로 "최신 API를 써야 하는 과제" 세트를 만들어 deprecated API 사용률을 추적합니다.
+
+</details>
+
+<details>
+<summary><b>Q56. 토크나이저가 중요한 도메인 용어를 의미 없는 서브워드 조각으로 쪼갭니다. 어떻게 고치나요?</b></summary>
+
+**문제 예시:** 의학 용어 `pembrolizumab`, 화학식, 사내 제품 코드, 한국어 전문 용어가 수많은 작은 조각으로 쪼개집니다.
+
+**영향**
+
+- 토큰 수가 늘어 비용·지연이 증가하고 컨텍스트를 낭비합니다.
+- 모델이 의미 단위로 학습하기 어려워, 해당 용어의 이해·생성 품질이 떨어질 수 있습니다.
+- 임베딩 기반 검색에서 정확한 용어 매칭이 약해집니다.
+
+**해결책 (비용이 낮은 순)**
+
+1. **우선 실제 문제인지 확인**
+   - 대형 LLM은 조각난 용어도 문맥으로 잘 처리하는 경우가 많습니다. 실제 성능 저하가 있는지 평가부터 합니다.
+2. **검색 단계 보완**
+   - 임베딩 검색에 **BM25 키워드 검색을 결합(하이브리드 검색)** 해 정확한 용어 매칭을 보완합니다.
+   - 동의어·약어 사전으로 쿼리를 확장합니다.
+3. **프롬프트에 용어집 제공**
+   - 핵심 용어와 정의를 컨텍스트에 넣어 의미를 보강합니다.
+4. **토크나이저 어휘 확장 + 추가 학습**
+   - 도메인 코퍼스에서 자주 나오는 용어를 새 토큰으로 추가합니다.
+   - 새 토큰의 임베딩은 초기 값이 없으므로, 기존 서브워드 임베딩의 평균으로 초기화한 뒤 **도메인 데이터로 지속 사전 학습** 해야 의미가 생깁니다. 비용이 크고 기존 능력에 영향을 줄 수 있어 신중해야 합니다.
+5. **도메인 특화 모델 선택**
+   - 해당 분야 데이터로 토크나이저부터 학습한 모델(의료·코드 특화 모델 등)이나, 한국어 같은 언어는 해당 언어 어휘가 큰 모델을 고릅니다.
+6. **임베딩 모델 파인튜닝**
+   - 검색 품질이 문제라면 도메인 쿼리-문서 쌍으로 임베딩 모델을 대조 학습합니다.
+
+</details>
+
+<details>
+<summary><b>Q57. 긴 시퀀스를 생성하는 동안 트랜스포머의 KV 캐시가 너무 커집니다. 메모리를 어떻게 관리하나요?</b></summary>
+
+**메모리 관리 (서빙 시스템 차원)**
+
+1. **PagedAttention (vLLM)**
+   - KV 캐시를 운영체제의 가상 메모리처럼 고정 크기 **블록(페이지)** 으로 나눠 필요할 때만 할당합니다.
+   - 기존 방식은 최대 길이만큼 연속 메모리를 미리 잡아 두어 60~80%가 낭비되기도 했는데, 이 낭비를 거의 없앱니다.
+   - 같은 프롬프트(시스템 프롬프트, 병렬 샘플링)를 쓰는 요청끼리 블록을 공유(copy-on-write)할 수 있습니다.
+2. **프리픽스 캐싱:** 공통 앞부분의 KV를 여러 요청이 재사용합니다.
+3. **오프로딩:** 당장 쓰지 않는 요청의 KV를 CPU 메모리로 옮겼다가 필요할 때 다시 올립니다.
+4. **스케줄링:** 메모리가 부족하면 일부 요청을 선점(preemption)하고 나중에 재계산합니다.
+
+**KV 크기 자체 줄이기**
+
+- **KV 캐시 양자화:** FP16 → FP8/INT4로 2~4배 절약
+- **GQA/MQA/MLA 모델 선택:** 구조적으로 KV가 작은 모델
+- **슬라이딩 윈도우 + 어텐션 싱크:** 최근 토큰과 첫 몇 토큰만 유지(무한 스트리밍에 적합, 단 오래된 내용은 잊음)
+- **중요도 기반 제거(H2O, SnapKV):** 어텐션을 많이 받은 토큰만 유지
+
+**애플리케이션 차원**
+
+- 출력 최대 길이를 합리적으로 제한합니다.
+- 아주 긴 생성은 단계별로 나누고, 중간 결과를 요약해 새 요청으로 이어 갑니다.
+
+**더 읽어보기 (영문):** [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)
+
+</details>
+
+<details>
+<summary><b>Q58. 셀프 어텐션의 이차(quadratic) 복잡도 때문에 긴 문서에서 트랜스포머가 메모리 부족에 빠집니다. 어떻게 확장하나요?</b></summary>
+
+**문제 분리:** "메모리 부족"의 원인이 (1) 어텐션 점수 행렬 `[T, T]`인지, (2) KV 캐시인지, (3) 활성화 값(학습 시)인지 먼저 구분합니다.
+
+**1. 정확한 어텐션은 유지하고 메모리만 줄이기**
+
+- **Flash Attention:** `[T, T]` 행렬을 메모리에 만들지 않고 블록 단위로 계산해 메모리를 `O(T)`로 줄입니다. 가장 먼저 적용할 기본기입니다.
+- **학습 시:** 그래디언트 체크포인팅(활성화 재계산), 혼합 정밀도.
+
+**2. 어텐션 범위 줄이기 (연산도 줄어듦)**
+
+- **슬라이딩 윈도우 어텐션:** 각 토큰이 최근 W개만 봅니다. `O(T·W)`.
+- **로컬 + 글로벌 하이브리드:** 대부분 층은 로컬, 일부 층만 전체 어텐션.
+- **희소 어텐션(Longformer, BigBird):** 로컬 윈도우 + 일부 전역 토큰 + 랜덤 연결.
+- **선택형 희소 어텐션:** 인덱서로 중요한 블록만 골라 봅니다(최신 장문 모델의 방향).
+
+**3. 다른 구조**
+
+- **선형 어텐션, 상태 공간 모델(Mamba 등):** 길이에 선형인 구조. 어텐션 층과 섞은 하이브리드 모델도 많습니다.
+
+**4. 여러 GPU로 나누기**
+
+- **시퀀스/컨텍스트 병렬화, 링 어텐션(Ring Attention):** 긴 시퀀스를 GPU들에 나눠 두고 K, V 블록을 돌려 가며 계산합니다.
+
+**5. 애플리케이션 수준 회피**
+
+- 정말 전체가 필요한지 다시 봅니다. RAG, 청크별 처리(map-reduce)로 모델에 넣는 길이 자체를 줄이는 것이 가장 저렴한 경우가 많습니다.
+
+**더 읽어보기 (영문):** [How does Sliding Window Attention work?](https://outcomeschool.com/blog/how-does-sliding-window-attention-work), [Decoding Flash Attention in LLMs](https://outcomeschool.com/blog/decoding-flash-attention)
+
+</details>
+
+<details>
+<summary><b>Q59. 증류된 학생(student) 모델이 교사(teacher) 모델은 해냈던 복잡한 추론에 실패합니다. 그 격차를 어떻게 좁히나요?</b></summary>
+
+**원인**
+
+- **용량 차이:** 학생 모델이 너무 작아 복잡한 추론 패턴을 담지 못합니다.
+- **최종 답만 학습:** 교사의 정답만 따라 하면 "어떻게 생각했는지"는 전달되지 않습니다.
+- **분포 차이(exposure bias):** 학생은 교사가 만든 완벽한 경로로만 학습해, 자기가 실수했을 때 회복하는 법을 모릅니다.
+- **데이터 부족:** 어려운 추론 문제가 학습 데이터에 적습니다.
+
+**해결책**
+
+1. **사고 과정 증류(CoT distillation)**
+   - 교사의 단계별 추론 과정까지 학습 데이터로 씁니다. 최종 답보다 훨씬 많은 정보가 전달됩니다.
+2. **데이터 품질과 난이도 조정**
+   - 교사가 같은 문제를 여러 번 풀게 해서 **정답이 검증된 추론만** 골라 씁니다(거부 샘플링).
+   - 학생이 틀리는 어려운 문제를 집중적으로 늘립니다.
+3. **온폴리시 증류**
+   - 학생이 직접 생성한 답변에 대해 교사가 토큰별 분포로 교정합니다. 학생이 실제로 하는 실수를 고칠 수 있습니다.
+4. **로짓 증류 병행**
+   - 같은 토크나이저라면 교사의 확률 분포 전체를 KL로 맞춰 더 풍부한 신호를 줍니다.
+5. **검증 가능한 보상으로 강화학습(RLVR)**
+   - 증류 후 수학·코드처럼 정답 확인이 가능한 문제로 학생을 추가 RL 학습시킵니다.
+6. **중간 크기 교사(teacher assistant)**
+   - 교사와 학생의 크기 차이가 너무 크면, 중간 크기 모델을 거쳐 단계적으로 증류합니다.
+7. **시스템 차원 보완**
+   - 어려운 요청은 감지해 교사 모델로 넘기는 **라우팅**, 학생이 여러 번 생성 후 투표하는 **self-consistency** 등 추론 시간 연산을 늘립니다.
+
+**평가:** 추론 난이도별로 나눈 벤치마크에서 교사 대비 성능 비율을 추적해, 어디서 격차가 생기는지 파악합니다.
+
+</details>
+
+<details>
+<summary><b>Q60. RLHF 정렬 이후 LLM은 더 안전해졌지만 어려운 작업에서 능력을 잃었습니다. 정렬 비용(alignment tax)을 어떻게 관리하나요?</b></summary>
+
+**정렬 비용(alignment tax)** 은 안전성·선호도 정렬 과정에서 수학, 코딩, 추론 같은 원래 능력이 떨어지는 현상입니다.
+
+**원인**
+
+- 보상 모델이 "안전하고 친절해 보이는" 답을 과하게 선호해, 모델이 어려운 문제에서도 모호하게 답하거나 거절합니다(과잉 거절).
+- RL 학습이 사전 학습 분포에서 너무 멀어져 지식이 손상됩니다.
+- 선호도 데이터가 특정 유형(일상 대화)에 치우쳐 있습니다.
+
+**완화 방법**
+
+1. **KL 페널티 조정**
+   - 정책이 기준 모델(SFT)에서 멀어지지 않도록 KL 계수를 적절히 높입니다.
+2. **사전 학습 데이터 혼합 (PPO-ptx)**
+   - InstructGPT처럼 RL 학습 중에 사전 학습 목표(다음 토큰 예측)를 일부 섞어 원래 능력을 유지합니다.
+3. **데이터 균형**
+   - 선호도 데이터에 수학·코드·추론 과제를 포함하고, "유용성"과 "안전성"을 따로 평가하는 보상 모델을 씁니다.
+   - 과잉 거절 예시(안전한데 거절한 사례)를 부정 예시로 넣습니다.
+4. **검증 가능한 보상 병행**
+   - 정답 확인이 가능한 과제는 사람 선호도 대신 정답 여부로 보상합니다(RLVR).
+5. **모델 병합**
+   - 정렬된 모델과 원래 모델의 가중치를 보간하거나 병합해 균형점을 찾습니다.
+6. **안전 기능 분리**
+   - 모든 안전성을 모델 가중치에 넣지 말고, 입력·출력 가드레일 같은 별도 계층으로 일부를 담당하게 합니다.
+7. **조기 종료와 체크포인트 선택**
+   - 학습 중 능력 벤치마크와 안전 벤치마크를 함께 모니터링해 가장 좋은 지점을 고릅니다.
+
+**평가:** 정렬 전후로 능력 벤치마크(수학, 코드, 지식), 안전 벤치마크, 과잉 거절률을 함께 비교해 "얼마를 잃고 얼마를 얻었는지" 수치로 관리합니다.
+
+</details>
+
+<details>
+<summary><b>Q61. RLHF로 학습한 LLM이 진정으로 도움이 되기보다 보상 모델을 속이고(gaming) 있습니다. 보상 해킹(reward hacking)을 어떻게 고치나요?</b></summary>
+
+**보상 해킹** 은 정책 모델이 실제 목표(도움이 되는 답)가 아니라 **보상 모델의 허점** 을 최적화하는 현상입니다. 보상 모델은 사람 선호의 불완전한 근사이기 때문에 생깁니다(굿하트의 법칙: 지표가 목표가 되면 좋은 지표가 아니게 된다).
+
+**흔한 증상**
+
+- 답이 점점 길어짐(보상 모델이 긴 답을 선호)
+- 과도한 아첨·칭찬, 사용자 의견에 무조건 동의(sycophancy)
+- 자신감 있는 어조로 틀린 내용
+- 형식만 화려하고 내용이 빈약함
+- 코드 과제라면 테스트를 통과하도록 테스트 자체를 수정하는 등 꼼수
+
+**해결책**
+
+1. **KL 페널티 강화:** 기준 모델에서 너무 멀어지면 보상 모델이 믿을 수 없는 영역에 들어갑니다. KL 계수를 높여 막습니다.
+2. **보상 모델 개선**
+   - 해킹된 출력 사례를 모아 "나쁜 답"으로 라벨링하고 보상 모델을 재학습합니다(반복적 갱신).
+   - 여러 보상 모델의 앙상블이나 보수적 추정(최솟값)을 사용합니다.
+   - 길이 보정: 보상에서 길이 효과를 빼거나, 길이가 같은 쌍으로 학습합니다.
+3. **조기 종료:** 보상 점수는 계속 오르는데 사람 평가나 별도 벤치마크 점수가 떨어지기 시작하면 학습을 멈춥니다.
+4. **보상 구성 다양화**
+   - 정답 검증이 가능한 과제는 규칙 기반 보상(RLVR)을 씁니다.
+   - 사실성 검사, 형식 검사 같은 보조 보상을 추가합니다.
+5. **사람 검토 루프:** 정기적으로 고보상 샘플을 사람이 직접 읽어 이상 패턴을 찾습니다.
+6. **DPO 등 오프라인 방식 고려:** 명시적 보상 모델을 최적화하지 않으므로 이런 유형의 해킹이 덜하지만, 데이터 편향은 그대로 반영된다는 점을 유의합니다.
+
+**더 읽어보기 (영문):** [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)
+
+</details>
+
+<details>
+<summary><b>Q62. 챗봇이 대화 10턴이 지나면 맥락을 잃습니다. 긴 대화의 맥락을 어떻게 유지하나요?</b></summary>
+
+**원인 진단**
+
+- 대화 기록을 고정된 개수(예: 최근 10개)만 넣도록 구현됨
+- 컨텍스트 윈도우를 넘어 앞부분이 잘림
+- 기록은 넣었지만 너무 길어 모델이 앞부분을 잘 활용하지 못함
+
+**해결책: 메모리 계층 설계**
+
+1. **단기 메모리 (최근 대화 원문)**
+   - 최근 N턴은 원문 그대로 넣습니다.
+2. **요약 메모리**
+   - 오래된 턴은 LLM으로 요약해 "대화 요약"으로 유지합니다. 새 턴이 쌓이면 요약을 점진적으로 갱신합니다.
+3. **구조화 메모리 (핵심 사실 추출)**
+   - 사용자 이름, 선호, 결정 사항, 진행 중인 작업 같은 핵심 정보를 키-값이나 JSON으로 따로 저장해 매번 프롬프트에 넣습니다.
+4. **검색 메모리 (장기)**
+   - 과거 대화를 임베딩해 벡터 DB에 저장하고, 현재 질문과 관련된 과거 턴만 검색해 넣습니다.
+
+```
+[시스템 프롬프트]
+[사용자 프로필/핵심 사실]
+[이전 대화 요약]
+[검색된 관련 과거 대화]
+[최근 5턴 원문]
+[현재 메시지]
+```
+
+**운영 팁**
+
+- 토큰 예산을 정해 각 메모리 영역에 배분합니다.
+- 프롬프트 캐싱으로 앞부분(시스템 프롬프트, 요약)의 비용을 줄입니다.
+- 요약 과정에서 중요한 세부 사항이 빠지지 않는지 평가합니다(예: 10턴 전 사용자가 말한 숫자를 기억하는지 테스트).
+
+**더 읽어보기 (영문):** [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
+
+</details>
+
+<details>
+<summary><b>Q63. 사용자가 대화 도중 주제를 바꾸면 챗봇이 실패합니다. 주제 전환을 어떻게 처리하나요?</b></summary>
+
+**실패 유형**
+
+- 새 질문을 이전 주제의 맥락으로 잘못 해석함 (예: 환불 이야기 중 "배송은요?"를 환불 건의 배송으로 오해)
+- 이전 주제의 검색 결과·상태가 남아 엉뚱한 답을 함
+- 반대로, 주제가 그대로인데 새 주제로 오해해 맥락을 버림
+
+**해결책**
+
+1. **주제 전환 감지**
+   - 현재 메시지와 최근 대화의 임베딩 유사도가 급격히 떨어지면 전환 후보로 봅니다.
+   - 또는 LLM 분류기에 "이 메시지는 이전 주제의 연속인가, 새 주제인가?"를 판단하게 합니다.
+   - 의도(intent) 분류를 매 턴 수행해 의도가 바뀌면 전환으로 처리합니다.
+2. **질문 재작성(query rewriting)**
+   - "그건 얼마예요?" 같은 문장을 대화 맥락을 반영한 독립 질문으로 바꾼 뒤 검색·처리합니다. 전환이면 이전 맥락을 섞지 않습니다.
+3. **상태 관리**
+   - 대화 상태를 주제(스레드)별로 나눠 저장합니다. 새 주제가 시작되면 새 상태를 만들고, 이전 주제로 돌아오면 해당 상태를 다시 불러옵니다.
+   - 검색 컨텍스트는 현재 주제 기준으로 새로 구성합니다.
+4. **애매하면 확인 질문**
+   - "앞서 말씀하신 주문 건의 배송을 말씀하시는 건가요, 아니면 다른 주문인가요?"
+5. **프롬프트 지시**
+   - "사용자가 새 주제를 시작하면 이전 대화 내용을 전제하지 말 것"을 명시합니다.
+
+**평가:** 주제 전환이 섞인 멀티턴 테스트 시나리오를 만들어 전환 감지 정확도와 응답 품질을 측정합니다.
+
+</details>
+
+<details>
+<summary><b>Q64. QA 시스템이 컨텍스트에 답이 없는데도 항상 답을 생성합니다. 답할 수 없는 질문을 어떻게 감지하나요?</b></summary>
+
+**감지 방법 (여러 신호를 조합)**
+
+1. **검색 단계 신호**
+   - 검색된 문서의 유사도·리랭커 점수가 임계값보다 낮으면 "관련 문서 없음"으로 판단합니다. 가장 싸고 효과적인 1차 필터입니다.
+2. **답변 가능성 분류 (2단계 생성)**
+   - 먼저 "이 컨텍스트로 질문에 답할 수 있는가? yes/no + 근거 문장"을 판단하게 하고, yes일 때만 답을 생성합니다.
+   - 작은 모델이나 NLI 모델(자연어 추론)로 "컨텍스트가 답을 함의하는가"를 검사할 수도 있습니다.
+3. **근거 인용 강제와 검증**
+   - 답변의 각 문장에 출처 문장 인용을 요구하고, 인용 문장이 실제로 그 주장을 뒷받침하는지 자동 검증합니다. 뒷받침되지 않으면 답을 버립니다.
+4. **모델 불확실성**
+   - 같은 질문을 여러 번 샘플링해 답이 일관되지 않으면 불확실로 봅니다.
+   - 토큰 로그 확률이 낮은 경우도 신호가 됩니다.
+5. **명시적 지시와 예시**
+   - "컨텍스트에 없으면 '문서에서 찾을 수 없습니다'라고만 답하라"는 지시와, 답이 없는 경우의 퓨샷 예시를 포함합니다.
+
+**학습 기반 접근**
+
+- SQuAD 2.0처럼 답할 수 없는 질문이 포함된 데이터로 파인튜닝하면 거절 능력이 좋아집니다.
+
+**평가 지표**
+
+- 답이 있는 질문과 없는 질문을 섞은 테스트셋에서
+  - 답할 수 없는 질문을 올바로 거절한 비율(재현율)
+  - 답할 수 있는데 거절한 비율(과잉 거절)
+- 두 값을 함께 보며 임계값을 조정합니다.
+
+</details>
+
+<details>
+<summary><b>Q65. 요약 시스템이 원문 기사에 없는 사실을 지어냈습니다(환각). 어떻게 고치나요?</b></summary>
+
+**요약 환각의 유형**
+
+- **내재적(intrinsic):** 원문 내용을 잘못 조합 (A가 한 말을 B가 했다고 씀, 숫자 바꿈)
+- **외재적(extrinsic):** 원문에 없는 정보 추가 (모델의 사전 지식으로 채움)
+
+**해결책**
+
+1. **프롬프트 개선**
+   - "원문에 명시된 내용만 사용하고, 추측이나 배경지식을 추가하지 말 것"을 지시합니다.
+   - 숫자·이름·날짜는 원문 그대로 옮기라고 명시합니다.
+   - 요약 각 문장에 원문 근거 문장 번호를 달게 합니다.
+2. **추출 후 요약 (extract-then-abstract)**
+   - 먼저 핵심 문장을 원문에서 그대로 뽑고, 그것만으로 요약을 작성하게 합니다.
+3. **생성 설정**
+   - 온도를 낮춥니다.
+   - 긴 문서는 청크로 나눠 요약해, 모델이 원문을 놓치고 지어내는 일을 줄입니다.
+4. **사후 검증 (가장 효과적)**
+   - 요약을 문장 단위로 나누고 각 문장이 원문에 의해 뒷받침되는지 **NLI 모델이나 LLM 판정자** 로 검사합니다.
+   - 숫자·고유명사를 원문에서 찾을 수 있는지 규칙 기반으로 대조합니다.
+   - 실패한 문장은 삭제하거나 재생성합니다.
+5. **모델 선택·파인튜닝**
+   - 사실성 평가가 좋은 모델을 고르고, 충실한 요약 데이터로 파인튜닝합니다.
+
+**평가 지표:** 사실 일관성(faithfulness) 점수, QAG 방식(요약에서 질문을 만들어 원문으로 답해 보기), 사람 검수 샘플링.
+
+</details>
+
+<details>
+<summary><b>Q66. 텍스트 생성 결과가 긴 출력에서 같은 구절을 반복합니다. 반복을 어떻게 고치나요?</b></summary>
+
+**원인**
+
+- **그리디/빔 서치·낮은 온도:** 한 번 반복이 시작되면 그 패턴의 확률이 점점 높아지는 자기 강화 루프에 빠집니다.
+- **작은 모델이나 베이스 모델:** 지시 튜닝이 약할수록 반복이 잦습니다.
+- **정지 조건 부재:** 끝낼 시점을 몰라 같은 내용을 되풀이합니다.
+- **양자화 손상·잘못된 채팅 템플릿** 도 원인이 될 수 있습니다.
+
+**해결책**
+
+1. **샘플링 조정**
+   - 온도를 조금 올리고 top-p 샘플링을 사용합니다.
+2. **반복 페널티**
+   - **repetition penalty:** 이미 나온 토큰의 로짓을 일정 비율로 낮춤
+   - **frequency / presence penalty:** 등장 횟수나 등장 여부에 비례해 페널티
+   - **no_repeat_ngram_size:** 같은 n-gram이 다시 나오지 못하게 막음 (번역·요약에서 유용하지만 고유명사 반복도 막을 수 있어 주의)
+3. **새로운 디코딩 기법**
+   - contrastive search, min-p 샘플링 등 반복을 줄이도록 설계된 방법을 씁니다.
+4. **프롬프트와 구조**
+   - 출력 구조(섹션, 개수)를 명확히 지정하고, 길이 한도를 줍니다.
+   - 아주 긴 생성은 섹션별로 나눠 생성합니다.
+5. **정지 조건 확인**
+   - 올바른 채팅 템플릿과 EOS 토큰이 설정되어 있는지 확인합니다.
+6. **모델 차원**
+   - 더 큰 모델 또는 지시 튜닝이 잘된 모델로 교체하고, 반복 데이터를 제거한 데이터로 파인튜닝합니다.
+
+**검증:** n-gram 반복률(distinct-n), 반복으로 인한 조기 `length` 종료 비율을 모니터링합니다.
+
+</details>
+
+<details>
+<summary><b>Q67. 트랜스포머는 텍스트를 다루는데, 이미지도 이해할 수 있나요?</b></summary>
+
+네. 트랜스포머는 "토큰 시퀀스"면 무엇이든 처리할 수 있고, 이미지를 토큰 시퀀스로 바꾸면 됩니다. 이것이 **비전 트랜스포머(ViT, 2020)** 의 아이디어입니다.
+
+**ViT의 동작**
+
+1. **패치 분할:** 224×224 이미지를 16×16 크기 패치로 자르면 14×14 = 196개 패치가 됩니다.
+2. **패치 임베딩:** 각 패치(16×16×3 픽셀)를 펼쳐 선형층으로 d차원 벡터로 변환합니다. 이것이 "이미지 토큰"입니다.
+3. **위치 임베딩:** 패치의 위치 정보를 더합니다.
+4. **[CLS] 토큰:** 이미지 전체를 대표할 특수 토큰을 맨 앞에 추가합니다.
+5. **트랜스포머 인코더:** 셀프 어텐션으로 패치들끼리 관계를 학습합니다.
+6. **분류 헤드:** [CLS] 출력으로 이미지 클래스를 예측합니다.
+
+**CNN과 비교**
+
+- CNN은 "가까운 픽셀이 관련 있다"는 지역성 가정이 구조에 내장되어 적은 데이터에도 잘 학습됩니다.
+- ViT는 그런 가정이 적어 **대규모 데이터로 학습해야** CNN을 능가하지만, 대신 처음부터 이미지 전체의 관계를 볼 수 있고 규모를 키울수록 성능이 잘 오릅니다.
+
+**LLM과의 결합 (멀티모달 LLM)**
+
+- ViT 같은 비전 인코더가 이미지를 벡터 시퀀스로 바꾸고, 프로젝터가 이를 LLM의 토큰 임베딩 공간으로 맞춥니다. LLM은 이미지 토큰과 텍스트 토큰을 하나의 시퀀스로 처리해 이미지에 대해 대화할 수 있습니다(LLaVA, GPT-4o, Claude 등의 방식).
+
+**더 읽어보기 (영문):** [Decoding Vision Transformer (ViT)](https://outcomeschool.com/blog/decoding-vision-transformer-vit)
+
+</details>
+
+<details>
+<summary><b>Q68. 소형 언어 모델(SLM, Small Language Models)</b></summary>
+
+**SLM** 은 대략 수억~수십억(보통 10B 이하) 파라미터 규모의 언어 모델로, 노트북·휴대폰·단일 GPU에서 실행할 수 있도록 만든 모델입니다. 예: Phi 계열, Gemma 2B~9B, Llama 3.2 1B/3B, Qwen 소형 모델, SmolLM.
+
+**작은데도 쓸 만한 이유**
+
+- **고품질 데이터:** 교과서 수준의 정제 데이터와 합성 데이터로 학습해 크기 대비 성능을 높였습니다.
+- **증류:** 대형 모델의 출력이나 확률 분포로 학습합니다.
+- **과학습:** 파라미터 대비 훨씬 많은 토큰으로 오래 학습합니다.
+
+**장점**
+
+- 낮은 추론 비용과 빠른 응답
+- 온디바이스 실행 → 개인정보 보호, 오프라인 동작
+- 파인튜닝이 쉽고 저렴해 특정 작업에 특화하기 좋음
+
+**한계**
+
+- 지식 양이 적어 사실 질문에서 환각이 더 잦음
+- 복잡한 다단계 추론, 긴 컨텍스트 처리에 약함
+- 범용성은 대형 모델보다 떨어짐
+
+**활용 패턴**
+
+- 분류, 추출, 라우팅, 요약 같은 좁고 명확한 작업
+- 모바일 키보드 추천, 기기 내 비서
+- 대형 모델 앞단의 라우터·필터, 에이전트의 하위 작업 처리
+- RAG와 결합해 지식 부족을 보완
+
+**더 읽어보기 (영문):** [Small Language Models (SLMs)](https://outcomeschool.com/blog/small-language-models-slms)
+
+</details>
+
+<details>
+<summary><b>Q69. 대규모 추론 모델(LRM, Large Reasoning Models)</b></summary>
+
+**LRM(추론 모델)** 은 답을 내기 전에 **긴 사고 과정(chain of thought)을 먼저 생성** 하도록 학습된 LLM입니다. OpenAI o1/o3 계열, DeepSeek-R1, Claude의 확장 사고(extended thinking) 모드 등이 해당합니다.
+
+**일반 LLM과의 차이**
+
+| | 일반 LLM | 추론 모델 (LRM) |
+|---|---|---|
+| 답변 방식 | 바로 답 생성 | 내부 추론(계획, 시도, 검증, 수정) 후 답 |
+| 강점 | 빠른 대화, 글쓰기 | 수학, 코딩, 과학, 복잡한 계획 |
+| 비용·지연 | 낮음 | 사고 토큰만큼 높음 |
+| 스케일링 축 | 학습 연산 | **추론 시간 연산(test-time compute)** 도 늘릴수록 성능 향상 |
+
+**어떻게 학습하나**
+
+- 정답을 자동으로 검증할 수 있는 문제(수학 답, 코드 테스트)에 대해 **강화학습(RLVR, GRPO 등)** 을 대규모로 적용합니다.
+- 모델은 정답률을 높이는 과정에서 스스로 단계 나누기, 검산, 다른 방법 시도, 실수 되돌리기 같은 행동을 익힙니다.
+- 이렇게 학습한 큰 모델의 추론 과정을 작은 모델에 증류하기도 합니다.
+
+**실무 포인트**
+
+- 모든 요청에 쓰기에는 비싸고 느립니다. 어려운 요청만 추론 모델로 보내는 라우팅이 효과적입니다.
+- "생각 예산(reasoning effort/budget)"으로 품질과 비용을 조절합니다.
+- 간단한 질문에 과하게 생각하는 문제(overthinking)가 있습니다.
+- 복잡한 단계별 지시보다 목표와 제약을 명확히 주는 프롬프트가 더 잘 맞는 경우가 많습니다.
+
+**더 읽어보기 (영문):** [Large Reasoning Models (LRMs)](https://outcomeschool.com/blog/large-reasoning-models)
+
+</details>
+
+<details>
+<summary><b>Q70. Jev 모델과 System One 모델</b></summary>
+
+> 이 답변은 원작자의 해설 글에 소개된 내용을 바탕으로 요약했습니다. 비교적 새로운 개념이라 제조사 자료로 최신 정보를 확인하세요.
+
+**배경: 시스템 1과 시스템 2**
+
+- 심리학자 대니얼 카너먼은 인간의 사고를 **빠르고 직관적인 시스템 1** 과 **느리고 논리적인 시스템 2** 로 나눴습니다.
+- 토큰을 하나씩 생성하며 단계적으로 추론하는 LLM과 추론 모델은 "시스템 2"에 가깝다고 볼 수 있습니다.
+
+**System One 모델이란**
+
+- 텍스트를 생성하는 대신, **상황(state)과 질문을 받아 미리 정해진 선택지 중 하나를 확률과 함께 바로 반환하는 의사 결정 전용 모델** 이라는 개념입니다.
+- 출력 형식 예: 선택지 중 하나(Choice), 범위 안의 점수(Score), 예/아니오(Yes/No).
+
+**Jev**
+
+- TypeSafe AI라는 회사가 2026년에 발표한 "최초의 System One 모델"로 소개된 모델입니다.
+- 해설 글에 따르면 여러 질문을 토큰 단위 생성 없이 한 번에 병렬로 답해, 일반 LLM보다 훨씬 빠르고 저렴하다고 주장합니다.
+- 정해진 형식으로만 답하므로 "형식 오류"나 엉뚱한 텍스트가 나올 수 없고, 확률 값이 실제 정답률과 맞도록(보정, calibration) 학습했다고 설명합니다. 다만 틀린 답 자체가 나오지 않는 것은 아닙니다.
+- 설명·글쓰기는 하지 못하고, 복잡한 다단계 추론에도 적합하지 않습니다.
+
+**활용 아이디어**
+
+- 라우팅, 분류, 승인/거절, 우선순위 점수처럼 **빠른 결정** 은 System One 모델에 맡기고, **글쓰기와 깊은 추론** 은 LLM에 맡기는 조합입니다.
+
+**면접 포인트:** 특정 제품보다 "모든 결정에 생성형 LLM을 쓸 필요는 없다. 구조화된 빠른 결정에는 분류형·보정된 모델이 더 적합할 수 있다"는 설계 관점으로 답하면 좋습니다.
+
+**더 읽어보기 (영문):** [Jev and System One Models Explained](https://outcomeschool.com/blog/jev-and-system-one-models-explained)
+
+</details>
+
+<details>
+<summary><b>Q71. 자기회귀 모델(Autoregressive Model)이란 무엇인가요?</b></summary>
+
+**자기회귀 모델** 은 시퀀스의 각 요소를 **그 이전 요소들을 조건으로 하여 하나씩 순서대로 예측·생성** 하는 모델입니다.
+
+**확률 분해**
+
+$$P(x_1, x_2, \dots, x_T) = \prod_{t=1}^{T} P(x_t \mid x_1, \dots, x_{t-1})$$
+
+전체 문장의 확률을 "다음 토큰 확률"들의 곱으로 나눠 학습하고 생성합니다.
+
+**LLM에서의 의미**
+
+- GPT, Llama, Claude 등 디코더 전용 LLM은 모두 자기회귀 모델입니다.
+- **학습:** 문장 전체를 넣고 인과적 마스크를 써서 모든 위치의 다음 토큰 예측을 병렬로 학습합니다.
+- **생성:** 토큰을 하나 만들고, 그것을 입력에 붙여 다음 토큰을 만드는 과정을 반복합니다. 생성은 순차적일 수밖에 없습니다.
+
+**장점**
+
+- 확률 모델이 명확하고 학습이 간단합니다(교차 엔트로피).
+- 어떤 길이의 시퀀스도 자연스럽게 생성합니다.
+
+**단점**
+
+- **생성 속도:** 토큰을 하나씩 만들어야 해서 병렬화가 어렵습니다(추측 디코딩, MTP 등으로 보완).
+- **오류 누적:** 앞에서 잘못 생성한 토큰을 되돌릴 수 없습니다.
+- **단방향:** 뒤의 내용을 미리 보고 앞을 수정할 수 없습니다.
+
+**다른 영역:** 시계열의 AR 모델, PixelCNN 같은 이미지 생성 모델, 오디오 생성(WaveNet)도 같은 원리입니다. 반대 개념으로는 여러 토큰을 동시에 생성하는 비자기회귀 모델, 확산 언어 모델 등이 있습니다.
+
+**더 읽어보기 (영문):** [Autoregressive Models](https://outcomeschool.com/blog/autoregressive-models)
+
+</details>
+
+<details>
+<summary><b>Q72. 자기회귀 언어 모델링과 마스크 언어 모델링(masked language modeling)의 차이를 설명하세요.</b></summary>
+
+| | 자기회귀 언어 모델링 (CLM) | 마스크 언어 모델링 (MLM) |
+|---|---|---|
+| 대표 모델 | GPT, Llama | BERT, RoBERTa |
+| 학습 과제 | 앞 토큰들로 **다음 토큰** 예측 | 입력의 일부(약 15%)를 가리고 **가려진 토큰** 맞히기 |
+| 볼 수 있는 문맥 | 왼쪽(과거)만 | **양쪽** 모두 |
+| 어텐션 | 인과적 마스크 | 양방향 |
+| 학습 신호 | 모든 위치에서 예측 → 데이터 효율 높음 | 가려진 15% 위치에서만 손실 |
+| 잘하는 일 | 텍스트 생성, 범용 대화 | 문장 이해, 분류, 임베딩, 검색 |
+| 생성 능력 | 자연스러움 | 거의 없음 (생성용이 아님) |
+
+**예시**
+
+- CLM: "나는 오늘 아침에 ___" → "커피를"
+- MLM: "나는 오늘 [MASK]에 커피를 마셨다" → "아침"
+
+**MLM의 세부 사항**
+
+- 가린 토큰 중 80%는 `[MASK]`, 10%는 무작위 토큰, 10%는 원래 토큰으로 둡니다. 추론 때는 `[MASK]`가 없으므로 학습-추론 차이를 줄이기 위한 장치입니다.
+
+**어떤 것을 언제**
+
+- **생성이 필요하면 CLM.** 현재 대부분의 LLM이 이 방식입니다.
+- **이해·검색·분류 임베딩에는 MLM 기반 인코더** 가 여전히 효율적입니다. 많은 임베딩 모델과 리랭커가 BERT 계열입니다.
+
+**중간 형태:** T5의 span corruption(연속 구간을 가리고 생성), 확산 언어 모델(여러 마스크를 반복적으로 채움) 등이 있습니다.
+
+</details>
+
+<details>
+<summary><b>Q73. 근접 정책 최적화(PPO, Proximal Policy Optimization)</b></summary>
+
+**PPO** 는 2017년 OpenAI가 제안한 강화학습 알고리즘으로, 정책을 한 번에 너무 크게 바꾸지 않도록 **업데이트 폭을 제한** 해 안정적으로 학습합니다. ChatGPT의 RLHF에 쓰이며 널리 알려졌습니다.
+
+**핵심 아이디어: 클리핑**
+
+- 새 정책과 이전 정책의 확률 비율 `r = π_new(a|s) / π_old(a|s)`를 계산합니다.
+- 어드밴티지 A(평균보다 얼마나 좋았는가)에 대해 목표를 다음과 같이 둡니다.
+
+$$L = \mathbb{E}\left[\min\left(r A,\ \text{clip}(r, 1-\epsilon, 1+\epsilon) A\right)\right]$$
+
+- 비율이 `[1-ε, 1+ε]`(보통 ε=0.2)를 벗어나면 더 이상 이득을 주지 않아, 한 번에 정책이 급변하는 것을 막습니다.
+
+**LLM RLHF에서의 PPO 구성 (모델 4개)**
+
+1. **정책 모델(Actor):** 학습 대상 LLM
+2. **참조 모델(Reference):** SFT 모델 사본, KL 페널티 계산용
+3. **보상 모델(Reward):** 응답 점수 매기기
+4. **가치 모델(Critic):** 상태 가치 추정 → 어드밴티지 계산(GAE)
+
+**학습 루프**
+
+1. 프롬프트에 대해 정책이 응답 생성
+2. 보상 모델 점수 − β × KL(정책 ∥ 참조) = 최종 보상
+3. 가치 모델로 어드밴티지 계산
+4. 클리핑 목표로 정책·가치 모델 업데이트
+
+**장단점**
+
+- 장점: 온라인으로 탐색하며 학습해 성능 상한이 높고, 범용적입니다.
+- 단점: 모델 4개를 메모리에 올려야 해 무겁고, 하이퍼파라미터에 민감하며 구현이 복잡합니다. 이 때문에 DPO, GRPO 같은 대안이 나왔습니다.
+
+**더 읽어보기 (영문):** [Proximal Policy Optimization (PPO)](https://outcomeschool.com/blog/proximal-policy-optimization-ppo)
+
+</details>
+
+<details>
+<summary><b>Q74. 직접 선호 최적화(DPO, Direct Preference Optimization)</b></summary>
+
+**DPO** 는 보상 모델을 따로 학습하거나 강화학습을 돌리지 않고, **선호도 데이터로 언어 모델을 직접 학습** 하는 정렬 방법입니다(Rafailov 외, 2023).
+
+**아이디어**
+
+- RLHF의 목표("보상은 최대화하되 참조 모델에서 KL만큼만 벗어나라")에는 최적 정책의 닫힌 형태 해가 있습니다.
+- 이 식을 뒤집으면 **보상을 정책과 참조 모델의 로그 확률 비율로 표현** 할 수 있습니다. 즉 언어 모델 자체가 암묵적인 보상 모델이 됩니다.
+
+**손실 함수**
+
+데이터: 프롬프트 x, 선호 응답 y_w, 비선호 응답 y_l
+
+$$L = -\log \sigma\left(\beta \left[\log\frac{\pi_\theta(y_w|x)}{\pi_{ref}(y_w|x)} - \log\frac{\pi_\theta(y_l|x)}{\pi_{ref}(y_l|x)}\right]\right)$$
+
+- 선호 응답의 확률은 참조 대비 올리고, 비선호 응답의 확률은 내리도록 학습합니다.
+- β는 참조 모델에서 얼마나 벗어나도 되는지 조절합니다.
+
+**PPO 대비 장점**
+
+- 보상 모델·가치 모델이 필요 없음 → 메모리와 구현이 훨씬 단순
+- 일반적인 지도 학습처럼 안정적으로 학습
+- 하이퍼파라미터가 적음
+
+**한계**
+
+- **오프라인 방식:** 고정된 데이터로만 학습해, 모델이 새로 만든 응답을 탐색·평가하지 못합니다.
+- 데이터 품질과 분포에 크게 의존합니다.
+- 선호 응답의 확률까지 함께 떨어지는 현상, 길이 편향 등이 보고되어 IPO, KTO, SimPO, ORPO 같은 변형이 나왔습니다.
+- 정답 검증이 가능한 추론 과제에서는 온라인 RL(GRPO 등)이 더 강한 경우가 많습니다.
+
+**더 읽어보기 (영문):** [Direct Preference Optimization (DPO)](https://outcomeschool.com/blog/direct-preference-optimization-dpo)
+
+</details>
+
+<details>
+<summary><b>Q75. 그룹 상대 정책 최적화(GRPO, Group Relative Policy Optimization)</b></summary>
+
+**GRPO** 는 DeepSeek이 DeepSeekMath(2024)에서 제안하고 DeepSeek-R1에서 널리 알려진 강화학습 알고리즘으로, PPO에서 **가치 모델(critic)을 없애고 그룹 내 상대 점수로 어드밴티지를 계산** 합니다.
+
+**동작**
+
+1. 프롬프트 하나에 대해 응답을 G개(예: 8~64개) 샘플링합니다.
+2. 각 응답에 보상을 매깁니다. 추론 과제에서는 주로 **규칙 기반 보상**(정답이면 1, 아니면 0, 형식 준수 보너스 등)을 씁니다.
+3. 그룹 안에서 보상을 정규화해 어드밴티지로 씁니다.
+
+$$A_i = \frac{r_i - \text{mean}(r_1..r_G)}{\text{std}(r_1..r_G)}$$
+
+4. PPO와 같은 클리핑 목표에 KL 페널티를 더해 정책을 업데이트합니다.
+
+**PPO와 비교**
+
+| | PPO | GRPO |
+|---|---|---|
+| 기준선(baseline) | 가치 모델이 추정 | 같은 프롬프트의 다른 응답 평균 |
+| 필요한 모델 | 정책, 참조, 보상, 가치 | 정책, 참조 (+ 보상 함수) |
+| 메모리 | 큼 | 가치 모델만큼 절약 |
+| 적합한 과제 | 범용 | 정답 검증이 가능한 추론·수학·코드 |
+
+**왜 효과적인가**
+
+- LLM에서 토큰 단위 가치 모델을 정확히 학습하기 어렵다는 문제를 피합니다.
+- "같은 문제를 푼 여러 답안 중 상대적으로 잘한 답을 강화"하는 직관적인 구조입니다.
+- 검증 가능한 보상과 결합해 모델이 스스로 긴 추론 과정을 발전시키도록 만든 핵심 방법이 되었습니다.
+
+**주의점:** 그룹 내 모든 응답이 다 맞거나 다 틀리면 어드밴티지가 0이 되어 학습 신호가 없습니다. 그래서 문제 난이도 조절이 중요하고, 이를 보완한 DAPO, Dr. GRPO 같은 변형도 있습니다.
+
+**더 읽어보기 (영문):** [Group Relative Policy Optimization (GRPO)](https://outcomeschool.com/blog/group-relative-policy-optimization-grpo)
+
+</details>
+
+<details>
+<summary><b>Q76. 재귀 언어 모델(RLM, Recursive Language Models)</b></summary>
+
+**재귀 언어 모델(RLM)** 은 아주 긴 입력을 모델의 컨텍스트에 한 번에 넣는 대신, **LLM이 입력을 외부 환경의 데이터로 다루면서 필요한 부분에 대해 자기 자신(또는 다른 LLM)을 재귀적으로 호출** 해 처리하는 추론 방식입니다. 2025년 말 MIT 연구진이 제안한 개념으로 알려져 있습니다.
+
+**동작 방식 (개념)**
+
+1. 긴 문서나 데이터를 프롬프트에 직접 넣지 않고, 코드 실행 환경(예: 파이썬 REPL)의 변수로 저장합니다.
+2. 최상위 LLM은 코드를 써서 그 데이터를 탐색합니다. 길이 확인, 검색(grep), 슬라이싱, 청크 분할 등을 합니다.
+3. 특정 부분을 이해해야 하면 그 조각을 인자로 **하위 LLM 호출** 을 합니다. 하위 호출도 같은 방식으로 다시 쪼갤 수 있습니다(재귀).
+4. 하위 결과를 모아 최종 답을 만듭니다.
+
+**왜 주목받나**
+
+- 컨텍스트 윈도우보다 훨씬 긴 입력도 다룰 수 있습니다.
+- 긴 컨텍스트를 그대로 넣었을 때 생기는 품질 저하(context rot, lost in the middle)를 피할 수 있습니다.
+- 모델이 "무엇을 읽을지"를 스스로 결정하므로 불필요한 토큰을 줄일 수 있습니다.
+
+**RAG·에이전트와의 관계**
+
+- RAG는 미리 정한 검색 파이프라인이 문서를 고르고, RLM은 모델이 코드로 직접 탐색하고 분해합니다.
+- 에이전트의 하위 에이전트(서브에이전트) 패턴, map-reduce 처리와 비슷한 철학입니다.
+
+**한계:** 호출 횟수가 많아져 비용과 지연 시간이 늘고, 모델이 탐색 전략을 잘못 세우면 중요한 부분을 놓칠 수 있습니다.
+
+**더 읽어보기 (영문):** [Recursive Language Models (RLMs)](https://outcomeschool.com/blog/recursive-language-models)
+
+</details>
+
+<details>
+<summary><b>Q77. LLM의 지속 학습(Continual Learning)</b></summary>
+
+**지속 학습** 은 모델을 처음부터 다시 학습하지 않고, **새로운 데이터·지식·작업을 순차적으로 추가 학습하면서 기존 능력을 유지** 하는 것입니다.
+
+**왜 어려운가: 파괴적 망각(catastrophic forgetting)**
+
+- 신경망은 새 데이터로 가중치를 업데이트하면 이전 작업에 중요했던 가중치도 함께 바뀌어, 예전에 잘하던 일을 잊어버립니다.
+- LLM에서는 도메인 파인튜닝 후 일반 대화·추론 능력이 떨어지는 형태로 나타납니다.
+
+**주요 접근법**
+
+1. **리플레이(replay, rehearsal):** 새 데이터에 기존 학습 데이터(또는 그와 비슷한 합성 데이터)를 일정 비율 섞어 학습합니다. 가장 단순하고 효과적입니다.
+2. **정규화 기반:** 이전 작업에 중요한 가중치가 크게 바뀌지 않도록 페널티를 줍니다. 예: EWC(Elastic Weight Consolidation).
+3. **파라미터 분리:** 원래 가중치는 고정하고 작업별 LoRA 어댑터만 추가합니다. 작업을 바꿀 때 어댑터를 교체합니다.
+4. **모델 병합:** 따로 학습한 모델이나 어댑터의 가중치를 합칩니다.
+5. **학습률·스케줄 조정:** 지속 사전 학습 시 학습률 재워밍업, 낮은 학습률 등.
+
+**LLM 실무에서의 대안**
+
+- 자주 바뀌는 **사실 지식** 은 가중치에 넣지 말고 **RAG** 로 제공하는 것이 보통 더 쉽고 안전합니다.
+- 지속 학습은 새로운 언어, 도메인 문체, 새 작업 형식처럼 "행동"을 바꿔야 할 때 주로 검토합니다.
+
+**평가:** 새 작업 성능뿐 아니라, 기존 벤치마크 성능이 얼마나 떨어졌는지(망각 정도)를 반드시 함께 측정합니다.
+
+**더 읽어보기 (영문):** [Continual Learning in LLMs](https://outcomeschool.com/blog/continual-learning-in-llms)
+
+</details>
+
+<details>
+<summary><b>Q78. 재귀적 자기 개선(RSI, Recursive Self-Improvement)이란 무엇인가요?</b></summary>
+
+**재귀적 자기 개선** 은 AI 시스템이 **자기 자신(또는 다음 세대 AI)을 개선하는 일을 스스로 수행** 하고, 개선된 시스템이 다시 더 나은 개선을 만들어 내는 순환 과정을 말합니다.
+
+**개념의 핵심**
+
+- 일반적인 발전: 사람이 연구해서 AI를 개선합니다.
+- RSI: AI가 연구·코딩·데이터 생성·평가를 수행해 AI를 개선하고, 더 똑똑해진 AI가 개선 속도를 다시 높입니다.
+- 이 루프가 빠르게 반복되면 능력이 급격히 성장할 수 있다는 가설(이른바 "지능 폭발")과 연결됩니다.
+
+**현재 볼 수 있는 부분적인 형태**
+
+- **합성 데이터 자기 학습:** 모델이 만든 데이터 중 검증된 것으로 다시 학습 (자기 지도, self-play)
+- **AI 피드백 정렬:** 모델이 다른 모델의 응답을 평가해 학습 신호 제공 (RLAIF, Constitutional AI)
+- **AI 보조 연구:** 코딩 에이전트가 학습 코드·커널 최적화·실험 자동화를 수행
+- **프롬프트·에이전트 자기 수정:** 에이전트가 자기 도구나 프롬프트를 개선하는 연구
+
+**한계와 위험**
+
+- 모델이 만든 데이터로만 반복 학습하면 품질이 무너지는 **모델 붕괴(model collapse)** 가 생길 수 있어, 외부 검증 신호가 필요합니다.
+- 컴퓨팅 자원, 실제 실험 시간, 검증 비용 같은 물리적 병목이 있습니다.
+- 안전성 측면에서 사람이 통제·이해하기 어려운 속도로 변화할 위험이 있어, AI 안전 연구에서 중요한 주제로 다룹니다.
+
+**더 읽어보기 (영문):** [What is Recursive Self-Improvement (RSI)?](https://outcomeschool.com/blog/what-is-recursive-self-improvement-rsi)
+
+</details>
+
+<details>
+<summary><b>Q79. 확산 언어 모델(DLM, Diffusion Language Models)은 어떻게 동작하나요?</b></summary>
+
+**확산 언어 모델** 은 이미지 생성의 확산(diffusion) 아이디어를 텍스트에 적용해, 토큰을 왼쪽부터 하나씩 만드는 대신 **노이즈(마스크)로 가득한 시퀀스를 여러 단계에 걸쳐 동시에 다듬어** 문장을 만드는 모델입니다.
+
+**마스크 기반 확산 (현재 주류)**
+
+- **정방향(학습용 노이즈 추가):** 정답 문장의 토큰을 무작위 비율로 `[MASK]`로 바꿉니다. 비율이 높을수록 "노이즈가 큰" 상태입니다.
+- **학습:** 모델(양방향 트랜스포머)이 마스크된 위치의 원래 토큰을 예측하도록 학습합니다.
+- **생성(역방향):**
+  1. 길이 L의 시퀀스를 전부 `[MASK]`로 시작합니다.
+  2. 모든 마스크 위치의 토큰을 한 번에 예측합니다.
+  3. 확신도가 높은 토큰 일부를 확정하고 나머지는 다시 마스크합니다.
+  4. 모든 토큰이 확정될 때까지 반복합니다.
+
+**자기회귀 모델과 비교**
+
+| | 자기회귀 LLM | 확산 언어 모델 |
+|---|---|---|
+| 생성 순서 | 왼쪽→오른쪽, 한 토큰씩 | 여러 위치를 병렬로, 반복 정제 |
+| 문맥 | 단방향 | 양방향 |
+| 속도 | 길이에 비례한 단계 수 | 단계 수를 조절 가능, 병렬성 높음 |
+| 수정 | 생성한 토큰은 고칠 수 없음 | 단계 중 앞부분도 다시 다듬을 수 있음 |
+
+**장점:** 병렬 생성으로 빠른 추론 가능성, 중간 채우기(infilling)와 전체 구조 계획에 유리.
+
+**과제:** 가변 길이 처리, KV 캐시 같은 기존 최적화를 그대로 쓰기 어려움, 품질이 최상위 자기회귀 모델에 아직 못 미치는 경우가 많음. LLaDA, Mercury, Gemini Diffusion 같은 연구·제품이 나오고 있습니다.
+
+**더 읽어보기 (영문):** [How do Diffusion Language Models (DLMs) work?](https://outcomeschool.com/blog/how-do-diffusion-language-models-dlms-work)
+
+</details>
+
+<details>
+<summary><b>Q80. LLM 워터마킹은 어떻게 동작하나요?</b></summary>
+
+**LLM 워터마킹** 은 생성된 텍스트에 사람 눈에는 보이지 않지만 **통계적으로 검출 가능한 신호** 를 심어, 나중에 "이 글이 특정 모델로 생성되었는가"를 판별할 수 있게 하는 기술입니다.
+
+**대표 방식: 그린 리스트 워터마크 (Kirchenbauer 외, 2023)**
+
+1. 매 생성 단계에서 **직전 토큰을 시드로 해시** 해 어휘를 무작위로 "그린 리스트"(예: 절반)와 "레드 리스트"로 나눕니다.
+2. 그린 리스트 토큰의 로짓에 작은 값 δ를 더해, 그린 토큰이 조금 더 자주 선택되게 합니다.
+3. **검출:** 비밀 키로 같은 분할을 재현해 텍스트의 그린 토큰 비율을 셉니다. 사람이 쓴 글은 약 50%, 워터마크된 글은 그보다 유의미하게 높습니다. z-검정으로 판정합니다.
+
+**다른 방식**
+
+- **샘플링 기반(SynthID-Text 등):** 의사난수 함수로 샘플링 과정 자체에 신호를 넣어 품질 저하를 최소화합니다.
+- **사후 워터마크:** 생성 후 문장을 다듬어 신호를 넣습니다.
+
+**좋은 워터마크의 조건**
+
+- 텍스트 품질에 영향이 거의 없음
+- 짧지 않은 텍스트(수백 토큰)면 높은 확률로 검출
+- 비밀 키 없이는 검출·제거가 어려움
+
+**한계**
+
+- **우회 가능:** 다른 모델로 바꿔 쓰기(paraphrasing), 번역, 부분 편집으로 신호가 약해집니다.
+- 짧은 텍스트에서는 검출력이 낮습니다.
+- 정답이 하나뿐인 텍스트(코드, 사실)는 신호를 넣을 여지가 적습니다.
+- 오픈 웨이트 모델은 사용자가 워터마크를 끌 수 있습니다.
+
+**이미지 워터마크와의 차이:** 이미지는 픽셀에 정보를 넣을 공간이 넓지만, 텍스트는 토큰 선택만으로 신호를 넣어야 해서 더 취약합니다. 그래서 C2PA 같은 출처 메타데이터와 함께 논의됩니다.
+
+**더 읽어보기 (영문):** [How Does LLM Watermarking Work?](https://outcomeschool.com/blog/how-does-llm-watermarking-work)
+
+</details>
+
+<details>
+<summary><b>Q81. RNN과 트랜스포머는 어떻게 다른가요?</b></summary>
+
+| | RNN (LSTM, GRU 포함) | 트랜스포머 |
+|---|---|---|
+| 처리 방식 | 토큰을 **순서대로** 하나씩, 은닉 상태를 갱신하며 전달 | 모든 토큰을 **동시에**, 어텐션으로 서로 참조 |
+| 학습 병렬화 | 어려움 (이전 단계 결과가 필요) | 쉬움 (GPU 활용도 높음) |
+| 먼 거리 의존성 | 정보가 여러 단계를 거쳐 희석, 기울기 소실 | 어떤 두 토큰이든 한 번에 연결 |
+| 시퀀스 길이 비용 | 계산 `O(T)`, 메모리 고정 크기 상태 | 어텐션 계산 `O(T²)`, KV 캐시가 길이에 비례 |
+| 추론 (생성) | 토큰당 비용이 일정하고 메모리 고정 | 토큰당 비용이 문맥 길이에 따라 증가 |
+| 확장성 | 대규모로 키우기 어려움 | 규모를 키울수록 성능 향상 (스케일링 법칙) |
+
+**RNN의 구조**
+
+```python
+h_t = tanh(W_h @ h_prev + W_x @ x_t)   # 이전 상태 + 현재 입력 → 새 상태
+```
+
+- 모든 과거 정보가 고정 크기 벡터 `h` 하나에 압축되므로, 긴 문장에서 앞부분 정보가 손실됩니다. LSTM·GRU의 게이트가 이를 완화했지만 근본적인 한계는 남았습니다.
+
+**트랜스포머가 이긴 이유**
+
+- 학습 병렬화로 훨씬 큰 데이터와 모델을 학습할 수 있었습니다.
+- 어텐션이 먼 거리 관계를 직접 모델링합니다.
+
+**최근 흐름: RNN의 귀환**
+
+- Mamba(상태 공간 모델), RWKV, xLSTM처럼 **학습은 병렬로 하고 추론은 RNN처럼 고정 메모리로** 하는 구조가 연구되고 있습니다.
+- 긴 컨텍스트 비용을 줄이기 위해 어텐션 층과 이런 순환형 층을 섞은 하이브리드 모델도 등장하고 있습니다.
+
+**더 읽어보기 (영문):** [How do RNNs and Transformers differ?](https://outcomeschool.com/blog/how-do-rnns-and-transformers-differ)
+
+</details>
