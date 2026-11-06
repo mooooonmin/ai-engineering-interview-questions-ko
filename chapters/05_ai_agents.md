@@ -1,97 +1,97 @@
-# AI Agents and Agentic Systems
+# AI 에이전트와 에이전틱 시스템 (AI Agents and Agentic Systems)
 
-[← Back to Table of Contents](../README.md)
+[← 목차로 돌아가기](../README.md)
 
-- What is an AI agent, and how does it differ from a simple LLM call?
-  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) and [AI Agent Explained](https://outcomeschool.com/blog/ai-agent)
-- AI Agent Memory
-  - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
-- Harness Engineering in AI
-  - Answer: [Harness Engineering in AI](https://outcomeschool.com/blog/harness-engineering-in-ai)
-- What matters more for an agentic coding tool like Claude Code: the model or the harness?
-  - Answer: [Harness Engineering in AI](https://outcomeschool.com/blog/harness-engineering-in-ai) and [How does Claude Code work?](https://outcomeschool.com/blog/how-does-claude-code-work)
-- Explain the ReAct (Reasoning + Acting) agent architecture.
-  - Answer: [ReAct Agent](https://outcomeschool.com/blog/react-agent)
-- What is the Plan-and-Execute agent pattern?
-  - Answer: [Plan-and-Execute Agent](https://outcomeschool.com/blog/plan-and-execute-agent)
-- What is tool use (function calling) in LLMs, and how does it enable agents?
-  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) and [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)
-- What is the difference between structured output and function calling?
-  - Answer: [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)
-- How do you design and define tools for an AI agent?
-  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
-- How does an agent decide when to call a tool versus answering from its own knowledge?
-- What is the difference between single-agent and multi-agent systems?
-  - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
-- When do multi-agent systems break down, and when is a single agent the better choice?
-  - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
-- What is Model Context Protocol (MCP), and how does it standardize tool integration?
-  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) and [What is MCP (Model Context Protocol)?](https://outcomeschool.com/blog/what-is-mcp-model-context-protocol)
-- How does MCP differ from traditional function calling?
-  - Answer: [What is MCP (Model Context Protocol)?](https://outcomeschool.com/blog/what-is-mcp-model-context-protocol) and [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)
-- What are AI SubAgents?
-  - Answer: [AI SubAgents](https://outcomeschool.com/blog/ai-subagents)
-- What are the different types of agent memory (short-term, long-term, episodic)?
-  - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
-- How do you handle agent failures and implement error recovery?
-- What is an agent loop, and how does it decide when to stop?
-  - Answer: [AI Agent Loop](https://outcomeschool.com/blog/ai-agent-loop)
-- Context Engineering
-  - Answer: [Context Engineering](https://outcomeschool.com/blog/context-engineering)
-- How does context compaction work?
-  - Answer: [How does context compaction work?](https://outcomeschool.com/blog/how-does-context-compaction-work)
-- Loop Engineering
-  - Answer: [Loop Engineering](https://outcomeschool.com/blog/what-is-loop-engineering)
-- Graph Engineering
-  - Answer: [Graph Engineering](https://outcomeschool.com/blog/what-is-graph-engineering)
-- How AI Agents Communicate?
-  - Answer: [How AI Agents Communicate](https://outcomeschool.com/blog/how-ai-agents-communicate)
-- What are Agent Skills?
-  - Answer: [What are Agent Skills?](https://outcomeschool.com/blog/what-are-agent-skills)
-- How do you evaluate and test AI agents?
-  - Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)
-- What are the security risks of agentic systems, and how do you mitigate them?
-  - Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
-- Your agent reads untrusted content (emails, web pages, documents) and can call tools. How do you prevent indirect prompt injection and data exfiltration?
-  - Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
-- What is the difference between reactive and proactive agents?
-- How do you manage token consumption and cost in long-running agent workflows?
-  - Answer: [How does context compaction work?](https://outcomeschool.com/blog/how-does-context-compaction-work) and [How would you reduce the token consumption?](https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-activity-7439550125015994368-LTmE)
-- What is the human-in-the-loop pattern for agents, and when is it needed?
-- How do you implement guardrails for AI agents to prevent harmful actions?
-  - Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
-- What is agent reflection, and how does it improve agent performance?
-  - Answer: [Reflection Agent](https://outcomeschool.com/blog/reflection-agent)
-- What is the difference between code-generating agents and tool-calling agents?
-- How do you handle multi-modal inputs and outputs in agentic systems?
-- How do you implement state management in complex agent workflows?
-  - Answer: [How does LangGraph work?](https://outcomeschool.com/blog/how-does-langgraph-work)
-- How do you build a customer support agent with escalation logic?
-- What is agent orchestration, and how do you implement it?
-  - Answer: [AI Orchestration](https://outcomeschool.com/blog/ai-orchestration)
-- What is Sakana Fugu, and how does it orchestrate a team of AI models?
-  - Answer: [Sakana Fugu - The Technical Report Explained](https://outcomeschool.com/blog/decoding-sakana-fugu)
-- How do you build a code execution agent safely using sandboxed environments?
-- Your AI agent is stuck in an infinite loop. How do you detect and break the cycle?
-  - Answer: [Fix an infinite loop in an AI agent](https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-share-7440257380707364864-5Ycc)
-- Your AI agent gets conflicting answers from different tools. How does it reconcile them?
-- Your AI agent burns too many tokens per task. How do you reduce token consumption?
-  - Answer: [How would you reduce the token consumption?](https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-activity-7439550125015994368-LTmE)
-- Your AI agent keeps exceeding its budget per task. How do you enforce budget limits?
-  - Answer: [AI Agent Loop](https://outcomeschool.com/blog/ai-agent-loop)
-- Your AI agent hallucinates tool capabilities and passes wrong inputs. How do you fix it?
-- Your AI agent deleted a production database. How do you prevent irreversible actions?
-- Your AI agent has many tools, but keeps picking the wrong one. How do you improve tool selection?
-- Your AI agent takes too long to complete a task. How do you speed it up?
-- Your long-running agent drifts after hours and confidently works on the wrong thing. How do you diagnose and fix it?
-- Your LLM selects the right tool but extracts the wrong parameters. How do you fix parameter extraction?
-- How do Computer-Use Agents work?
-  - Answer: [How do Computer-Use Agents work?](https://outcomeschool.com/blog/how-do-computer-use-agents-work)
-- How do Browser Agents work?
-  - Answer: [How do Browser Agents work?](https://outcomeschool.com/blog/how-do-browser-agents-work)
-- How does LangChain work?
-  - Answer: [How does LangChain work?](https://outcomeschool.com/blog/how-does-langchain-work)
-- How does LangGraph work?
-  - Answer: [How does LangGraph work?](https://outcomeschool.com/blog/how-does-langgraph-work)
-- What is OKF (Open Knowledge Format)?
-  - Answer: [What is OKF (Open Knowledge Format)?](https://outcomeschool.com/blog/what-is-okf-open-knowledge-format)
+- AI 에이전트란 무엇이며, 단순한 LLM 호출과 어떻게 다른가요?
+  - 답변: 이 영상에서 설명합니다: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) 및 [AI Agent Explained](https://outcomeschool.com/blog/ai-agent)
+- AI 에이전트 메모리
+  - 답변: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
+- AI 하네스 엔지니어링(Harness Engineering)
+  - 답변: [Harness Engineering in AI](https://outcomeschool.com/blog/harness-engineering-in-ai)
+- Claude Code 같은 에이전틱 코딩 도구에서는 모델과 하네스(harness) 중 무엇이 더 중요한가요?
+  - 답변: [Harness Engineering in AI](https://outcomeschool.com/blog/harness-engineering-in-ai) 및 [How does Claude Code work?](https://outcomeschool.com/blog/how-does-claude-code-work)
+- ReAct(Reasoning + Acting) 에이전트 아키텍처를 설명하세요.
+  - 답변: [ReAct Agent](https://outcomeschool.com/blog/react-agent)
+- 계획 후 실행(Plan-and-Execute) 에이전트 패턴이란 무엇인가요?
+  - 답변: [Plan-and-Execute Agent](https://outcomeschool.com/blog/plan-and-execute-agent)
+- LLM의 도구 사용(tool use, 함수 호출/function calling)이란 무엇이며, 이것이 에이전트를 어떻게 가능하게 하나요?
+  - 답변: 이 영상에서 설명합니다: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) 및 [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)
+- 구조화 출력(structured output)과 함수 호출의 차이는 무엇인가요?
+  - 답변: [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)
+- AI 에이전트용 도구는 어떻게 설계하고 정의하나요?
+  - 답변: 이 영상에서 설명합니다: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+- 에이전트는 도구를 호출할지, 자체 지식으로 답할지를 어떻게 결정하나요?
+- 단일 에이전트 시스템과 멀티 에이전트 시스템의 차이는 무엇인가요?
+  - 답변: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
+- 멀티 에이전트 시스템은 언제 무너지며, 언제 단일 에이전트가 더 나은 선택인가요?
+  - 답변: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
+- 모델 컨텍스트 프로토콜(MCP, Model Context Protocol)이란 무엇이며, 도구 통합을 어떻게 표준화하나요?
+  - 답변: 이 영상에서 설명합니다: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) 및 [What is MCP (Model Context Protocol)?](https://outcomeschool.com/blog/what-is-mcp-model-context-protocol)
+- MCP는 기존의 함수 호출과 어떻게 다른가요?
+  - 답변: [What is MCP (Model Context Protocol)?](https://outcomeschool.com/blog/what-is-mcp-model-context-protocol) 및 [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)
+- AI 서브에이전트(SubAgent)란 무엇인가요?
+  - 답변: [AI SubAgents](https://outcomeschool.com/blog/ai-subagents)
+- 에이전트 메모리의 종류(단기, 장기, 에피소드)에는 무엇이 있나요?
+  - 답변: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
+- 에이전트의 실패를 어떻게 처리하고 오류 복구를 구현하나요?
+- 에이전트 루프(agent loop)란 무엇이며, 언제 멈출지를 어떻게 결정하나요?
+  - 답변: [AI Agent Loop](https://outcomeschool.com/blog/ai-agent-loop)
+- 컨텍스트 엔지니어링(Context Engineering)
+  - 답변: [Context Engineering](https://outcomeschool.com/blog/context-engineering)
+- 컨텍스트 압축(context compaction)은 어떻게 동작하나요?
+  - 답변: [How does context compaction work?](https://outcomeschool.com/blog/how-does-context-compaction-work)
+- 루프 엔지니어링(Loop Engineering)
+  - 답변: [Loop Engineering](https://outcomeschool.com/blog/what-is-loop-engineering)
+- 그래프 엔지니어링(Graph Engineering)
+  - 답변: [Graph Engineering](https://outcomeschool.com/blog/what-is-graph-engineering)
+- AI 에이전트들은 서로 어떻게 소통하나요?
+  - 답변: [How AI Agents Communicate](https://outcomeschool.com/blog/how-ai-agents-communicate)
+- 에이전트 스킬(Agent Skills)이란 무엇인가요?
+  - 답변: [What are Agent Skills?](https://outcomeschool.com/blog/what-are-agent-skills)
+- AI 에이전트를 어떻게 평가하고 테스트하나요?
+  - 답변: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)
+- 에이전틱 시스템의 보안 위험은 무엇이며, 어떻게 완화하나요?
+  - 답변: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
+- 에이전트가 신뢰할 수 없는 콘텐츠(이메일, 웹 페이지, 문서)를 읽고 도구도 호출할 수 있습니다. 간접 프롬프트 인젝션과 데이터 유출을 어떻게 막나요?
+  - 답변: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
+- 반응형(reactive) 에이전트와 능동형(proactive) 에이전트의 차이는 무엇인가요?
+- 장시간 실행되는 에이전트 워크플로에서 토큰 소비와 비용을 어떻게 관리하나요?
+  - 답변: [How does context compaction work?](https://outcomeschool.com/blog/how-does-context-compaction-work) 및 [How would you reduce the token consumption?](https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-activity-7439550125015994368-LTmE)
+- 에이전트의 휴먼 인 더 루프(human-in-the-loop) 패턴이란 무엇이며, 언제 필요한가요?
+- AI 에이전트가 해로운 행동을 하지 않도록 가드레일을 어떻게 구현하나요?
+  - 답변: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
+- 에이전트 성찰(reflection)이란 무엇이며, 에이전트 성능을 어떻게 높이나요?
+  - 답변: [Reflection Agent](https://outcomeschool.com/blog/reflection-agent)
+- 코드 생성 에이전트와 도구 호출 에이전트의 차이는 무엇인가요?
+- 에이전틱 시스템에서 멀티모달 입력과 출력을 어떻게 처리하나요?
+- 복잡한 에이전트 워크플로에서 상태 관리를 어떻게 구현하나요?
+  - 답변: [How does LangGraph work?](https://outcomeschool.com/blog/how-does-langgraph-work)
+- 에스컬레이션(상위 담당자 이관) 로직을 갖춘 고객 지원 에이전트를 어떻게 만드나요?
+- 에이전트 오케스트레이션이란 무엇이며, 어떻게 구현하나요?
+  - 답변: [AI Orchestration](https://outcomeschool.com/blog/ai-orchestration)
+- Sakana Fugu란 무엇이며, AI 모델들로 이루어진 팀을 어떻게 오케스트레이션하나요?
+  - 답변: [Sakana Fugu - The Technical Report Explained](https://outcomeschool.com/blog/decoding-sakana-fugu)
+- 샌드박스 환경을 이용해 코드 실행 에이전트를 안전하게 만들려면 어떻게 하나요?
+- AI 에이전트가 무한 루프에 빠졌습니다. 순환을 어떻게 감지하고 끊나요?
+  - 답변: [Fix an infinite loop in an AI agent](https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-share-7440257380707364864-5Ycc)
+- AI 에이전트가 서로 다른 도구에서 상충되는 답을 받습니다. 이를 어떻게 조정하나요?
+- AI 에이전트가 작업당 토큰을 너무 많이 씁니다. 토큰 소비를 어떻게 줄이나요?
+  - 답변: [How would you reduce the token consumption?](https://www.linkedin.com/posts/pallavi-shekhar_ai-aiagents-machinelearning-activity-7439550125015994368-LTmE)
+- AI 에이전트가 작업당 예산을 계속 초과합니다. 예산 한도를 어떻게 강제하나요?
+  - 답변: [AI Agent Loop](https://outcomeschool.com/blog/ai-agent-loop)
+- AI 에이전트가 도구의 기능을 잘못 상상하고(환각) 잘못된 입력을 전달합니다. 어떻게 고치나요?
+- AI 에이전트가 프로덕션 데이터베이스를 삭제했습니다. 되돌릴 수 없는 행동을 어떻게 막나요?
+- AI 에이전트에 도구가 많은데 계속 엉뚱한 도구를 고릅니다. 도구 선택을 어떻게 개선하나요?
+- AI 에이전트가 작업을 끝내는 데 너무 오래 걸립니다. 어떻게 빠르게 만드나요?
+- 장시간 실행되는 에이전트가 몇 시간이 지나면 방향을 잃고, 엉뚱한 일을 자신 있게 하고 있습니다. 어떻게 진단하고 고치나요?
+- LLM이 올바른 도구는 고르지만 파라미터를 잘못 추출합니다. 파라미터 추출을 어떻게 고치나요?
+- 컴퓨터 사용 에이전트(Computer-Use Agent)는 어떻게 동작하나요?
+  - 답변: [How do Computer-Use Agents work?](https://outcomeschool.com/blog/how-do-computer-use-agents-work)
+- 브라우저 에이전트(Browser Agent)는 어떻게 동작하나요?
+  - 답변: [How do Browser Agents work?](https://outcomeschool.com/blog/how-do-browser-agents-work)
+- LangChain은 어떻게 동작하나요?
+  - 답변: [How does LangChain work?](https://outcomeschool.com/blog/how-does-langchain-work)
+- LangGraph는 어떻게 동작하나요?
+  - 답변: [How does LangGraph work?](https://outcomeschool.com/blog/how-does-langgraph-work)
+- OKF(Open Knowledge Format)란 무엇인가요?
+  - 답변: [What is OKF (Open Knowledge Format)?](https://outcomeschool.com/blog/what-is-okf-open-knowledge-format)
