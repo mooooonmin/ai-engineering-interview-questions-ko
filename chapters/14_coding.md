@@ -1,57 +1,57 @@
-# Coding and Practical Implementation
+# 코딩과 실전 구현 (Coding and Practical Implementation)
 
-[← Back to Table of Contents](../README.md)
+[← 목차로 돌아가기](../README.md)
 
-- Implement a basic RAG pipeline using an embedding model and a vector database.
-- Build a simple AI agent with tool use (e.g., calculator, web search).
-  - Answer: [ReAct Agent](https://outcomeschool.com/blog/react-agent)
-- Implement semantic search using embeddings and cosine similarity.
-  - Answer: [How does Semantic Search work?](https://outcomeschool.com/blog/how-does-semantic-search-work) and [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
-- Write code for different text chunking strategies (fixed-size, recursive, semantic).
-  - Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)
-- Implement a prompt template system with variable substitution.
-- Build an evaluation pipeline for LLM outputs using LLM-as-a-judge.
-  - Answer: [LLM as a Judge](https://outcomeschool.com/blog/llm-as-a-judge)
-- Implement streaming responses for an LLM API.
-  - Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
-- Build a simple vector similarity search from scratch.
-  - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
-- Implement a conversation memory system for a chatbot (sliding window, summary, buffer).
-  - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
-- Write code to detect and handle hallucinations in LLM outputs.
-- Implement a retry mechanism with exponential backoff for LLM API calls.
-- Write a function calling (tool use) handler for an LLM API.
-  - Answer: [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)
-- Implement a simple re-ranker for search results.
-  - Answer: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work)
-- Build a basic document parser that extracts text from PDFs and splits it into chunks.
-  - Answer: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)
-- Implement cosine similarity, dot product, and Euclidean distance functions from scratch.
-  - Answer: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
-- Write code to implement token counting and context window management.
-- Build a simple prompt versioning system.
-- Implement a caching layer for LLM responses.
-- Implement semantic caching for LLM queries (cache responses for semantically similar queries).
-  - Answer: [How does Semantic Caching work?](https://outcomeschool.com/blog/how-does-semantic-caching-work)
-- Write code to detect prompt injection attempts in user inputs.
-  - Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
-- Implement an LLM output guardrails system that checks for off-topic responses and PII leakage.
-  - Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
-- Build a multi-agent system where agents have different roles and collaborate on a task.
-  - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
-- Implement scaled dot-product attention with a causal mask from scratch (NumPy or PyTorch).
-  - Answer: [Math behind Attention - Q, K, and V](https://outcomeschool.com/blog/math-behind-attention-qkv) and [Causal Masking in Attention](https://outcomeschool.com/blog/causal-masking-in-attention)
-- Implement multi-head attention, then convert it to grouped-query attention.
-  - Answer: [Multi-Head Attention in Transformers](https://outcomeschool.com/blog/multi-head-attention-in-transformers) and [Grouped Query Attention](https://outcomeschool.com/blog/grouped-query-attention)
-- Implement a KV cache and single-step decode for causal multi-head attention.
-  - Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
-- Implement BPE (Byte Pair Encoding) training and encoding from scratch.
-  - Answer: [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms)
-- Implement top-k, top-p, and temperature sampling over a logits vector.
-- Implement an LRU cache with O(1) get/put, then add per-entry TTL.
-- Implement a token-bucket rate limiter for an LLM API where cost scales with tokens, then make it distributed.
-- Write an async batch processor that runs an LLM call over 50,000 documents with a concurrency limit, retries with jitter, and error isolation.
-- Write a streaming SSE parser for LLM token streams that handles arbitrary chunk boundaries.
-  - Answer: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
-- Implement a minimal agent loop with tool dispatch, error handling, and a step budget.
-  - Answer: [AI Agent Loop](https://outcomeschool.com/blog/ai-agent-loop)
+- 임베딩 모델과 벡터 데이터베이스를 사용해 기본 RAG 파이프라인을 구현하세요.
+- 도구 사용(예: 계산기, 웹 검색)이 가능한 간단한 AI 에이전트를 만드세요.
+  - 답변: [ReAct Agent](https://outcomeschool.com/blog/react-agent)
+- 임베딩과 코사인 유사도를 사용해 의미 검색을 구현하세요.
+  - 답변: [How does Semantic Search work?](https://outcomeschool.com/blog/how-does-semantic-search-work) 및 [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
+- 여러 가지 텍스트 청킹 전략(고정 크기, 재귀, 의미 기반)을 코드로 작성하세요.
+  - 답변: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)
+- 변수 치환을 지원하는 프롬프트 템플릿 시스템을 구현하세요.
+- LLM-as-a-judge를 사용해 LLM 출력 평가 파이프라인을 만드세요.
+  - 답변: [LLM as a Judge](https://outcomeschool.com/blog/llm-as-a-judge)
+- LLM API의 스트리밍 응답을 구현하세요.
+  - 답변: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
+- 간단한 벡터 유사도 검색을 처음부터 직접 만드세요.
+  - 답변: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
+- 챗봇을 위한 대화 메모리 시스템(슬라이딩 윈도우, 요약, 버퍼)을 구현하세요.
+  - 답변: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
+- LLM 출력의 환각을 감지하고 처리하는 코드를 작성하세요.
+- LLM API 호출에 지수 백오프(exponential backoff)를 적용한 재시도 메커니즘을 구현하세요.
+- LLM API를 위한 함수 호출(도구 사용) 핸들러를 작성하세요.
+  - 답변: [How does Function Calling work in LLMs?](https://outcomeschool.com/blog/how-does-function-calling-work-in-llms)
+- 검색 결과를 위한 간단한 리랭커를 구현하세요.
+  - 답변: [How does a Reranker work?](https://outcomeschool.com/blog/how-does-a-reranker-work)
+- PDF에서 텍스트를 추출해 청크로 나누는 기본 문서 파서를 만드세요.
+  - 답변: [Chunking Strategies for RAG](https://outcomeschool.com/blog/chunking-strategies-for-rag)
+- 코사인 유사도, 내적, 유클리드 거리 함수를 처음부터 직접 구현하세요.
+  - 답변: [How does a Vector Database work?](https://outcomeschool.com/blog/how-does-a-vector-database-work)
+- 토큰 수 계산과 컨텍스트 윈도우 관리를 구현하는 코드를 작성하세요.
+- 간단한 프롬프트 버전 관리 시스템을 만드세요.
+- LLM 응답을 위한 캐싱 레이어를 구현하세요.
+- LLM 쿼리를 위한 시맨틱 캐싱(의미가 비슷한 쿼리의 응답을 캐시)을 구현하세요.
+  - 답변: [How does Semantic Caching work?](https://outcomeschool.com/blog/how-does-semantic-caching-work)
+- 사용자 입력에서 프롬프트 인젝션 시도를 감지하는 코드를 작성하세요.
+  - 답변: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
+- 주제를 벗어난 응답과 PII 유출을 검사하는 LLM 출력 가드레일 시스템을 구현하세요.
+  - 답변: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
+- 에이전트마다 역할이 다르고 함께 협력해 작업을 수행하는 멀티 에이전트 시스템을 만드세요.
+  - 답변: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
+- 인과적 마스크를 적용한 스케일드 내적 어텐션(scaled dot-product attention)을 처음부터 구현하세요(NumPy 또는 PyTorch).
+  - 답변: [Math behind Attention - Q, K, and V](https://outcomeschool.com/blog/math-behind-attention-qkv) 및 [Causal Masking in Attention](https://outcomeschool.com/blog/causal-masking-in-attention)
+- 멀티 헤드 어텐션을 구현한 뒤, 이를 그룹 쿼리 어텐션으로 바꾸세요.
+  - 답변: [Multi-Head Attention in Transformers](https://outcomeschool.com/blog/multi-head-attention-in-transformers) 및 [Grouped Query Attention](https://outcomeschool.com/blog/grouped-query-attention)
+- 인과적 멀티 헤드 어텐션을 위한 KV 캐시와 단일 스텝 디코딩을 구현하세요.
+  - 답변: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
+- BPE(Byte Pair Encoding)의 학습과 인코딩을 처음부터 구현하세요.
+  - 답변: [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms)
+- 로짓 벡터에 대해 top-k, top-p, 온도 샘플링을 구현하세요.
+- get/put이 O(1)인 LRU 캐시를 구현한 뒤, 항목별 TTL을 추가하세요.
+- 토큰 수에 따라 비용이 늘어나는 LLM API용 토큰 버킷 속도 제한기를 구현한 뒤, 이를 분산 환경에서 동작하게 만드세요.
+- 동시성 제한, 지터(jitter)를 적용한 재시도, 오류 격리를 갖추고 50,000개 문서에 LLM 호출을 실행하는 비동기 배치 처리기를 작성하세요.
+- 청크 경계가 임의로 나뉘어도 처리할 수 있는, LLM 토큰 스트림용 SSE 파서를 작성하세요.
+  - 답변: [How does Token Streaming work?](https://outcomeschool.com/blog/how-does-token-streaming-work)
+- 도구 디스패치, 오류 처리, 스텝 예산을 갖춘 최소한의 에이전트 루프를 구현하세요.
+  - 답변: [AI Agent Loop](https://outcomeschool.com/blog/ai-agent-loop)
