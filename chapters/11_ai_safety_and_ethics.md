@@ -1,56 +1,56 @@
-# AI Safety, Ethics, and Responsible AI
+# AI 안전성, 윤리, 책임 있는 AI (AI Safety, Ethics, and Responsible AI)
 
-[← Back to Table of Contents](../README.md)
+[← 목차로 돌아가기](../README.md)
 
-- What are hallucinations in LLMs, and how do you mitigate them?
-  - Answer: [Why Do LLMs Hallucinate? The Token-Level Explanation](https://outcomeschool.com/blog/why-do-llms-hallucinate-the-token-level-explanation)
-- What is prompt injection, and what are the different types (direct, indirect)?
-  - Answer: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
-- How do you implement input and output guardrails for AI systems?
-  - Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
-- What is AI alignment, and why is it important?
-  - Answer: [Decoding InstructGPT](https://outcomeschool.com/blog/decoding-instructgpt) and [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)
-- How do you detect and mitigate bias in AI systems?
-- What are the key data privacy considerations (GDPR, CCPA) when building AI applications?
-- How do you handle PII in LLM inputs and outputs?
-- What is explainability in AI, and why does it matter?
-- What is the difference between interpretability and explainability?
-- What is mechanistic interpretability, and why do AI labs invest in it?
-- How do you build trust with users in AI-powered applications?
-- What are adversarial attacks on AI systems, and how do you defend against them?
-- What is data poisoning, and how can it affect AI models?
-- How do you implement content safety filters for AI-generated content?
-  - Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
-- What is responsible AI, and what frameworks exist for implementing it?
-- How do you handle copyright and intellectual property concerns with AI-generated content?
-- What is the EU AI Act, and how does it affect AI engineering?
-- How do you implement audit trails and logging for AI decisions?
-- What is model card documentation, and why is it important?
-- How do you handle misuse and abuse of AI systems in production?
-- What is differential privacy, and how can it be applied during model training?
-- How would you design an AI incident response plan?
-- What is the NIST AI Risk Management Framework (AI RMF)?
-- Your healthcare chatbot gives medical diagnoses it should not make. How do you add safety guardrails?
-  - Answer: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
-- Your AI system is reproducing copyrighted material verbatim. How do you prevent this?
-- Your resume screening AI rejects more female candidates for engineering roles. How do you fix gender bias?
-- Your AI model passes bias checks by gender and race separately, but fails for intersectional groups. How do you handle it?
-- Your AI denied a loan, and the customer demands a GDPR explanation. How do you provide one?
-- A user invokes the right to be forgotten, but their data is in your model weights. How do you comply?
-- The EU AI Act may classify your AI system as high-risk. How do you comply?
-- Your differentially private model lost significant accuracy. How do you balance privacy and utility?
-- One malicious participant is poisoning your federated learning model. How do you defend against it?
-- Your AI hiring model uses proxy features for protected attributes. How do you eliminate proxy discrimination?
-- Your predictive model creates a feedback loop of biased outcomes. How do you break it?
-- Your AI generates fake news images. How do you implement watermarking for AI-generated content?
-  - Answer: [How Does LLM Watermarking Work?](https://outcomeschool.com/blog/how-does-llm-watermarking-work)
-- Your AI denies a service, and the user has no way to challenge it. How do you design an appeals process?
-- An auditor asks why your AI rejected a request 6 months ago, and you have no logs. How do you build audit trails?
-- You removed PII, but users were re-identified from anonymized data. How do you prevent re-identification?
-- A pre-trained model from an open-source repo may contain a hidden backdoor. How do you detect it?
-- Your LLM's training data was deliberately poisoned by an adversary. How do you respond?
-- Your AI mental health chatbot gave harmful advice to a user in crisis. How do you mitigate harm?
-- Your AI system caused incorrect critical decisions. How do you run a blameless post-mortem?
-- Radiologists agree with AI 98% of the time, even when it is wrong. How do you prevent human over-reliance on AI?
-- Your content moderation flags normal cultural expressions as offensive in other markets. How do you adapt cross-culturally?
-- Your AI training produces massive carbon emissions. How do you reduce environmental impact?
+- LLM의 환각(hallucination)이란 무엇이며, 어떻게 완화하나요?
+  - 답변: [Why Do LLMs Hallucinate? The Token-Level Explanation](https://outcomeschool.com/blog/why-do-llms-hallucinate-the-token-level-explanation)
+- 프롬프트 인젝션이란 무엇이며, 어떤 유형(직접, 간접)이 있나요?
+  - 답변: [Prompt Injection in LLMs](https://outcomeschool.com/blog/prompt-injection-in-llms)
+- AI 시스템의 입력 및 출력 가드레일을 어떻게 구현하나요?
+  - 답변: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
+- AI 정렬(alignment)이란 무엇이며, 왜 중요한가요?
+  - 답변: [Decoding InstructGPT](https://outcomeschool.com/blog/decoding-instructgpt) 및 [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)
+- AI 시스템의 편향을 어떻게 감지하고 완화하나요?
+- AI 애플리케이션을 만들 때 고려해야 할 핵심 데이터 프라이버시 사항(GDPR, CCPA)은 무엇인가요?
+- LLM의 입력과 출력에 포함된 개인 식별 정보(PII)를 어떻게 처리하나요?
+- AI의 설명 가능성(explainability)이란 무엇이며, 왜 중요한가요?
+- 해석 가능성(interpretability)과 설명 가능성(explainability)의 차이는 무엇인가요?
+- 기계적 해석 가능성(mechanistic interpretability)이란 무엇이며, AI 연구소들은 왜 여기에 투자하나요?
+- AI 기반 애플리케이션에서 사용자의 신뢰를 어떻게 얻나요?
+- AI 시스템에 대한 적대적 공격(adversarial attack)이란 무엇이며, 어떻게 방어하나요?
+- 데이터 오염(data poisoning)이란 무엇이며, AI 모델에 어떤 영향을 줄 수 있나요?
+- AI 생성 콘텐츠에 대한 콘텐츠 안전 필터를 어떻게 구현하나요?
+  - 답변: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
+- 책임 있는 AI(responsible AI)란 무엇이며, 이를 구현하기 위한 프레임워크에는 무엇이 있나요?
+- AI 생성 콘텐츠의 저작권과 지식재산권 문제를 어떻게 다루나요?
+- EU AI Act란 무엇이며, AI 엔지니어링에 어떤 영향을 주나요?
+- AI 의사 결정에 대한 감사 추적(audit trail)과 로깅을 어떻게 구현하나요?
+- 모델 카드(model card) 문서화란 무엇이며, 왜 중요한가요?
+- 프로덕션에서 AI 시스템의 오용과 악용을 어떻게 다루나요?
+- 차분 프라이버시(differential privacy)란 무엇이며, 모델 학습 중에 어떻게 적용할 수 있나요?
+- AI 사고 대응 계획(incident response plan)을 어떻게 설계하나요?
+- NIST AI 위험 관리 프레임워크(AI RMF)란 무엇인가요?
+- 의료 챗봇이 해서는 안 되는 의학적 진단을 내립니다. 안전 가드레일을 어떻게 추가하나요?
+  - 답변: [How do LLM guardrails work?](https://outcomeschool.com/blog/how-do-llm-guardrails-work)
+- AI 시스템이 저작권이 있는 자료를 그대로 재현하고 있습니다. 어떻게 막나요?
+- 이력서 심사 AI가 엔지니어링 직무에서 여성 지원자를 더 많이 탈락시킵니다. 성별 편향을 어떻게 고치나요?
+- AI 모델이 성별과 인종 각각의 편향 검사는 통과하지만, 교차(intersectional) 집단에서는 실패합니다. 어떻게 처리하나요?
+- AI가 대출을 거절했고, 고객이 GDPR에 따른 설명을 요구합니다. 어떻게 설명을 제공하나요?
+- 사용자가 잊힐 권리를 행사했는데, 그 데이터가 모델 가중치에 들어 있습니다. 어떻게 준수하나요?
+- EU AI Act에서 우리 AI 시스템이 고위험(high-risk)으로 분류될 수 있습니다. 어떻게 준수하나요?
+- 차분 프라이버시를 적용한 모델의 정확도가 크게 떨어졌습니다. 프라이버시와 유용성 사이의 균형을 어떻게 맞추나요?
+- 악의적인 참여자 한 명이 연합 학습(federated learning) 모델을 오염시키고 있습니다. 어떻게 방어하나요?
+- AI 채용 모델이 보호 속성(protected attribute)을 대신하는 대리 특성(proxy feature)을 사용합니다. 대리 차별을 어떻게 없애나요?
+- 예측 모델이 편향된 결과의 피드백 루프를 만들어 냅니다. 이 루프를 어떻게 끊나요?
+- AI가 가짜 뉴스 이미지를 생성합니다. AI 생성 콘텐츠에 워터마킹을 어떻게 구현하나요?
+  - 답변: [How Does LLM Watermarking Work?](https://outcomeschool.com/blog/how-does-llm-watermarking-work)
+- AI가 서비스를 거부했는데, 사용자가 이의를 제기할 방법이 없습니다. 이의 제기 절차를 어떻게 설계하나요?
+- 감사인이 6개월 전 AI가 요청을 거절한 이유를 묻는데, 로그가 없습니다. 감사 추적을 어떻게 구축하나요?
+- PII를 제거했지만 익명화된 데이터에서 사용자가 재식별되었습니다. 재식별을 어떻게 막나요?
+- 오픈소스 저장소에서 받은 사전 학습 모델에 숨겨진 백도어가 있을 수 있습니다. 어떻게 탐지하나요?
+- LLM의 학습 데이터가 공격자에 의해 의도적으로 오염되었습니다. 어떻게 대응하나요?
+- AI 정신 건강 챗봇이 위기 상황의 사용자에게 해로운 조언을 했습니다. 피해를 어떻게 완화하나요?
+- AI 시스템 때문에 중요한 결정이 잘못 내려졌습니다. 비난 없는 사후 분석(blameless post-mortem)을 어떻게 진행하나요?
+- 영상의학과 의사들이 AI가 틀렸을 때조차 98%의 경우 AI에 동의합니다. 사람이 AI에 과도하게 의존하는 것을 어떻게 막나요?
+- 콘텐츠 모더레이션이 다른 시장의 평범한 문화적 표현을 불쾌한 것으로 표시합니다. 문화권에 맞게 어떻게 조정하나요?
+- AI 학습이 막대한 탄소를 배출합니다. 환경 영향을 어떻게 줄이나요?
