@@ -1,149 +1,149 @@
-# LLM Fundamentals
+# LLM 기초 (LLM Fundamentals)
 
-[← Back to Table of Contents](../README.md)
+[← 목차로 돌아가기](../README.md)
 
-- What are foundation models, and how have they changed AI engineering?
-  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
-- What is a Large Language Model (LLM), and how does it work?
-  - Answer: Explained in this video: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) and [How does an LLM work?](https://outcomeschool.com/blog/large-language-model-llm)
-- Inside ChatGPT: What Happens After You Hit Enter?
-  - Answer: [Inside ChatGPT: What Happens After You Hit Enter](https://outcomeschool.substack.com/p/inside-chatgpt-what-happens-after)
-- What is the Transformer architecture and how does it work?
-  - Answer: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
-- What are the key components of the Transformer architecture?
-  - Answer: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
-- Walk me through what happens, step by step, in one forward pass of a decoder-only Transformer.
-  - Answer: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
-- What is tokenization in LLMs?
-  - Answer: [Tokenization in LLMs](https://outcomeschool.com/blog/tokenization-in-llms) and [Tokenization in Large Language Models (LLMs)](https://www.youtube.com/watch?v=sK2s9I84EVI)
-- Explain BPE (Byte Pair Encoding).
-  - Answer: [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms)
-- Explain WordPiece and SentencePiece.
-- What is positional encoding, and why is it needed in Transformers?
-  - Answer: [Positional Embeddings in LLMs](https://outcomeschool.substack.com/p/positional-embeddings-in-llms)
-- What are embeddings?
-  - Answer: [Embeddings in Machine Learning](https://www.youtube.com/watch?v=LedXW6xl21s)
-- Explain the Query(Q), Key(K), and Value(V) in attention.
-  - Answer: [Math behind Attention - Q, K, and V](https://outcomeschool.com/blog/math-behind-attention-qkv)
-- What is self-attention, and how does it work in Transformers?
-  - Answer: [Self Attention in Transformers](https://outcomeschool.com/blog/self-attention-in-transformers)
-- What is Cross Attention in Transformers?
-  - Answer: [Cross Attention in Transformers](https://outcomeschool.com/blog/cross-attention-in-transformers)
-- Why do we scale the dot product attention by √dₖ in the Transformer architecture?
-  - Answer: [Math behind √dₖ Scaling Factor in Attention](https://outcomeschool.com/blog/scaling-dot-product-attention)
-- What is causal masking?
-  - Answer: [Causal Masking in Attention](https://outcomeschool.com/blog/causal-masking-in-attention)
-- What are multi-head attention mechanisms? Why use multiple attention heads?
-  - Answer: [Multi-Head Attention in Transformers](https://outcomeschool.com/blog/multi-head-attention-in-transformers)
-- What are Feed-Forward Networks in LLMs?
-  - Answer: [Feed-Forward Networks in LLMs](https://outcomeschool.com/blog/feed-forward-networks-in-llms)
-- What is Generative AI?
-  - Answer: [What is Generative AI?](https://outcomeschool.com/blog/what-is-generative-ai)
-- What is the context window in LLMs, and why does it matter?
-  - Answer: [Context Window in LLMs](https://www.linkedin.com/posts/amit-shekhar-iitbhu_the-context-window-is-the-llms-working-memory-activity-7437754426175672320-MH9c) and [How does the Context Window work?](https://outcomeschool.com/blog/context-window)
-- Why is the context window limited in LLMs?
-  - Answer: [Why is the context window limited in LLMs?](https://www.youtube.com/watch?v=CGIhxIaOg3M&lc)
-- What is temperature in the context of LLMs, and how does it affect output?
-  - Answer: [How does Temperature control LLM output?](https://outcomeschool.com/blog/how-does-temperature-control-llm-output)
-- Why is the first token slower than the rest in an LLM?
-  - Answer: [The First-Token Latency Problem in LLMs](https://www.youtube.com/watch?v=XD8DD4cEHu0)
-- Explain Top-p (nucleus) sampling and Top-k sampling. How do they differ?
-  - Answer: [How do Top-k and Top-p Sampling work?](https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work) 
-- Compare greedy decoding, beam search, top-k, top-p, and temperature sampling. When does each fail?
-  - Answer: [How do Top-k and Top-p Sampling work?](https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work) 
-- What are logits, and how are they used in text generation?
-  - Answer: [Understanding Logits in Machine Learning](https://x.com/amitiitbhu/status/1927927814923207146) and [What are Logits in Machine Learning?](https://outcomeschool.com/blog/logits-in-machine-learning)
-- What are stop tokens in LLMs, and how does an LLM know when to stop generating?
-  - Answer: [Stop Tokens in LLMs](https://outcomeschool.com/blog/stop-tokens-in-llms)
-- What is the difference between a stop token and a stop sequence?
-  - Answer: [Stop Tokens in LLMs](https://outcomeschool.com/blog/stop-tokens-in-llms)
-- What are skip connections (residual connections) in Transformers?
-  - Answer: [Skip connections (residual connections) in Transformers](https://www.linkedin.com/posts/amit-shekhar-iitbhu_machinelearning-llm-deeplearning-share-7414239846707392512-pQdQ)
-- What is the difference between open-source and closed-source LLMs? When would you choose one over the other?
-- What is the difference between encoder-only, decoder-only, and encoder-decoder Transformer architectures?
-  - Answer: [Encoder vs Decoder in Transformers](https://outcomeschool.com/blog/encoder-vs-decoder-in-transformers)
-- What is KV cache, and how does it speed up inference?
-  - Answer: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
-- Estimate the KV cache memory needed to serve a large model. How does it constrain batch size and context length?
-  - Answer: [KV Cache Compression](https://outcomeschool.com/blog/kv-cache-compression)
-- KV Cache Compression
-  - Answer: [KV Cache Compression](https://outcomeschool.com/blog/kv-cache-compression)
-- What is model distillation, and how is it used with LLMs?
-  - Answer: [How does Knowledge Distillation work?](https://outcomeschool.com/blog/how-does-knowledge-distillation-work)
-- What is Mixture of Experts (MoE), and how does it work in models like Mixtral?
-  - Answer: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)
-- What is the difference between dense and sparse models?
-  - Answer: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)
-- How does DeepSeek-V4 work?
-  - Answer: [DeepSeek-V4 Architecture Explained](https://outcomeschool.com/blog/decoding-deepseek-v4)
-- What is Flash Attention?
-  - Answer: [Decoding Flash Attention in LLMs](https://outcomeschool.com/blog/decoding-flash-attention)
-- What is Cross-Entropy Loss?
-  - Answer: [Math Behind Cross-Entropy Loss](https://outcomeschool.com/blog/math-behind-cross-entropy-loss)
-- What is KL Divergence?
-  - Answer: [What is KL Divergence? The Math Explained Step by Step](https://outcomeschool.com/blog/kl-divergence)
-- What is Grouped-Query Attention (GQA), and how does it differ from Multi-Head Attention (MHA)?
-  - Answer: [Grouped Query Attention](https://outcomeschool.com/blog/grouped-query-attention)
-- How does Sliding Window Attention work?
-  - Answer: [How does Sliding Window Attention work?](https://outcomeschool.com/blog/how-does-sliding-window-attention-work)
-- How do Attention Sinks work?
-  - Answer: [How do Attention Sinks work?](https://outcomeschool.com/blog/how-do-attention-sinks-work)
-- How does Rotary Position Embedding (RoPE) work, and why is it preferred over learned positional embeddings?
-  - Answer: [Math Behind RoPE (Rotary Position Embedding)](https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding)
-- Explain Layer Normalization
-  - Answer: [Batch Normalization vs Layer Normalization](https://outcomeschool.com/blog/batch-normalization-vs-layer-normalization)
-- Explain RMSNorm (Root Mean Square Layer Normalization)
-  - Answer: [RMSNorm (Root Mean Square Layer Normalization)](https://outcomeschool.com/blog/rmsnorm-root-mean-square-layer-normalization)
-- Why do modern Transformers use Pre-LayerNorm (Pre-Norm) instead of Post-LayerNorm?
-  - Answer: [RMSNorm (Root Mean Square Layer Normalization)](https://outcomeschool.com/blog/rmsnorm-root-mean-square-layer-normalization)
-- What are scaling laws (Chinchilla), and how do they guide model size vs training data decisions?
-- Your LLM keeps ignoring your instructions. How do you make it follow structured output formats?
-- Your LLM-powered tool hits the context window limit on long documents. How do you handle it?
-- Your LLM does not admit when it does not know the answer. How do you make it say "I don't know"?
-- Your LLM generates responses that are too verbose. How do you control response length?
-- Your LLM memorized proprietary training data and leaks it in responses. How do you prevent this?
-- Your LLM coding assistant generates outdated code using deprecated libraries. How do you fix it?
-- Your tokenizer splits important domain terms into meaningless subword pieces. How do you fix it?
-- Your Transformer's KV cache grows too large during long sequence generation. How do you manage memory?
-  - Answer: [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)
-- Your Transformer runs out of memory on long documents due to quadratic self-attention. How do you scale it?
-  - Answer: [How does Sliding Window Attention work?](https://outcomeschool.com/blog/how-does-sliding-window-attention-work) and [Decoding Flash Attention in LLMs](https://outcomeschool.com/blog/decoding-flash-attention)
-- Your distilled student model fails on the complex reasoning that the teacher model handled. How do you close the gap?
-- After RLHF alignment, your LLM became safer but lost capability on hard tasks. How do you manage the alignment tax?
-- Your RLHF-trained LLM is gaming the reward model instead of being genuinely helpful. How do you fix reward hacking?
-  - Answer: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)
-- Your chatbot loses context after 10 turns in a conversation. How do you maintain a long conversation context?
-  - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
-- Your chatbot fails when users switch topics mid-conversation. How do you handle topic switches?
-- Your QA system always generates an answer even when no answer exists in the context. How do you detect unanswerable questions?
-- Your summarization system hallucinated facts not in the original article. How do you fix it?
-- Your text generation repeats phrases in long outputs. How do you fix repetition?
-- Transformers work on text, so can they also understand images?
-  - Answer: [Decoding Vision Transformer (ViT)](https://outcomeschool.com/blog/decoding-vision-transformer-vit)
-- Small Language Models (SLMs)
-  - Answer: [Small Language Models (SLMs)](https://outcomeschool.com/blog/small-language-models-slms)
-- Large Reasoning Models (LRMs)
-  - Answer: [Large Reasoning Models (LRMs)](https://outcomeschool.com/blog/large-reasoning-models)
-- Jev and System One Models
-  - Answer: [Jev and System One Models Explained](https://outcomeschool.com/blog/jev-and-system-one-models-explained)
-- What are Autoregressive Models?
-  - Answer: [Autoregressive Models](https://outcomeschool.com/blog/autoregressive-models)
-- Explain the difference between autoregressive and masked language modeling.
-- Proximal Policy Optimization (PPO)
-  - Answer: [Proximal Policy Optimization (PPO)](https://outcomeschool.com/blog/proximal-policy-optimization-ppo)
-- Direct Preference Optimization (DPO)
-  - Answer: [Direct Preference Optimization (DPO)](https://outcomeschool.com/blog/direct-preference-optimization-dpo)
-- Group Relative Policy Optimization (GRPO)
-  - Answer: [Group Relative Policy Optimization (GRPO)](https://outcomeschool.com/blog/group-relative-policy-optimization-grpo)
-- Recursive Language Models (RLMs)
-  - Answer: [Recursive Language Models (RLMs)](https://outcomeschool.com/blog/recursive-language-models)
-- Continual Learning in LLMs
-  - Answer: [Continual Learning in LLMs](https://outcomeschool.com/blog/continual-learning-in-llms)
-- What is Recursive Self-Improvement (RSI)?
-  - Answer: [What is Recursive Self-Improvement (RSI)?](https://outcomeschool.com/blog/what-is-recursive-self-improvement-rsi)
-- How do Diffusion Language Models (DLMs) work?
-  - Answer: [How do Diffusion Language Models (DLMs) work?](https://outcomeschool.com/blog/how-do-diffusion-language-models-dlms-work)
-- How Does LLM Watermarking Work?
-  - Answer: [How Does LLM Watermarking Work?](https://outcomeschool.com/blog/how-does-llm-watermarking-work)
-- How do RNNs and Transformers differ?
-  - Answer: [How do RNNs and Transformers differ?](https://outcomeschool.com/blog/how-do-rnns-and-transformers-differ)
+- 파운데이션 모델(foundation model)이란 무엇이며, AI 엔지니어링을 어떻게 바꿔 놓았나요?
+  - 답변: 이 영상에서 설명합니다: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk)
+- 대규모 언어 모델(LLM)이란 무엇이며, 어떻게 동작하나요?
+  - 답변: 이 영상에서 설명합니다: [AI Engineering Explained: LLM, RAG, MCP, Agent, Fine-Tuning, Quantization](https://www.youtube.com/watch?v=lnfWvX66FUk) 및 [How does an LLM work?](https://outcomeschool.com/blog/large-language-model-llm)
+- ChatGPT 내부: Enter를 누르면 무슨 일이 일어나나요?
+  - 답변: [Inside ChatGPT: What Happens After You Hit Enter](https://outcomeschool.substack.com/p/inside-chatgpt-what-happens-after)
+- 트랜스포머(Transformer) 아키텍처란 무엇이며, 어떻게 동작하나요?
+  - 답변: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
+- 트랜스포머 아키텍처의 핵심 구성 요소는 무엇인가요?
+  - 답변: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
+- 디코더 전용(decoder-only) 트랜스포머에서 한 번의 순전파(forward pass) 동안 무슨 일이 일어나는지 단계별로 설명하세요.
+  - 답변: [Decoding Transformer Architecture](https://outcomeschool.com/blog/decoding-transformer-architecture)
+- LLM에서 토큰화(tokenization)란 무엇인가요?
+  - 답변: [Tokenization in LLMs](https://outcomeschool.com/blog/tokenization-in-llms) 및 [Tokenization in Large Language Models (LLMs)](https://www.youtube.com/watch?v=sK2s9I84EVI)
+- BPE(Byte Pair Encoding)를 설명하세요.
+  - 답변: [Byte Pair Encoding](https://outcomeschool.com/blog/bpe-in-llms)
+- WordPiece와 SentencePiece를 설명하세요.
+- 위치 인코딩(positional encoding)이란 무엇이며, 트랜스포머에 왜 필요한가요?
+  - 답변: [Positional Embeddings in LLMs](https://outcomeschool.substack.com/p/positional-embeddings-in-llms)
+- 임베딩(embedding)이란 무엇인가요?
+  - 답변: [Embeddings in Machine Learning](https://www.youtube.com/watch?v=LedXW6xl21s)
+- 어텐션의 Query(Q), Key(K), Value(V)를 설명하세요.
+  - 답변: [Math behind Attention - Q, K, and V](https://outcomeschool.com/blog/math-behind-attention-qkv)
+- 셀프 어텐션(self-attention)이란 무엇이며, 트랜스포머에서 어떻게 동작하나요?
+  - 답변: [Self Attention in Transformers](https://outcomeschool.com/blog/self-attention-in-transformers)
+- 트랜스포머의 크로스 어텐션(Cross Attention)이란 무엇인가요?
+  - 답변: [Cross Attention in Transformers](https://outcomeschool.com/blog/cross-attention-in-transformers)
+- 트랜스포머 아키텍처에서 내적(dot product) 어텐션을 왜 √dₖ로 나누어 스케일링하나요?
+  - 답변: [Math behind √dₖ Scaling Factor in Attention](https://outcomeschool.com/blog/scaling-dot-product-attention)
+- 인과적 마스킹(causal masking)이란 무엇인가요?
+  - 답변: [Causal Masking in Attention](https://outcomeschool.com/blog/causal-masking-in-attention)
+- 멀티 헤드 어텐션(multi-head attention)이란 무엇인가요? 왜 여러 개의 어텐션 헤드를 사용하나요?
+  - 답변: [Multi-Head Attention in Transformers](https://outcomeschool.com/blog/multi-head-attention-in-transformers)
+- LLM의 피드포워드 네트워크(Feed-Forward Network)란 무엇인가요?
+  - 답변: [Feed-Forward Networks in LLMs](https://outcomeschool.com/blog/feed-forward-networks-in-llms)
+- 생성형 AI(Generative AI)란 무엇인가요?
+  - 답변: [What is Generative AI?](https://outcomeschool.com/blog/what-is-generative-ai)
+- LLM의 컨텍스트 윈도우(context window)란 무엇이며, 왜 중요한가요?
+  - 답변: [Context Window in LLMs](https://www.linkedin.com/posts/amit-shekhar-iitbhu_the-context-window-is-the-llms-working-memory-activity-7437754426175672320-MH9c) 및 [How does the Context Window work?](https://outcomeschool.com/blog/context-window)
+- LLM의 컨텍스트 윈도우는 왜 제한되어 있나요?
+  - 답변: [Why is the context window limited in LLMs?](https://www.youtube.com/watch?v=CGIhxIaOg3M&lc)
+- LLM에서 온도(temperature)란 무엇이며, 출력에 어떤 영향을 주나요?
+  - 답변: [How does Temperature control LLM output?](https://outcomeschool.com/blog/how-does-temperature-control-llm-output)
+- LLM에서 첫 번째 토큰은 왜 나머지 토큰보다 느리게 생성되나요?
+  - 답변: [The First-Token Latency Problem in LLMs](https://www.youtube.com/watch?v=XD8DD4cEHu0)
+- Top-p(nucleus) 샘플링과 Top-k 샘플링을 설명하세요. 둘은 어떻게 다른가요?
+  - 답변: [How do Top-k and Top-p Sampling work?](https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work) 
+- 그리디 디코딩(greedy decoding), 빔 서치(beam search), top-k, top-p, 온도 샘플링을 비교하세요. 각각은 언제 실패하나요?
+  - 답변: [How do Top-k and Top-p Sampling work?](https://outcomeschool.com/blog/how-do-top-k-and-top-p-sampling-work) 
+- 로짓(logit)이란 무엇이며, 텍스트 생성에 어떻게 사용되나요?
+  - 답변: [Understanding Logits in Machine Learning](https://x.com/amitiitbhu/status/1927927814923207146) 및 [What are Logits in Machine Learning?](https://outcomeschool.com/blog/logits-in-machine-learning)
+- LLM의 정지 토큰(stop token)이란 무엇이며, LLM은 생성을 언제 멈춰야 하는지 어떻게 아나요?
+  - 답변: [Stop Tokens in LLMs](https://outcomeschool.com/blog/stop-tokens-in-llms)
+- 정지 토큰(stop token)과 정지 시퀀스(stop sequence)의 차이는 무엇인가요?
+  - 답변: [Stop Tokens in LLMs](https://outcomeschool.com/blog/stop-tokens-in-llms)
+- 트랜스포머의 스킵 연결(skip connection, 잔차 연결/residual connection)이란 무엇인가요?
+  - 답변: [Skip connections (residual connections) in Transformers](https://www.linkedin.com/posts/amit-shekhar-iitbhu_machinelearning-llm-deeplearning-share-7414239846707392512-pQdQ)
+- 오픈소스 LLM과 클로즈드소스 LLM의 차이는 무엇인가요? 어떤 경우에 어느 쪽을 선택하나요?
+- 인코더 전용(encoder-only), 디코더 전용(decoder-only), 인코더-디코더(encoder-decoder) 트랜스포머 아키텍처의 차이는 무엇인가요?
+  - 답변: [Encoder vs Decoder in Transformers](https://outcomeschool.com/blog/encoder-vs-decoder-in-transformers)
+- KV 캐시란 무엇이며, 추론 속도를 어떻게 높여 주나요?
+  - 답변: [What is KV Cache in LLMs?](https://outcomeschool.com/blog/kv-cache-in-llms)
+- 대형 모델을 서빙하는 데 필요한 KV 캐시 메모리를 추정해 보세요. 이것이 배치 크기와 컨텍스트 길이를 어떻게 제약하나요?
+  - 답변: [KV Cache Compression](https://outcomeschool.com/blog/kv-cache-compression)
+- KV 캐시 압축(KV Cache Compression)
+  - 답변: [KV Cache Compression](https://outcomeschool.com/blog/kv-cache-compression)
+- 모델 증류(model distillation)란 무엇이며, LLM에서 어떻게 사용되나요?
+  - 답변: [How does Knowledge Distillation work?](https://outcomeschool.com/blog/how-does-knowledge-distillation-work)
+- 전문가 혼합(MoE, Mixture of Experts)이란 무엇이며, Mixtral 같은 모델에서 어떻게 동작하나요?
+  - 답변: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)
+- 밀집(dense) 모델과 희소(sparse) 모델의 차이는 무엇인가요?
+  - 답변: [Mixture of Experts Explained](https://outcomeschool.com/blog/mixture-of-experts)
+- DeepSeek-V4는 어떻게 동작하나요?
+  - 답변: [DeepSeek-V4 Architecture Explained](https://outcomeschool.com/blog/decoding-deepseek-v4)
+- Flash Attention이란 무엇인가요?
+  - 답변: [Decoding Flash Attention in LLMs](https://outcomeschool.com/blog/decoding-flash-attention)
+- 교차 엔트로피 손실(Cross-Entropy Loss)이란 무엇인가요?
+  - 답변: [Math Behind Cross-Entropy Loss](https://outcomeschool.com/blog/math-behind-cross-entropy-loss)
+- KL 발산(KL Divergence)이란 무엇인가요?
+  - 답변: [What is KL Divergence? The Math Explained Step by Step](https://outcomeschool.com/blog/kl-divergence)
+- 그룹 쿼리 어텐션(GQA, Grouped-Query Attention)이란 무엇이며, 멀티 헤드 어텐션(MHA)과 어떻게 다른가요?
+  - 답변: [Grouped Query Attention](https://outcomeschool.com/blog/grouped-query-attention)
+- 슬라이딩 윈도우 어텐션(Sliding Window Attention)은 어떻게 동작하나요?
+  - 답변: [How does Sliding Window Attention work?](https://outcomeschool.com/blog/how-does-sliding-window-attention-work)
+- 어텐션 싱크(Attention Sink)는 어떻게 동작하나요?
+  - 답변: [How do Attention Sinks work?](https://outcomeschool.com/blog/how-do-attention-sinks-work)
+- 회전 위치 임베딩(RoPE, Rotary Position Embedding)은 어떻게 동작하며, 왜 학습된 위치 임베딩보다 선호되나요?
+  - 답변: [Math Behind RoPE (Rotary Position Embedding)](https://outcomeschool.com/blog/math-behind-rope-rotary-position-embedding)
+- 레이어 정규화(Layer Normalization)를 설명하세요.
+  - 답변: [Batch Normalization vs Layer Normalization](https://outcomeschool.com/blog/batch-normalization-vs-layer-normalization)
+- RMSNorm(Root Mean Square Layer Normalization)을 설명하세요.
+  - 답변: [RMSNorm (Root Mean Square Layer Normalization)](https://outcomeschool.com/blog/rmsnorm-root-mean-square-layer-normalization)
+- 최신 트랜스포머는 왜 Post-LayerNorm 대신 Pre-LayerNorm(Pre-Norm)을 사용하나요?
+  - 답변: [RMSNorm (Root Mean Square Layer Normalization)](https://outcomeschool.com/blog/rmsnorm-root-mean-square-layer-normalization)
+- 스케일링 법칙(scaling laws, Chinchilla)이란 무엇이며, 모델 크기와 학습 데이터 양을 정할 때 어떤 지침이 되나요?
+- LLM이 지시를 계속 무시합니다. 구조화된 출력 형식을 따르게 하려면 어떻게 하나요?
+- LLM 기반 도구가 긴 문서에서 컨텍스트 윈도우 한도에 걸립니다. 어떻게 처리하나요?
+- LLM이 답을 모를 때 모른다고 인정하지 않습니다. "모르겠습니다"라고 말하게 하려면 어떻게 하나요?
+- LLM의 응답이 너무 장황합니다. 응답 길이를 어떻게 조절하나요?
+- LLM이 독점(proprietary) 학습 데이터를 암기해서 응답에 유출합니다. 이를 어떻게 막나요?
+- LLM 코딩 어시스턴트가 지원 중단(deprecated)된 라이브러리를 쓰는 오래된 코드를 생성합니다. 어떻게 고치나요?
+- 토크나이저가 중요한 도메인 용어를 의미 없는 서브워드 조각으로 쪼갭니다. 어떻게 고치나요?
+- 긴 시퀀스를 생성하는 동안 트랜스포머의 KV 캐시가 너무 커집니다. 메모리를 어떻게 관리하나요?
+  - 답변: [Paged Attention in LLMs](https://outcomeschool.com/blog/paged-attention-in-llms)
+- 셀프 어텐션의 이차(quadratic) 복잡도 때문에 긴 문서에서 트랜스포머가 메모리 부족에 빠집니다. 어떻게 확장하나요?
+  - 답변: [How does Sliding Window Attention work?](https://outcomeschool.com/blog/how-does-sliding-window-attention-work) 및 [Decoding Flash Attention in LLMs](https://outcomeschool.com/blog/decoding-flash-attention)
+- 증류된 학생(student) 모델이 교사(teacher) 모델은 해냈던 복잡한 추론에 실패합니다. 그 격차를 어떻게 좁히나요?
+- RLHF 정렬 이후 LLM은 더 안전해졌지만 어려운 작업에서 능력을 잃었습니다. 정렬 비용(alignment tax)을 어떻게 관리하나요?
+- RLHF로 학습한 LLM이 진정으로 도움이 되기보다 보상 모델을 속이고(gaming) 있습니다. 보상 해킹(reward hacking)을 어떻게 고치나요?
+  - 답변: [Reinforcement Learning from Human Feedback (RLHF)](https://outcomeschool.com/blog/reinforcement-learning-from-human-feedback-rlhf)
+- 챗봇이 대화 10턴이 지나면 맥락을 잃습니다. 긴 대화의 맥락을 어떻게 유지하나요?
+  - 답변: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory)
+- 사용자가 대화 도중 주제를 바꾸면 챗봇이 실패합니다. 주제 전환을 어떻게 처리하나요?
+- QA 시스템이 컨텍스트에 답이 없는데도 항상 답을 생성합니다. 답할 수 없는 질문을 어떻게 감지하나요?
+- 요약 시스템이 원문 기사에 없는 사실을 지어냈습니다(환각). 어떻게 고치나요?
+- 텍스트 생성 결과가 긴 출력에서 같은 구절을 반복합니다. 반복을 어떻게 고치나요?
+- 트랜스포머는 텍스트를 다루는데, 이미지도 이해할 수 있나요?
+  - 답변: [Decoding Vision Transformer (ViT)](https://outcomeschool.com/blog/decoding-vision-transformer-vit)
+- 소형 언어 모델(SLM, Small Language Models)
+  - 답변: [Small Language Models (SLMs)](https://outcomeschool.com/blog/small-language-models-slms)
+- 대규모 추론 모델(LRM, Large Reasoning Models)
+  - 답변: [Large Reasoning Models (LRMs)](https://outcomeschool.com/blog/large-reasoning-models)
+- Jev 모델과 System One 모델
+  - 답변: [Jev and System One Models Explained](https://outcomeschool.com/blog/jev-and-system-one-models-explained)
+- 자기회귀 모델(Autoregressive Model)이란 무엇인가요?
+  - 답변: [Autoregressive Models](https://outcomeschool.com/blog/autoregressive-models)
+- 자기회귀 언어 모델링과 마스크 언어 모델링(masked language modeling)의 차이를 설명하세요.
+- 근접 정책 최적화(PPO, Proximal Policy Optimization)
+  - 답변: [Proximal Policy Optimization (PPO)](https://outcomeschool.com/blog/proximal-policy-optimization-ppo)
+- 직접 선호 최적화(DPO, Direct Preference Optimization)
+  - 답변: [Direct Preference Optimization (DPO)](https://outcomeschool.com/blog/direct-preference-optimization-dpo)
+- 그룹 상대 정책 최적화(GRPO, Group Relative Policy Optimization)
+  - 답변: [Group Relative Policy Optimization (GRPO)](https://outcomeschool.com/blog/group-relative-policy-optimization-grpo)
+- 재귀 언어 모델(RLM, Recursive Language Models)
+  - 답변: [Recursive Language Models (RLMs)](https://outcomeschool.com/blog/recursive-language-models)
+- LLM의 지속 학습(Continual Learning)
+  - 답변: [Continual Learning in LLMs](https://outcomeschool.com/blog/continual-learning-in-llms)
+- 재귀적 자기 개선(RSI, Recursive Self-Improvement)이란 무엇인가요?
+  - 답변: [What is Recursive Self-Improvement (RSI)?](https://outcomeschool.com/blog/what-is-recursive-self-improvement-rsi)
+- 확산 언어 모델(DLM, Diffusion Language Models)은 어떻게 동작하나요?
+  - 답변: [How do Diffusion Language Models (DLMs) work?](https://outcomeschool.com/blog/how-do-diffusion-language-models-dlms-work)
+- LLM 워터마킹은 어떻게 동작하나요?
+  - 답변: [How Does LLM Watermarking Work?](https://outcomeschool.com/blog/how-does-llm-watermarking-work)
+- RNN과 트랜스포머는 어떻게 다른가요?
+  - 답변: [How do RNNs and Transformers differ?](https://outcomeschool.com/blog/how-do-rnns-and-transformers-differ)
