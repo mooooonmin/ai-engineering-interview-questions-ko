@@ -1,55 +1,55 @@
-# Evaluation and Testing
+# 평가와 테스트 (Evaluation and Testing)
 
-[← Back to Table of Contents](../README.md)
+[← 목차로 돌아가기](../README.md)
 
-- AI Agent Evaluation
-  - Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)
-- LLM Evaluation
-  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
-- AI Agent Observability
-  - Answer: [AI Agent Observability](https://outcomeschool.com/blog/ai-agent-observability)
-- What is evaluation-driven development for AI applications?
-- Why is AI only as good as our definition of done?
-  - Answer: [AI Is Only as Good as Our Definition of Done](https://outcomeschool.com/blog/ai-is-only-as-good-as-our-definition-of-done)
-- How do you evaluate LLM outputs? What metrics do you use?
-  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
-- Explain BLEU, ROUGE, and BERTScore. When would you use each?
-  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
-- What is G-Eval, and how does it use LLMs for evaluation?
-  - Answer: [LLM as a Judge](https://outcomeschool.com/blog/llm-as-a-judge)
-- What is LLM-as-a-judge evaluation, and what are its limitations?
-  - Answer: [LLM as a Judge](https://outcomeschool.com/blog/llm-as-a-judge)
-- How do you conduct human evaluation for AI systems?
-  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
-- What is red teaming, and how do you red team an LLM application?
-- How do you detect and measure hallucinations in LLM outputs?
-- What is adversarial testing for AI systems?
-- How do you build a regression test suite for AI applications?
-- What are benchmark suites (MMLU, HumanEval, GSM8K), and how do you interpret them?
-  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
-- What is benchmark contamination, and how do you guard against it?
-  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
-- Your new model version scores higher on every benchmark, but users say it got worse. Why does this happen, and how do you find the problem?
-- How do you evaluate a RAG system end-to-end?
-  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
-- How do you evaluate the quality of AI agents?
-  - Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)
-- How would you evaluate an autonomous coding agent? Why can SWE-bench pass rates be misleading?
-  - Answer: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)
-- What is the difference between offline and online evaluation for AI systems?
-- How do you measure factual consistency in LLM outputs?
-- How do you evaluate multi-turn conversation quality?
-- What is the role of golden datasets in AI evaluation?
-- How do you build an eval set when there is no labelled ground truth and domain experts are expensive?
-- How do you implement continuous evaluation for production AI systems?
-- How do you evaluate bias in AI model outputs?
-- How do you compare two models or prompts in a statistically rigorous way?
-- How do you evaluate the robustness of an LLM application across input variations?
-- What are the key differences between evaluating traditional ML vs LLM applications?
-- How do you set up an evaluation framework from scratch for a new LLM application?
-  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
-- Your model passes one fairness metric but fails another. How do you handle conflicting audit results?
-- Your model was fair at deployment, but became biased 6 months later. How do you monitor continuously?
-- An external auditor cannot reproduce your model's results. How do you ensure audit reproducibility?
-- How do you structure red teaming for an LLM chatbot before launch?
-- How do you red team a multimodal model where text-only safety tests miss cross-modal attacks?
+- AI 에이전트 평가
+  - 답변: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)
+- LLM 평가
+  - 답변: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
+- AI 에이전트 관측 가능성(Observability)
+  - 답변: [AI Agent Observability](https://outcomeschool.com/blog/ai-agent-observability)
+- AI 애플리케이션의 평가 주도 개발(evaluation-driven development)이란 무엇인가요?
+- 왜 AI는 우리가 정한 "완료의 정의(definition of done)"만큼만 좋을 수 있나요?
+  - 답변: [AI Is Only as Good as Our Definition of Done](https://outcomeschool.com/blog/ai-is-only-as-good-as-our-definition-of-done)
+- LLM의 출력은 어떻게 평가하나요? 어떤 지표를 사용하나요?
+  - 답변: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
+- BLEU, ROUGE, BERTScore를 설명하세요. 각각은 언제 사용하나요?
+  - 답변: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
+- G-Eval이란 무엇이며, 평가에 LLM을 어떻게 활용하나요?
+  - 답변: [LLM as a Judge](https://outcomeschool.com/blog/llm-as-a-judge)
+- LLM-as-a-judge 평가란 무엇이며, 그 한계는 무엇인가요?
+  - 답변: [LLM as a Judge](https://outcomeschool.com/blog/llm-as-a-judge)
+- AI 시스템에 대한 사람 평가(human evaluation)는 어떻게 진행하나요?
+  - 답변: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
+- 레드 팀(red teaming)이란 무엇이며, LLM 애플리케이션을 어떻게 레드 팀 방식으로 점검하나요?
+- LLM 출력의 환각을 어떻게 감지하고 측정하나요?
+- AI 시스템의 적대적 테스트(adversarial testing)란 무엇인가요?
+- AI 애플리케이션의 회귀 테스트 스위트는 어떻게 만드나요?
+- 벤치마크 스위트(MMLU, HumanEval, GSM8K)란 무엇이며, 결과를 어떻게 해석하나요?
+  - 답변: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
+- 벤치마크 오염(benchmark contamination)이란 무엇이며, 어떻게 방지하나요?
+  - 답변: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
+- 새 모델 버전이 모든 벤치마크에서 점수가 더 높은데, 사용자들은 더 나빠졌다고 말합니다. 왜 이런 일이 생기며, 문제를 어떻게 찾나요?
+- RAG 시스템을 엔드 투 엔드로 어떻게 평가하나요?
+  - 답변: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
+- AI 에이전트의 품질은 어떻게 평가하나요?
+  - 답변: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)
+- 자율 코딩 에이전트는 어떻게 평가하나요? SWE-bench 통과율은 왜 오해를 부를 수 있나요?
+  - 답변: [AI Agent Evaluation](https://outcomeschool.com/blog/ai-agent-evaluation)
+- AI 시스템의 오프라인 평가와 온라인 평가의 차이는 무엇인가요?
+- LLM 출력의 사실 일관성(factual consistency)은 어떻게 측정하나요?
+- 멀티턴 대화의 품질은 어떻게 평가하나요?
+- AI 평가에서 골든 데이터셋(golden dataset)은 어떤 역할을 하나요?
+- 라벨이 달린 정답(ground truth)이 없고 도메인 전문가 비용이 비쌀 때 평가 세트를 어떻게 만드나요?
+- 프로덕션 AI 시스템에 대한 지속적 평가를 어떻게 구현하나요?
+- AI 모델 출력의 편향(bias)은 어떻게 평가하나요?
+- 두 모델이나 두 프롬프트를 통계적으로 엄밀하게 비교하려면 어떻게 하나요?
+- 입력이 달라져도 LLM 애플리케이션이 견고한지(robustness) 어떻게 평가하나요?
+- 기존 ML 평가와 LLM 애플리케이션 평가의 핵심 차이는 무엇인가요?
+- 새 LLM 애플리케이션을 위한 평가 프레임워크를 처음부터 어떻게 구축하나요?
+  - 답변: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
+- 모델이 한 공정성(fairness) 지표는 통과하지만 다른 지표는 통과하지 못합니다. 상충되는 감사 결과를 어떻게 처리하나요?
+- 배포 당시에는 공정했던 모델이 6개월 후 편향되었습니다. 어떻게 지속적으로 모니터링하나요?
+- 외부 감사인이 모델 결과를 재현하지 못합니다. 감사 재현성을 어떻게 보장하나요?
+- 출시 전 LLM 챗봇에 대한 레드 팀 활동을 어떻게 구성하나요?
+- 텍스트 전용 안전성 테스트로는 교차 모달(cross-modal) 공격을 놓치는 멀티모달 모델을 어떻게 레드 팀 방식으로 점검하나요?
