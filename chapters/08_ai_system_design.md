@@ -1,64 +1,64 @@
-# AI System Design
+# AI 시스템 설계 (AI System Design)
 
-[← Back to Table of Contents](../README.md)
+[← 목차로 돌아가기](../README.md)
 
-- Design a Real-Time Voice AI Agent
-  - Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent)
-- Design ChatGPT: Training to Serving (End to End)
-- Design a RAG System (Chat with Your Documents)
-- Design an enterprise RAG assistant over 10M documents with per-user permissions.
-- Design Memory for a Personal AI Assistant
-  - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory) and [How does ChatGPT remember you?](https://outcomeschool.com/blog/how-does-chatgpt-remember-you)
-- Design a Deep Research Agent
-- Design a Multi-Agent Customer Support System
-  - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
-- Design an On-Device AI Assistant
-  - Answer: [Cloud vs On-Device Model Deployment](https://outcomeschool.com/blog/cloud-vs-on-device-model-deployment) and [How does llama.cpp run LLMs on everyday hardware?](https://outcomeschool.com/blog/how-does-llama-cpp-run-llms-on-everyday-hardware)
-- Design a Multimodal Search System (Text, Image, Video)
-- Design an LLM Inference Platform (vLLM-as-a-Service)
-  - Answer: [How does vLLM work?](https://outcomeschool.com/blog/how-does-vllm-work) and [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization)
-- Design an LLM Evaluation Platform
-  - Answer: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
-- Design a Text-to-Image Generation Service (Midjourney-like)
-- Design a Music Generation Service (Suno-like)
-- Design a Video Generation Service (Sora-like)
-- Design an AI Coding Agent.
-  - Answer: [How does Claude Code work?](https://outcomeschool.com/blog/how-does-claude-code-work) and [How does Cursor work?](https://outcomeschool.com/blog/how-does-cursor-work)
-- Design a code generation and review system.
-- Design a content moderation system using AI.
-- Design a real-time AI recommendation system.
-- Design an AI-powered email assistant.
-- Design a medical diagnosis assistant using AI.
-- Design a fraud detection system powered by LLMs.
-- Design an AI-powered data extraction pipeline from unstructured documents.
-- Design a Text-to-SQL system over a data warehouse with thousands of tables.
-- Design a personalized learning assistant.
-- Design an AI system for automated code migration.
-- Design an AI-powered legal document review system.
-- Design a conversational AI system with memory across sessions.
-  - Answer: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory) and [How does ChatGPT remember you?](https://outcomeschool.com/blog/how-does-chatgpt-remember-you)
-- How do you design for latency vs quality trade-offs in AI systems?
-- How do you implement caching strategies for LLM applications?
-  - Answer: [How does Prompt Caching work?](https://outcomeschool.com/blog/how-does-prompt-caching-work) and [How does Semantic Caching work?](https://outcomeschool.com/blog/how-does-semantic-caching-work)
-- How do you design rate limiting and cost management for AI APIs?
-- How do you handle failover and fallback strategies for AI systems?
-- How do you design an AI system for high availability and fault tolerance?
-- How do you design an AI system that gracefully degrades when the model is unavailable?
-- What are the key considerations for multi-region deployment of AI systems?
-- Design an AI-powered search engine for an e-commerce platform.
-- Design an AI gateway/proxy for managing LLM access across an organization.
-- How do you design a RAG system that handles conflicting information across sources?
-- How do you approach capacity planning for an AI system?
-- Design a multi-tenant AI chatbot platform where each business gets a custom chatbot.
-- Design an AI meeting summarizer system for thousands of meetings daily.
-- Design an AI notification system that prioritizes instead of broadcasting.
-- Design an AI-powered anomaly detection system for cloud infrastructure.
-- Design an AI-powered document processing pipeline for financial institutions.
-- Design an AI dynamic pricing engine.
-- Design an AI resume screening system that handles 100K applications per week.
-- Design an AI voice assistant architecture.
-  - Answer: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent)
-- Design a multi-agent workflow system where agents collaborate on complex tasks.
-  - Answer: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
-- Design a real-time AI transcription system for concurrent audio streams.
-- Design an AI-powered live streaming content moderation system.
+- 실시간 음성 AI 에이전트를 설계하세요
+  - 답변: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent)
+- ChatGPT를 설계하세요: 학습부터 서빙까지 (엔드 투 엔드)
+- RAG 시스템을 설계하세요 (문서와 대화하기)
+- 사용자별 권한이 있는 1,000만 건 문서 기반의 기업용 RAG 어시스턴트를 설계하세요.
+- 개인 AI 어시스턴트의 메모리를 설계하세요
+  - 답변: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory) 및 [How does ChatGPT remember you?](https://outcomeschool.com/blog/how-does-chatgpt-remember-you)
+- 딥 리서치(Deep Research) 에이전트를 설계하세요
+- 멀티 에이전트 고객 지원 시스템을 설계하세요
+  - 답변: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
+- 온디바이스(On-Device) AI 어시스턴트를 설계하세요
+  - 답변: [Cloud vs On-Device Model Deployment](https://outcomeschool.com/blog/cloud-vs-on-device-model-deployment) 및 [How does llama.cpp run LLMs on everyday hardware?](https://outcomeschool.com/blog/how-does-llama-cpp-run-llms-on-everyday-hardware)
+- 멀티모달 검색 시스템(텍스트, 이미지, 동영상)을 설계하세요
+- LLM 추론 플랫폼(vLLM-as-a-Service)을 설계하세요
+  - 답변: [How does vLLM work?](https://outcomeschool.com/blog/how-does-vllm-work) 및 [LLM Inference Optimization](https://outcomeschool.com/blog/llm-inference-optimization)
+- LLM 평가 플랫폼을 설계하세요
+  - 답변: [LLM Evaluation](https://outcomeschool.com/blog/llm-evaluation)
+- 텍스트-이미지 생성 서비스(Midjourney 같은)를 설계하세요
+- 음악 생성 서비스(Suno 같은)를 설계하세요
+- 동영상 생성 서비스(Sora 같은)를 설계하세요
+- AI 코딩 에이전트를 설계하세요.
+  - 답변: [How does Claude Code work?](https://outcomeschool.com/blog/how-does-claude-code-work) 및 [How does Cursor work?](https://outcomeschool.com/blog/how-does-cursor-work)
+- 코드 생성 및 리뷰 시스템을 설계하세요.
+- AI를 활용한 콘텐츠 모더레이션 시스템을 설계하세요.
+- 실시간 AI 추천 시스템을 설계하세요.
+- AI 기반 이메일 어시스턴트를 설계하세요.
+- AI를 활용한 의료 진단 어시스턴트를 설계하세요.
+- LLM 기반 사기 탐지 시스템을 설계하세요.
+- 비정형 문서에서 데이터를 추출하는 AI 기반 파이프라인을 설계하세요.
+- 수천 개의 테이블이 있는 데이터 웨어하우스를 대상으로 하는 Text-to-SQL 시스템을 설계하세요.
+- 개인화된 학습 어시스턴트를 설계하세요.
+- 코드 자동 마이그레이션을 위한 AI 시스템을 설계하세요.
+- AI 기반 법률 문서 검토 시스템을 설계하세요.
+- 세션 간 메모리를 갖춘 대화형 AI 시스템을 설계하세요.
+  - 답변: [AI Agent Memory](https://outcomeschool.com/blog/ai-agent-memory) 및 [How does ChatGPT remember you?](https://outcomeschool.com/blog/how-does-chatgpt-remember-you)
+- AI 시스템에서 지연 시간과 품질 사이의 트레이드오프를 어떻게 설계하나요?
+- LLM 애플리케이션의 캐싱 전략을 어떻게 구현하나요?
+  - 답변: [How does Prompt Caching work?](https://outcomeschool.com/blog/how-does-prompt-caching-work) 및 [How does Semantic Caching work?](https://outcomeschool.com/blog/how-does-semantic-caching-work)
+- AI API의 속도 제한(rate limiting)과 비용 관리를 어떻게 설계하나요?
+- AI 시스템의 장애 조치(failover)와 폴백(fallback) 전략을 어떻게 다루나요?
+- 고가용성과 장애 허용(fault tolerance)을 갖춘 AI 시스템을 어떻게 설계하나요?
+- 모델을 사용할 수 없을 때도 우아하게 성능을 낮추며(graceful degradation) 동작하는 AI 시스템을 어떻게 설계하나요?
+- AI 시스템을 여러 리전에 배포할 때 핵심 고려 사항은 무엇인가요?
+- 이커머스 플랫폼을 위한 AI 기반 검색 엔진을 설계하세요.
+- 조직 전체의 LLM 접근을 관리하는 AI 게이트웨이/프록시를 설계하세요.
+- 출처마다 상충되는 정보를 처리하는 RAG 시스템을 어떻게 설계하나요?
+- AI 시스템의 용량 계획(capacity planning)에 어떻게 접근하나요?
+- 각 기업이 맞춤형 챗봇을 갖는 멀티테넌트 AI 챗봇 플랫폼을 설계하세요.
+- 매일 수천 건의 회의를 처리하는 AI 회의 요약 시스템을 설계하세요.
+- 일괄 발송하는 대신 우선순위를 매기는 AI 알림 시스템을 설계하세요.
+- 클라우드 인프라를 위한 AI 기반 이상 탐지 시스템을 설계하세요.
+- 금융 기관을 위한 AI 기반 문서 처리 파이프라인을 설계하세요.
+- AI 동적 가격 책정 엔진을 설계하세요.
+- 주당 10만 건의 지원서를 처리하는 AI 이력서 심사 시스템을 설계하세요.
+- AI 음성 어시스턴트 아키텍처를 설계하세요.
+  - 답변: [Design a Real-Time Voice AI Agent](https://outcomeschool.com/blog/design-a-real-time-voice-ai-agent)
+- 에이전트들이 협력해 복잡한 작업을 처리하는 멀티 에이전트 워크플로 시스템을 설계하세요.
+  - 답변: [Multi-Agent Systems](https://outcomeschool.com/blog/multi-agent-systems)
+- 동시에 들어오는 여러 오디오 스트림을 처리하는 실시간 AI 전사(transcription) 시스템을 설계하세요.
+- AI 기반 라이브 스트리밍 콘텐츠 모더레이션 시스템을 설계하세요.
