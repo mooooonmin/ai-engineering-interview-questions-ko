@@ -2441,6 +2441,8 @@ $$A_i = \frac{r_i - \text{mean}(r_1..r_G)}{\text{std}(r_1..r_G)}$$
 
 **장점:** 병렬 생성으로 빠른 추론 가능성, 중간 채우기(infilling)와 전체 구조 계획에 유리.
 
+**학습 방법:** LLaDA처럼 처음부터 확산 방식으로 학습하기도 하지만, 이미 학습된 자기회귀 트랜스포머에서 출발해 마스크 예측 목표로 추가 학습하는 방식(Dream 등)도 많이 쓰입니다. 사전 학습 비용을 크게 아낄 수 있기 때문입니다.
+
 **과제:** 가변 길이 처리, KV 캐시 같은 기존 최적화를 그대로 쓰기 어려움, 품질이 최상위 자기회귀 모델에 아직 못 미치는 경우가 많음. LLaDA, Mercury, Gemini Diffusion 같은 연구·제품이 나오고 있습니다.
 
 **더 읽어보기 (영문):** [How do Diffusion Language Models (DLMs) work?](https://outcomeschool.com/blog/how-do-diffusion-language-models-dlms-work)
