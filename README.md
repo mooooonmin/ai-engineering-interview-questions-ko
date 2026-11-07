@@ -43,25 +43,6 @@
 | 14 | [코딩과 실전 구현 (Coding and Practical Implementation)](chapters/14_coding.md) | 32 |
 | 15 | [행동 및 상황 기반 질문 (Behavioral and Scenario-Based Questions)](chapters/15_behavioral_and_scenario.md) | 22 |
 
-### 원작자: [Outcome School](https://outcomeschool.com) 설립자 Amit Shekhar가 작성하고 관리합니다
-
-### Amit Shekhar 팔로우하기
-
-- [X/Twitter](https://twitter.com/amitiitbhu)
-- [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
-- [GitHub](https://github.com/amitshekhariitbhu)
-
-### Outcome School 팔로우하기
-
-- [YouTube](https://youtube.com/@OutcomeSchool)
-- [X/Twitter](https://x.com/outcome_school)
-- [LinkedIn](https://www.linkedin.com/company/outcomeschool)
-- [GitHub](https://github.com/OutcomeSchool)
-
-## 원작자의 Outcome School 강의
-
-- [AI and Machine Learning](https://outcomeschool.com/program/ai-and-machine-learning)
-
 ---
 
 > **참고: 원본 저장소에는 새로운 질문과 답변이 계속 추가됩니다.** 이 번역본은 원본 커밋 `0635af0`(2026-10-26) 기준입니다.
