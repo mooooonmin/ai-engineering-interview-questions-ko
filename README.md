@@ -1,7 +1,3 @@
-<p align="center">
-    <img alt="AI Engineering Interview Questions and Answers" src="assets/banner.png">
-</p>
-
 > **한국어 번역본 안내**  
 > 이 저장소는 [amitshekhariitbhu/ai-engineering-interview-questions](https://github.com/amitshekhariitbhu/ai-engineering-interview-questions)를 한국어로 번역하고, 한 파일에 있던 질문을 챕터별 파일([chapters/](chapters/))로 나눠 재구성한 것입니다.  
 > 원저작물의 저작권은 Outcome School에 있으며, 원본과 같은 Apache License 2.0([LICENSE](LICENSE))으로 배포합니다.  
